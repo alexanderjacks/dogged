@@ -2,20 +2,14 @@
 templateKey: index-page
 title: StardewDex
 image: /img/Field_Research_Bundle.png
-heading: Great coffee with a conscience
+heading: Quests Detailed
 subheading: Stardew Valley Quick Guide
 mainpitch:
-  title: Why Kaldi
+  title: StardewDex?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    This app links together all the items, people, events of Pelican Town. It aims to work better than a wiki, especially on mobile, and can help you earn your Achievements fast.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Many of the villager quests have special requirements. Read more about them in these pages!
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -68,4 +62,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-
