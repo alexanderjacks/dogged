@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({
             fontFamily: 'Solway',
           }}
         >
-          {title}
+        <h1 className="title"><span>Stardew</span>Dex</h1>
         </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -73,9 +73,6 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
