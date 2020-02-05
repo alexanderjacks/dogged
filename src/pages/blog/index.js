@@ -10,10 +10,10 @@ export default class BlogIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/sshot-mine-as-archive.png')`,
+            backgroundImage: `url('/img/sshot-indoor-farming.png')`,
             backgroundRepeat: 'no-repeat',
             backgroundAttachment: 'fixed',
-            backgroundPosition: 'center top',
+            backgroundPosition: 'right top',
           }}
         >
           <h1

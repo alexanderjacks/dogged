@@ -13,6 +13,27 @@ const TagsPage = ({
   },
 }) => (
   <Layout>
+    <div
+      className="full-width-image-container margin-top-0"
+      style={{
+        backgroundImage: `url('/img/sshot-mine-as-archive.png')`,
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed',
+        backgroundPosition: 'center top',
+      }}
+    >
+      <h2
+        className="has-text-weight-bold is-size-1"
+        style={{
+          boxShadow: '0.5rem 0 0 #c0c, -0.5rem 0 0 #c0c',
+          backgroundColor: '#f0f',
+          color: 'white',
+          padding: '1rem',
+        }}
+      >
+        Stardew by Metadata
+      </h2>
+    </div>
     <section className="section"
       style={{
         minHeight: `100vh`,
@@ -23,8 +44,7 @@ const TagsPage = ({
         <div className="columns">
           <div
             className="column is-10 is-offset-1"
-            style={{ marginBottom: '6rem' }}>
-            <h1 className="title is-size-2 is-bold-light">Stardew by Metadata tags</h1><br/>
+            style={{ marginBottom: '3rem' }}>
             <ul className="taglist">
               {group.map(tag => (
                 <li key={tag.fieldValue}>
