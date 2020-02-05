@@ -81,20 +81,28 @@ pricing:
         - Bring Willy a Lingcod.
         - (Does not have to be caught after accepting the quest)
       plan: Catch a Lingcod
-      price: 550 1❤️
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+      price: '550, 1❤️'
+    - description: >-
+        Caroline wants to carve a pumpkin with her daughter. She asked you to
+        bring her one from the farm.
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - Mail Fall 19 Year 1
+        - Bring Caroline a pumpkin.
+      plan: Carving Pumpkins
+      price: '500, 1❤️'
+    - description: >-
+        Mayor Lewis wants truffle oil. He won't explain what it's for. Maybe
+        it's none of your business.
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - Mail Summer 21 Year 2
+        - Bring Lewis a bottle of Truffle Oil.
+      plan: Mayor's Need
+      price: '750, 1❤️'
+    - description: Evelyn wants to surprise her husband with a gift.
+      items:
+        - Mail Spring 15 Year 2
+        - Bring Evelyn a Leek.
+      plan: Granny's Gift
+      price: '500, 1❤️'
 ---
 
