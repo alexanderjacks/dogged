@@ -36,12 +36,17 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: ffffff
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Unlock 2 Achievements from Help Wanted Quests
+  description: >-
+    # Gofer (Complete 10 'Help Wanted' requests)
+
+    # A Big Help (Complete 40 'Help Wanted' requests)
+
+
+    Earning these achievements unlocks unique Hats at the Abandoned House in
+    Cindersap Forest. In addition, the day after earning "Gofer", Mayor Lewis
+    will send Gold.png500g in the mail. The day after earning "A Big Help",
+    Mayor Lewis will send Gold.png2,500g in the mail.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
