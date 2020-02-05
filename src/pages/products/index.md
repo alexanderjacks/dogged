@@ -40,12 +40,8 @@ main:
   description: >-
     Earning these achievements unlocks unique Hats at the Abandoned House in
     Cindersap Forest.
-
-
     In addition, the day after earning "Gofer", Mayor Lewis will send 500g in
     the mail.
-
-
     The day after earning "A Big Help", Mayor Lewis will send 2,500g in the
     mail.
   image1:
@@ -104,5 +100,10 @@ pricing:
         - Bring Evelyn a Leek.
       plan: Granny's Gift
       price: '500, 1❤️'
+    - description: Gus wants to make a Coco-no-no, but he's missing the main ingredient.
+      plan: Exotic Spirits
+      items:
+       - Mail Winter 19 Year 2
+       - Bring Gus a Coconut.
+      price: '600, 1 ❤️'
 ---
-
