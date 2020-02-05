@@ -17,7 +17,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div
   style={{
-    backgroundImage: `linear-gradient(to top, #024381,#57CDEF,#89FDE4)`,
+    backgroundImage: `linear-gradient(navy, deepskyblue, forestgreen)`,
   }}>
     <div
       className="full-width-image margin-top-0"
@@ -78,7 +78,8 @@ export const IndexPageTemplate = ({
 
               <div className="content">
                 <div className="tile">
-                  <h3 className="subtitle">{mainpitch.description}</h3>
+                  <h3 style={{
+                    color: 'white'}} className="subtitle">{mainpitch.description}</h3>
                 </div>
               </div>
 
