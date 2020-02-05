@@ -26,6 +26,7 @@
 
 ### Design + Biz
 - baseline metadata fields; look good enough ⛔️
+- reuse Pricing component liberally ⛔️
 - check icon sizing, display thru-out ⛔️
 - add current logo + favicons ⛔️
 - apply color branding thru-out ⛔️
