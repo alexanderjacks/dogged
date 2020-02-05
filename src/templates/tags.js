@@ -16,13 +16,17 @@ class TagRoute extends React.Component {
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `${totalCount} post${
+    const tagHeader = `${totalCount} item${
       totalCount === 1 ? '' : 's'
     } tagged with “${tag}”`
 
     return (
       <Layout>
-        <section className="section">
+        <section className="section"
+          style={{
+            minHeight: `65vh`,
+            backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
+        }}>
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
             <div className="columns">
@@ -33,7 +37,7 @@ class TagRoute extends React.Component {
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
                 <p>
-                  <Link to="/tags/">Sort by all tags</Link>
+                  <Link to="/tags/">All Stardew metadata tags</Link>
                 </p>
               </div>
             </div>

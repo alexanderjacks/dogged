@@ -25,7 +25,11 @@ export default class BlogIndexPage extends React.Component {
             Stardew Stuff
           </h1>
         </div>
-        <section className="section">
+        <section className="section"
+        style={{
+          minHeight: `100vh`,
+          backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
+        }}>
           <div className="container">
             <div className="content">
               <BlogRoll />

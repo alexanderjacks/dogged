@@ -69,7 +69,11 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-    <section className="section section--gradient">
+    <section className="section"
+    style={{
+      minHeight: `100vh`,
+      backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
+    }}>
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -78,33 +82,39 @@ export const IndexPageTemplate = ({
 
               <div className="content">
                 <div className="tile">
-                  <h3 style={{
-                    color: 'white'}} className="subtitle">{mainpitch.description}</h3>
+                  <h3 className="subtitle">{mainpitch.description}</h3>
+                </div>
+              </div>
+
+              {/*
+                new btn route to tags/
+                */}
+              <div className="columns">
+                <div className="column is-12 has-text-centered">
+                <h3 className="has-text-weight-semibold is-size-2">
+                  All metadata on Stardew Valley
+                </h3>
+                  <Link className="btn" to="/tags">
+                    Search by Metadata
+                  </Link>
                 </div>
               </div>
 
               <div className="column">
                 <h3 className="has-text-weight-semibold is-size-2">
-                  All Stardew Stuff! (For Now)
+                  All Stardew item pages!
                 </h3>
                 <BlogRoll />
                 <div className="column is-12 has-text-centered">
                   <Link className="btn" to="/blog">
-                    More StardexDex
+                    More StardexDex items
                   </Link>
                 </div>
               </div>
 
-
               <div className="columns">
-                <div className="column is-12"
-                style={{
-                  color:`white`,
-                }}>
-                  <h3 className="has-text-weight-semibold is-size-2"
-                  style={{
-                    color:`white`,
-                  }}>
+                <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
                   <p>{description}</p>
@@ -120,7 +130,6 @@ export const IndexPageTemplate = ({
                   </Link>
                 </div>
               </div>
-
 
               </div>
             </div>
