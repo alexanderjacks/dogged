@@ -24,7 +24,7 @@ export const ProductPageTemplate = ({
         backgroundImage: `url('/img/sshot-pots-and-shrooms.png')`,
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
-        backgroundPosition: 'center top',
+        backgroundPosition: 'center top',            backgroundSize: 'cover',
       }}
     >
       <h2

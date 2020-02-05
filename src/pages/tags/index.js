@@ -20,6 +20,7 @@ const TagsPage = ({
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center top',
+        backgroundSize: 'cover',
       }}
     >
       <h2

@@ -13,7 +13,8 @@ export default class BlogIndexPage extends React.Component {
             backgroundImage: `url('/img/sshot-indoor-farming.png')`,
             backgroundRepeat: 'no-repeat',
             backgroundAttachment: 'fixed',
-            backgroundPosition: 'right top',
+            backgroundPosition: 'center top',
+            backgroundSize: 'cover',
           }}
         >
           <h1
