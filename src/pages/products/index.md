@@ -49,14 +49,14 @@ main:
     alt: Moonlit Valley
     image: /img/moonlit.jpg
   image3:
-    alt: Sunny Valley
-    image: /img/sunny.jpg
+    alt: Pots and Shrooms
+    image: /img/sshot-pots-and-shrooms.png
 testimonials:
   - author: Complete 10 'Help Wanted' requests
     quote: Gofer
   - author: Complete 40 'Help Wanted' requests
     quote: A Big Help
-full_image: /img/sunny.jpg
+full_image: /img/sshot-pots-and-shrooms.png
 pricing:
   heading: Help Wanted
   description: >-
