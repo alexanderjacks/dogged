@@ -26,9 +26,9 @@ intro:
     - image: /img/Leek.png
       text: "Granny's Gift\tEvelyn wants to surprise her husband with a gift.\tMail, Spring 15, Year 2\tBring Evelyn a Leek.\t500g, 1 Friendship heart"
     - image: /img/Truffle_Oil.png
-      text: "Mayor's Need\tMayor Lewis wants truffle oil. He won't explain what it's for. Maybe it's none of your business.\tMail, Summer 21, Year 2\tBring Lewis a bottle of Truffle Oil.\tGold.png750g, 1 Friendship heart"
+      text: "Mayor's Need\tMayor Lewis wants truffle oil. He won't explain what it's for. Maybe it's none of your business.\tMail, Summer 21, Year 2\tBring Lewis a bottle of Truffle Oil.\t750g, 1 Friendship heart"
     - image: /img/Pumpkin.png
-      text: "Carving Pumpkins\tCaroline wants to carve a pumpkin with her daughter. She asked you to bring her one from the farm.\tMail, Fall 19\tBring Caroline a pumpkin.\tGold.png500g, 1 Friendship heart"
+      text: "Carving Pumpkins\tCaroline wants to carve a pumpkin with her daughter. She asked you to bring her one from the farm.\tMail, Fall 19\tBring Caroline a pumpkin.\t500g, 1 Friendship heart"
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -62,7 +62,7 @@ testimonials:
     quote: Gofer
   - author: Complete 40 'Help Wanted' requests
     quote: A Big Help
-full_image: /img/AllCooking(except_fish_recipes).png
+full_image: /img/sunny.jpg
 pricing:
   heading: Help Wanted
   description: >-
@@ -75,13 +75,13 @@ pricing:
     have accepted a Help Wanted quest you will have 2 days to complete it, the
     current day and the next.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Willy is challenging you to catch a Lingcod.
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
+        - Mail Winter 13 Year 2
+        - Bring Willy a Lingcod.
+        - (Does not have to be caught after accepting the quest)
+      plan: Catch a Lingcod
+      price: 550 1❤️
     - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
       items:
         - 6 lbs of coffee per month
