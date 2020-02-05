@@ -38,33 +38,30 @@ intro:
 main:
   heading: Unlock 2 Achievements from Help Wanted Quests
   description: >-
-    # Gofer (Complete 10 'Help Wanted' requests)
-
-    # A Big Help (Complete 40 'Help Wanted' requests)
-
-
     Earning these achievements unlocks unique Hats at the Abandoned House in
-    Cindersap Forest. In addition, the day after earning "Gofer", Mayor Lewis
-    will send Gold.png500g in the mail. The day after earning "A Big Help",
-    Mayor Lewis will send Gold.png2,500g in the mail.
+    Cindersap Forest.
+
+
+    In addition, the day after earning "Gofer", Mayor Lewis will send 500g in
+    the mail.
+
+
+    The day after earning "A Big Help", Mayor Lewis will send 2,500g in the
+    mail.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/logo.png
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Moonlit Valley
+    image: /img/moonlit.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Sunny Valley
+    image: /img/sunny.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+  - author: Complete 10 'Help Wanted' requests
+    quote: Gofer
+  - author: Complete 40 'Help Wanted' requests
+    quote: A Big Help
 full_image: /img/AllCooking(except_fish_recipes).png
 pricing:
   heading: Help Wanted
