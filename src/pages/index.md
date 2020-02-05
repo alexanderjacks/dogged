@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: StardewDex
-image: /img/Field_Research_Bundle.png
+image: /img/sshot-spring-ponds.png
 heading: Quests Detailed
 subheading: Stardew Valley Quick Guide
 mainpitch:
