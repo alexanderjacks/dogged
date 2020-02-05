@@ -33,7 +33,7 @@ const TagsPage = ({
                     style={{
                       padding: `1rem`,
                       backgroundColor: `snow`,
-                      fontSize:`130%`,
+                      fontSize:`110%`,
                       border: `2px gold dotted`,
                       borderRadius: `1.5rem`,
                   }}>
