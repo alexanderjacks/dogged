@@ -91,10 +91,12 @@ export const ProductPageTemplate = ({
               </div>
               */}
               <Testimonials testimonials={testimonials} />
+
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>
               <p className="is-size-5">{pricing.description}</p>
+
               <Pricing data={pricing.plans} />
             </div>
           </div>

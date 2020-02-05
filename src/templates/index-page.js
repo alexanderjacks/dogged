@@ -15,7 +15,10 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
+  <div
+  style={{
+    backgroundImage: `linear-gradient(to top, #024381,#57CDEF,#89FDE4)`,
+  }}>
     <div
       className="full-width-image margin-top-0"
       style={{
@@ -93,8 +96,14 @@ export const IndexPageTemplate = ({
 
 
               <div className="columns">
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                <div className="column is-12"
+                style={{
+                  color:`white`,
+                }}>
+                  <h3 className="has-text-weight-semibold is-size-2"
+                  style={{
+                    color:`white`,
+                  }}>
                     {heading}
                   </h3>
                   <p>{description}</p>
