@@ -2,14 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Pricing = ({ data }) => (
-  <div className="columns">
+  <div className="columns is-multiline">
     {data.map(price => (
-      <div key={price.plan} className="column"
+      <div key={price.plan} className="column is-one-quarter"
       style={{
         border:`2px forestgreen dotted`,
         borderRadius:`1rem`,
-        marginBottom: `0.7rem`,
-        marginRight: `0.7rem`,
+        marginBottom: `0.3rem`,
+        marginRight: `0.3rem`,
         backgroundImage: `radial-gradient(snow, beige, papayawhip)`,
       }}>
         <h4 className="has-text-centered has-text-weight-semibold">
@@ -21,7 +21,7 @@ const Pricing = ({ data }) => (
         <p className="has-text-weight-semibold">{price.description}</p>
         <ul>
           {price.items.map(item => (
-            <li key={item} className="is-size-5">
+            <li key={item} className="is-size-4">
               {item}
             </li>
           ))}

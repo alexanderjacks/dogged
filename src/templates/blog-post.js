@@ -19,10 +19,20 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className="section"
+    style={{
+      minHeight: `100vh`,
+      backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
+    }}>
       {helmet || ''}
       <div className="container content">
-        <div className="columns">
+        <div className="columns"
+        style={{
+          padding:`3rem`,
+          borderRadius: `2rem`,
+          border: `chocolate 6px groove`,
+          backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
+        }}>
           <div className="column is-10 is-offset-1">
             <div className="featured-thumbnail">
               <PreviewCompatibleImage

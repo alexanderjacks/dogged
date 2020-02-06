@@ -7,7 +7,19 @@ class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
-      <li key={post.node.fields.slug}>
+      <li key={post.node.fields.slug}
+        className='column'
+        style={{
+          display:`flex`,
+          justifyContent:`center`,
+          alignItems:`center`,
+          padding:`0.8rem`,
+          marginBottom:`0.4rem`,
+          marginRight:`0.4rem`,
+          borderRadius: `1.5rem`,
+          border: `chocolate 6px groove`,
+          backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
+      }}>
         <Link to={post.node.fields.slug}>
           <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
         </Link>
@@ -16,8 +28,8 @@ class TagRoute extends React.Component {
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `${totalCount} item${
-      totalCount === 1 ? '' : 's'
+    const tagHeader = `${totalCount} ${
+      totalCount === 1 ? 'entry' : 'entries'
     } tagged with “${tag}”`
 
     return (
@@ -32,10 +44,16 @@ class TagRoute extends React.Component {
             <div className="columns">
               <div
                 className="column is-10 is-offset-1"
-                style={{ marginBottom: '6rem' }}
-              >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
+                style={{
+                  marginBottom: '6rem',
+                  marginTop: '1rem'
+              }}>
+                <h1 className="title is-size-4 is-bold-light">
+                  {tagHeader}
+                </h1>
+                <ul className="taglist columns">
+                  {postLinks}
+                </ul>
                 <p>
                   <Link to="/tags/">All Stardew metadata tags</Link>
                 </p>
