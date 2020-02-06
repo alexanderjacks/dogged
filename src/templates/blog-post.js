@@ -21,10 +21,54 @@ export const BlogPostTemplate = ({
   return (
     <section className="section"
     style={{
+      display: `flex`,
+      flexFlow: `column wrap`,
+      justifyContent: `center`,
       minHeight: `100vh`,
       backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
     }}>
       {helmet || ''}
+      <h2
+      className="title is-size-4 has-text-weight-bold"
+      style={{
+        display: `flex`,
+        flexFlow: `row wrap`,
+        justifyContent: `center`,
+        width: `100%`,
+      }}>
+        {title} Metadata
+      </h2>
+      {/* these tags can look the same as at /tags/ */}
+      {tags && tags.length ? (
+          <ul className="taglist"
+          style={{
+            backgroundImage:`linear-gradient(to right, #ffffff99, pink, white, pink, white, #ffccdd99)`,
+            padding: `2rem`,
+            marginTop: `0.15rem`,
+            marginBottom: `1.5rem`,
+            display: `flex`,
+            flexFlow: `row wrap`,
+            justifyContent: `space-around`,
+            alignItems: `center`,
+          }}>
+            {tags.map(tag => (
+              <li key={tag + `tag`}>
+                <Link
+                to={`/tags/${kebabCase(tag)}/`}
+                style={{
+                  padding: `1rem`,
+                  backgroundColor: `snow`,
+                  fontSize:`110%`,
+                  border: `2px gold dotted`,
+                  borderRadius: `1.5rem`,
+                }}>
+                  {tag}
+                </Link>
+              </li>
+            ))}
+          </ul>
+      ) : null}
+
       <div className="container content">
         <div className="columns"
         style={{
@@ -34,31 +78,21 @@ export const BlogPostTemplate = ({
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
         }}>
           <div className="column is-10 is-offset-1">
-            <div className="featured-thumbnail">
-              <PreviewCompatibleImage
-                imageInfo={{
-                  image: featuredimage,
-                  alt: `featured image thumbnail for post ${title}`,
-                }}
-              />
+            <div>
+              <div className="featured-thumbnail">
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: featuredimage,
+                    alt: `featured image thumbnail for post ${title}`,
+                  }}
+                />
+              </div>
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                {title}
+              </h1>
             </div>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
             <p>{description}</p>
             <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Metadata</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
           </div>
         </div>
       </div>

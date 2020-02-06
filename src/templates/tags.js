@@ -54,9 +54,9 @@ class TagRoute extends React.Component {
                 <ul className="taglist columns">
                   {postLinks}
                 </ul>
-                <p>
+                <h2 className="title is-size-4 is-bold-light">
                   <Link to="/tags/">All Stardew metadata tags</Link>
-                </p>
+                </h2>
               </div>
             </div>
           </div>
