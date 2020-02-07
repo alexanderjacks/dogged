@@ -7,6 +7,8 @@ featuredpost: true
 featuredimage: /img/Cave_Carrot.png
 tags:
   - forageable
+  - edible
+  - The Mines
 ---
 sellPrice: 25
 
