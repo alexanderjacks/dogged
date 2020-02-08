@@ -1,0 +1,28 @@
+templateKey,title,description,featuredpost,sellPrice,tags
+blog-post,Cave Carrot,A starchy snack found in caves. It helps miners work longer.,TRUE,25,"forageable, edible, The Mines"
+blog-post,Eggplant,A rich and wholesome relative of the tomato. Delicious fried or stewed.,TRUE,60,"edible, Summer, multi"
+blog-post,Blue Jazz,"The flower grows in a sphere to invite as many butterflies as possible.,",,50,Spring
+blog-post,Cauliflower,"Valuable, but slow-growing. Despite its pale color, the florets are packed with nutrients.,",,175,Spring
+blog-post,Coffee Bean,"Plant in spring or summer to grow a coffee plant. Place five beans in a keg to make coffee.,",,15,"Spring, Summer"
+blog-post,Garlic,"Adds a wonderful zestiness to dishes. High quality garlic can be pretty spicy.,",,60,Spring
+blog-post,Green Bean,"A juicy little bean with a cool, crisp snap.,",,40,Spring
+blog-post,Kale,"The waxy leaves are great in soups and stir frys.,",,110,Spring
+blog-post,Parsnip,"A spring tuber closely related to the carrot. It has an earthy taste and is full of nutrients.,",,35,Spring
+blog-post,Potato,"A widely cultivated tuber.,",,80,Spring
+blog-post,Rhubarb,"The stalks are extremely tart, but make a great dessert when sweetened.,",,220,Spring
+blog-post,Strawberry,"A sweet, juicy favorite with an appealing red color.,",,120,Spring
+blog-post,Tulip,"The most popular spring flower. Has a very faint sweet smell.,",,30,Spring
+blog-post,Unmilled Rice,"Rice in its rawest form. Run this through a mill to increase the value.,",,30,Spring
+blog-post,Blueberry,"A popular berry reported to have many health benefits. The blue skin has the highest nutrient concentration.,",,50,Spring
+blog-post,Corn,"One of the most popular grains. The sweet, fresh cobs are a summer favorite.,",,50,"Summer, Fall"
+blog-post,Hops,"A bitter, tangy flower used to flavor beer.,",,25,Summer
+blog-post,Hot Pepper,"Fiery hot with a hint of sweetness.,",,40,Summer
+blog-post,Melon,"A cool, sweet summer treat.,",,250,Summer
+blog-post,Poppy,"In addition to its colorful flower, the Poppy has culinary and medicinal uses.,",,140,Summer
+blog-post,Radish,"A crisp and refreshing root vegetable with hints of pepper when eaten raw.,",,90,Summer
+blog-post,Red Cabbage,Often used in salads and coleslaws. The color can range from purple to blue to green-yellow depending on soil conditions.,,260,Summer
+blog-post,Starfruit,"An extremely juicy fruit that grows in hot, humid weather. Slightly sweet with a sour undertone.",,750,Summer
+blog-post,Summer Spangle,"A tropical bloom that thrives in the humid summer air. Has a sweet, tangy aroma.,",,90,Summer
+blog-post,Sunflower,"A common misconception is that the flower turns so it's always facing the sun.,",,80,"Summer, Fall"
+blog-post,Tomato,"Rich and slightly tangy, the Tomato has a wide variety of culinary uses.,",,60,Summer
+blog-post,Wheat,"One of the most widely cultivated grains. Makes a great flour for breads and cakes.,",,25,"Summer, Fall"

@@ -7,7 +7,7 @@
 import csv
 
 # opens file to work from (only read not write (rb not wb))
-with open('crops.csv', 'rb') as csvfile:
+with open('whoa.csv', 'rb') as csvfile:
     # var name b/c this is hecka raw data
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
@@ -22,11 +22,14 @@ with open('crops.csv', 'rb') as csvfile:
         # there's gotta exist a smoother, more pythonic way...
         fields.extend((row[headers[0]],row[headers[1]],row[headers[2]],row[headers[3]],row[headers[4]],row[headers[5]]))
         # creates md
-        print("---") # for db schema
-        print("featuredImage: /img/{}".format(img_file_name)) # for db schema
+        print('---') # for db schema
+        print('featuredImage: /img/{}'.format(img_file_name)) # for db schema
         for header, field in zip(headers, fields):
-            print("{}: {}.".format(header, field).replace(',' , '\n  - '))
+            print('{}: {}.'.format(header, field).replace(',' , '\n  - '))
         # need a 2nd loop to deal out tags field, by ','...
-        print("---") # for db schema
+        print('---') # for db schema
         # need a method to write to .md file!
-        print("Gonna save this one as {}.md\n".format(md_file_name)) # gonna save the .md w this name
+        print('Gonna save this one as {}.md\n'.format(md_file_name)) # gonna save the .md w this name
+        f = open('{}.md'.format(md_file_name), 'w')
+        f.write('t3st g0dl3v3l p@ss3d!')
+        f.close()
