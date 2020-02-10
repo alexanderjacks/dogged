@@ -27,7 +27,7 @@ with open('gosh.csv', 'rb') as csvfile:
         # creating img asset path
         featuredimage = '/img/{}.png'.format(img_file_name)
         # # creates md to write csv row data into
-        f = open('2020-02-09-{}.md'.format(md_file_name), 'w')
+        f = open('{}.md'.format(md_file_name), 'w')
         f.write('---\n') # formatting req
         # f.write('Close to generating data file for {} ...'.format(md_file_name))
         f.write('templateKey: blog-post\n')

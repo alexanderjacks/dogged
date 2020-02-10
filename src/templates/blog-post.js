@@ -42,7 +42,7 @@ export const BlogPostTemplate = ({
       {tags && tags.length ? (
           <ul className="taglist"
           style={{
-            backgroundImage:`linear-gradient(to right, #ffffff99, pink, white, pink, white, #ffccdd99)`,
+            backgroundImage:`linear-gradient(to right, #ffffff33, pink, white, pink, white, #ffccdd33)`,
             padding: `2rem`,
             marginTop: `0.15rem`,
             marginBottom: `1.5rem`,
@@ -120,7 +120,7 @@ const BlogPost = ({ data }) => {
         description={post.frontmatter.description}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Item Data">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"

@@ -14,38 +14,35 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
+                className={`blog-list-item is-featured tile is-child box`}
               >
                 <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-3"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
+                  <div className="featured-thumbnail">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: post.frontmatter.featuredimage,
+                        alt: `image for item ${post.frontmatter.title}`,
+                      }}
+                    />
+                  </div>
+                  <p className="">
+                    <Link className="has-text-primary" to={post.fields.slug}>
+                      <h4
+                      className="title has-text-primary is-size-4">
+                        {post.frontmatter.title}
+                      </h4>
                     </Link>
                   </p>
                 </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    More Data 📊
-                  </Link>
-                </p>
+                <div className="">
+                  <p>
+                    {post.excerpt}
+                    <br />
+                    <Link className="button" to={post.fields.slug}>
+                      More Data
+                    </Link>
+                  </p>
+                </div>
               </article>
             </div>
           ))}
@@ -67,7 +64,7 @@ export default () => (
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: DESC, fields: [frontmatter___title] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {
           edges {
