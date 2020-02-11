@@ -1,9 +1,8 @@
-# StardewDex 💫🐝📱
+# StardewDex 💫🍓🐮📚📱
 
-## [LIVE on Netlify](https://stardew.netlify.com/)
+### [LIVE on Netlify](https://stardew.netlify.com/)
 
-### This app is hosted on Netlify
-### [J4cks.com](https://J4cks.com) 2020, MIT License ( Permissive Unlimited Reuse )
+#### [J4cks.com](https://J4cks.com) 2020, MIT License ( Permissive Unlimited Reuse )
 
 ## 💥 _Features_
 - quick and fast UI ☑️
@@ -16,20 +15,16 @@
 ## 📋 _Milestones_
 
 ### Engineering + Code
-- rm date in slugs, confirm in CMS ⛔️
+- rm date in slugs ☑️
 - add category field to existing stuff ⛔️
 - sort btn on landing for all stuff, category ⛔️
-- build out iterator for use w Icon component ⛔️
-- season data object for fish {season[fish[tags]]} ⛔️
-- season data object for farming {season{stage#:dayCount}...} ⛔️
-- season data object for foraging {{:}...} ⛔️
+- build out iterator for multi Icon sets ⛔️
 
 ### Design + Biz
-- baseline metadata fields; look good enough ⛔️
-- reuse Pricing component liberally ⛔️
-- check icon sizing, display thru-out ⛔️
-- add current logo + favicons ⛔️
-- apply color branding thru-out ⛔️
+- baseline metadata fields on Card ⛔️
+- reuse Pricing component on Card ⛔️
+- add current logo + favicons ☑️
+- apply color branding thru-out ☑️
 - custom load screen & color branding ⛔️
 - resubmit to Google AdSense ⛔️
 
