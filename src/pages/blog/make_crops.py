@@ -34,6 +34,7 @@ with open('gosh.csv', 'rb') as csvfile:
         f.write('title: {}\n'.format(title))
         f.write('description: {}\n'.format(description))
         f.write('featuredpost: false\n')
+        f.write('date: 2020-02-10T00:00:02.711Z\n')
         f.write('featuredimage: {}\n'.format(featuredimage))
         f.write('sellPrice: {}\n'.format(sellPrice))
         f.write('tags: \n  - {}\n'.format(tags).replace(',','\n  - ' ))
