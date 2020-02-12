@@ -16,7 +16,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div
   style={{
-    backgroundImage: `linear-gradient(navy, deepskyblue, forestgreen)`,
+    backgroundColor: `white`,
   }}>
     <div
       className="full-width-image margin-top-0"
@@ -43,14 +43,16 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               '#c0c 0.5rem 0px 0px, #c0c -0.5rem 0px 0px',
-            backgroundColor: '#f0f',
+            backgroundImage: 'linear-gradient(to left, #f0f,#0ff,#f0f)',
             color: 'white',
+            textShadow: '2px 2px 4px navy,-2px -2px 4px navy,-2px 2px 4px navy,2px -2px 4px navy',
+            textAlign: 'center',
             lineHeight: '1',
             padding: '0.25em',
-            fontFamily: 'Solway',
+            fontFamily: 'Fredericka the Great',
           }}
         >
-        <span>Stardew</span>Dex
+        StardewDex
         </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -76,12 +78,19 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-10 is-offset-1">
+            <div className="column is-8 is-offset-2">
               <div className="content">
 
               <div className="content">
                 <div className="tile">
-                  <h3 className="subtitle">{mainpitch.description}</h3>
+                  <h3 className="subtitle"
+                    style={{
+                      fontFamily: 'Solway',
+                      marginBottom: '3rem',
+                    }}
+                  >
+                    {mainpitch.description}
+                  </h3>
                 </div>
               </div>
 

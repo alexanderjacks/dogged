@@ -77,22 +77,23 @@ export const BlogPostTemplate = ({
           border: `chocolate 6px groove`,
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
         }}>
-          <div className="column is-10 is-offset-1">
-            <div>
-              <div className="featured-thumbnail">
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: featuredimage,
-                    alt: `featured image thumbnail for post ${title}`,
-                  }}
-                />
-              </div>
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                {title}
-              </h1>
-            </div>
-            <p>{description}</p>
-            <PostContent content={content} />
+          <div className="column is-6 dotty-col">
+            <PreviewCompatibleImage
+              className="featured-thumbnail"
+              imageInfo={{
+                image: featuredimage,
+                alt: `featured image thumbnail for post ${title}`,
+              }}
+            />
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              {title}
+            </h1>
+          </div>
+
+          <p className="">{description}</p>
+
+          <div className="column is-6 dotty-col">
+              <PostContent content={content} />
           </div>
         </div>
       </div>
