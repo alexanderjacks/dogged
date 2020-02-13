@@ -58,9 +58,9 @@ export const BlogPostTemplate = ({
                 <Link
                 to={`/tags/${kebabCase(tag)}/`}
                 style={{
-                  padding: `1rem`,
+                  padding: `0.8rem`,
                   backgroundColor: `snow`,
-                  fontSize:`1.2rem`,
+                  fontSize:`0.9rem`,
                   border: `4px gold dotted`,
                   borderRadius: `1.5rem`,
                 }}>

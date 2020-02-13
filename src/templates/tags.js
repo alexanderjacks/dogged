@@ -1,7 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { snakeCase } from 'lodash'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 class TagRoute extends React.Component {
   render() {
@@ -11,6 +13,7 @@ class TagRoute extends React.Component {
         className='column'
         style={{
           display:`flex`,
+          flexFlow: `row wrap`,
           justifyContent:`center`,
           alignItems:`center`,
           padding:`0.8rem`,
@@ -21,7 +24,15 @@ class TagRoute extends React.Component {
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
       }}>
         <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+          <h2 className="is-size-3">{post.node.frontmatter.title}</h2>
+
+          <PreviewCompatibleImage
+            className="image"
+            imageInfo={{
+              image: `/img/${snakeCase(post.node.frontmatter.title)}.png`,
+              alt: `image for item ${post.node.frontmatter.title}`,
+            }}
+          />
         </Link>
       </li>
     ))
@@ -88,6 +99,13 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            featuredimage {
+              childImageSharp {
+                fluid(maxWidth: 200, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             tags
           }
         }
