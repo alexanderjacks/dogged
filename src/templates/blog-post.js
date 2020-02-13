@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import BackwardsCompatibleImage from '../components/BackwardsCompatibleImage'
 import Content, { HTMLContent } from '../components/Content'
 
 export const BlogPostTemplate = ({
@@ -42,7 +43,7 @@ export const BlogPostTemplate = ({
       {tags && tags.length ? (
           <ul className="taglist"
           style={{
-            backgroundImage:`linear-gradient(to right, #ffffff33, pink, white, pink, white, #ffccdd33)`,
+            backgroundImage:`linear-gradient(to right, #0000aa33, navy, #0000aa33)`,
             padding: `2rem`,
             marginTop: `0.15rem`,
             marginBottom: `1.5rem`,
@@ -50,6 +51,7 @@ export const BlogPostTemplate = ({
             flexFlow: `row wrap`,
             justifyContent: `space-around`,
             alignItems: `center`,
+            borderRadius: `25%`,
           }}>
             {tags.map(tag => (
               <li key={tag + `tag`}>
@@ -58,8 +60,8 @@ export const BlogPostTemplate = ({
                 style={{
                   padding: `1rem`,
                   backgroundColor: `snow`,
-                  fontSize:`110%`,
-                  border: `2px gold dotted`,
+                  fontSize:`1.2rem`,
+                  border: `4px gold dotted`,
                   borderRadius: `1.5rem`,
                 }}>
                   {tag}
@@ -69,33 +71,57 @@ export const BlogPostTemplate = ({
           </ul>
       ) : null}
 
-      <div className="container content">
-        <div className="columns"
+      <div className="container"
         style={{
-          padding:`3rem`,
+          margin:`0.6rem`,
+          padding:`1.2rem`,
           borderRadius: `2rem`,
           border: `chocolate 6px groove`,
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
+          display: `flex`,
+          flexFlow: `column nowrap`,
+          justifyContent: `left`,
+          alignItems: `center`
         }}>
-          <div className="column is-6 dotty-col">
-            <PreviewCompatibleImage
-              className="featured-thumbnail"
-              imageInfo={{
-                image: featuredimage,
-                alt: `featured image thumbnail for post ${title}`,
-              }}
-            />
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-          </div>
 
-          <p className="">{description}</p>
-
-          <div className="column is-6 dotty-col">
-              <PostContent content={content} />
-          </div>
+        <div class="cluster-bunch">
+          <PreviewCompatibleImage
+            className="image"
+            imageInfo={{
+              image: featuredimage,
+              alt: `featured image thumbnail for post ${title}`,
+            }}
+          />
+          <h1 style={{
+            fontSize: `5.2vw`
+          }}>{title}</h1>
+          <BackwardsCompatibleImage
+            className="image"
+            imageInfo={{
+              image: featuredimage,
+              alt: `featured image thumbnail for post ${title}`,
+            }}
+          />
         </div>
+        <p class="heading">{description}</p>
+
+        <div
+          style={{
+            margin:`0.6rem`,
+            padding:`1.2rem`,
+            borderRadius: `2rem`,
+            border: `chocolate 6px groove`,
+            backgroundColor: `#ffffff99`,
+            minWidth: `65vw`,
+            display: `flex`,
+            flexFlow: `row wrap`,
+            justifyContent: `center`,
+            alignItems: `center`
+          }}>
+          <h1 class="heading">key :&nbsp;</h1>
+          <h1 class="title">value</h1>
+        </div>
+
       </div>
     </section>
   )

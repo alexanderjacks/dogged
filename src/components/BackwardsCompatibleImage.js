@@ -2,12 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 
-const PreviewCompatibleImage = ({ imageInfo }) => {
+const BackwardsCompatibleImage = ({ imageInfo }) => {
   const imageStyle = {
     maxWidth:`48px`,
     maxHeight:`48px`,
     minWidth:`48px`,
     minHeight:`48px`,
+    transform: `scaleX(-1)`,
    }
   const { alt = '', childImageSharp, image } = imageInfo
 
@@ -27,7 +28,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   return null
 }
 
-PreviewCompatibleImage.propTypes = {
+BackwardsCompatibleImage.propTypes = {
   imageInfo: PropTypes.shape({
     alt: PropTypes.string,
     childImageSharp: PropTypes.object,
@@ -36,4 +37,4 @@ PreviewCompatibleImage.propTypes = {
   }).isRequired,
 }
 
-export default PreviewCompatibleImage
+export default BackwardsCompatibleImage
