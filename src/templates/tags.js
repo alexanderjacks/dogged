@@ -23,21 +23,24 @@ class TagRoute extends React.Component {
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
       }}>
         <Link to={post.node.fields.slug}
+        class="has-text-center"
         style={{
           padding:`0.2rem`,
           backgroundImage: `url(/img/${snakeCase(post.node.frontmatter.title)}.png)`,
           backgroundPosition: `center`,
           backgroundRepeat: `no-repeat`,
         }}>
-          <h2 className="is-size-3"
+          <h4 className="is-size-3"
           style={{
             paddingTop:`1.2rem`,
-            textShadow: '2px 2px 4px #ff00ffcc,-2px -2px 4px #ff00ffcc,-2px 2px 4px #ff00ffcc,2px -2px 4px #ff00ffcc',
+            textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
             textAlign: 'center',
+            fontWeight: 300,
             lineHeight: '1',
+            color:`black`,
           }}>
             {post.node.frontmatter.title}
-          </h2>
+          </h4>
         </Link>
       </li>
     ))

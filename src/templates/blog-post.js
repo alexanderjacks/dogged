@@ -14,6 +14,7 @@ export const BlogPostTemplate = ({
   description,
   featuredimage,
   tags,
+  sellPrice,
   title,
   helmet,
 }) => {
@@ -120,8 +121,8 @@ export const BlogPostTemplate = ({
             justifyContent: `center`,
             alignItems: `center`
           }}>
-          <h1 class="heading">key :&nbsp;</h1>
-          <h1 class="title">value</h1>
+          <h1 class="heading">sell price :&nbsp;</h1>
+          <h1 class="title">{sellPrice}g</h1>
         </div>
 
       </div>
@@ -158,6 +159,7 @@ const BlogPost = ({ data }) => {
           </Helmet>
         }
         tags={post.frontmatter.tags}
+        sellPrice={post.frontmatter.sellPrice}
         title={post.frontmatter.title}
       />
     </Layout>
@@ -181,6 +183,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        sellPrice
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 48, quality: 100) {

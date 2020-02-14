@@ -48,19 +48,30 @@ const TagsPage = ({
             style={{ marginBottom: '3rem' }}>
             <ul className="taglist">
               {group.map(tag => (
-                <li key={tag.fieldValue}>
+                <li key={tag.fieldValue}
+                  style={{
+                    marginRight:`0.3rem`,
+                    marginBottom:`2.3rem`,
+                  }}>
                   <Link
                     to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                    class="title is-size-4"
                     style={{
-                      padding: `1rem`,
+                      padding: `1.2rem`,
                       backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
-                      fontSize:`110%`,
                       border: `2px gold dotted`,
                       borderRadius: `1.5rem`,
-                      textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
                   }}>
-                    {tag.fieldValue} ({tag.totalCount})
+                    <span
+                    style={{
+                      letterSpacing:`0.15rem`,
+                      fontSize:`1.4rem`,
+                      fontWeight: 800,
+                      textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
+                      color:`black`,
+                      fontFamily:`'Fredericka the Great', cursive`
+                    }}>
+                      {tag.fieldValue} ({tag.totalCount})
+                    </span>
                   </Link>
                 </li>
               ))}
