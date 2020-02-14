@@ -9,44 +9,45 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
+      <ul className="columns is-mobile is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column" key={post.id}>
+            <li className="column" key={post.id}>
               <article
-                className={`blog-list-item is-featured tile is-child box`}
+                className="btn"
+                style={{
+                  display:`flex`,
+                  flexFlow: `row nowrap`,
+                  justifyContent:`center`,
+                  alignItems:`center`,
+                  paddingTop:`3.9rem`,
+                  padding:`2.3rem`,
+                  marginBottom:`0.25rem`,
+                  marginRight:`0.25rem`,
+                  borderRadius: `1.5rem`,
+                  border: `chocolate 6px groove`,
+                  backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
+                }}
               >
-                <header>
-                  <div className="featured-thumbnail">
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `image for item ${post.frontmatter.title}`,
-                      }}
-                    />
-                  </div>
-                  <p className="">
-                    <Link className="has-text-primary" to={post.fields.slug}>
-                      <h4
-                      className="title has-text-primary is-size-4">
-                        {post.frontmatter.title}
-                      </h4>
-                    </Link>
-                  </p>
-                </header>
-                <div className="">
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <Link className="button" to={post.fields.slug}>
-                      More Data
-                    </Link>
-                  </p>
-                </div>
+                <Link to={post.fields.slug}>
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: post.frontmatter.featuredimage,
+                      alt: `image for item ${post.frontmatter.title}`,
+                    }}
+                  />
+                  <h4
+                  className="has-text-primary">
+                    {post.frontmatter.title}
+                  </h4>
+                <p>
+                  {post.excerpt}
+                </p>
+                </Link>
               </article>
-            </div>
+            </li>
           ))}
-      </div>
+      </ul>
     )
   }
 }

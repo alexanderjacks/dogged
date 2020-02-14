@@ -78,41 +78,40 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-8 is-offset-2">
+            <div className="column is-11 is-offset-1">
               <div className="content">
-
-              <div className="content">
-                <div className="tile">
-                  <h3 className="subtitle"
-                    style={{
-                      fontFamily: 'Solway',
-                      marginBottom: '3rem',
-                    }}
-                  >
-                    {mainpitch.description}
-                  </h3>
-                </div>
+                <h3 className="subtitle"
+                  style={{
+                    fontFamily: 'Solway',
+                    marginBottom: '3rem',
+                  }}
+                >
+                  {mainpitch.description}
+                </h3>
               </div>
+
 
               {/*
                 new btn route to tags/
                 */}
-              <div className="columns">
-                <div className="column is-12 has-text-centered">
-                <h3 className="has-text-weight-semibold is-size-2">
-                  All metadata on Stardew Valley
-                </h3>
+
+                <div className="column is-10 has-text-right">
+                  <h3 className="has-text-weight-semibold is-size-4">
+                    All metadata on Stardew Valley:
+                  </h3>
                   <Link className="btn" to="/tags">
                     Search by Metadata
                   </Link>
                 </div>
-              </div>
 
-              <div className="column">
+
+              <div className="column is-12">
                 <h3 className="has-text-weight-semibold is-size-2">
                   All Stardew item pages!
                 </h3>
+
                 <BlogRoll />
+
                 <div className="column is-12 has-text-centered">
                   <Link className="btn" to="/blog">
                     More StardexDex items
@@ -139,7 +138,6 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
 
-              </div>
             </div>
           </div>
         </div>
