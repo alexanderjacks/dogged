@@ -31,7 +31,7 @@ export default class BlogIndexPage extends React.Component {
         </div>
         <section className="section"
         style={{
-          minHeight: `100vh`,
+          minHeight: `85vh`,
           backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
         }}>
           <div className="container">

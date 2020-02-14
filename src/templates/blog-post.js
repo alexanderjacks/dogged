@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
+import { kebabCase, snakeCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
@@ -25,7 +25,7 @@ export const BlogPostTemplate = ({
       display: `flex`,
       flexFlow: `column wrap`,
       justifyContent: `center`,
-      minHeight: `100vh`,
+      minHeight: `85vh`,
       backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
     }}>
       {helmet || ''}
@@ -57,12 +57,14 @@ export const BlogPostTemplate = ({
               <li key={tag + `tag`}>
                 <Link
                 to={`/tags/${kebabCase(tag)}/`}
+                class="title is-size-4"
                 style={{
-                  padding: `0.8rem`,
-                  backgroundColor: `snow`,
-                  fontSize:`0.9rem`,
-                  border: `4px gold dotted`,
+                  padding: `1rem`,
+                  backgroundImage: `url(/img/${snakeCase(tag)}.png)`,
+                  fontSize:`110%`,
+                  border: `2px gold dotted`,
                   borderRadius: `1.5rem`,
+                  textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
                 }}>
                   {tag}
                 </Link>
@@ -71,7 +73,7 @@ export const BlogPostTemplate = ({
           </ul>
       ) : null}
 
-      <div className="container"
+      <div className=""
         style={{
           margin:`0.6rem`,
           padding:`1.2rem`,

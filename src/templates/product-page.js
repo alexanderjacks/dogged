@@ -39,7 +39,7 @@ export const ProductPageTemplate = ({
     </div>
     <section className="section section--gradient"
     style={{
-      minHeight: `100vh`,
+      minHeight: `85vh`,
       backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
     }}>
       <div className="container">

@@ -61,13 +61,13 @@ class TagRoute extends React.Component {
               <div
                 className="column is-10 is-offset-1"
                 style={{
-                  marginBottom: '3rem',
-                  marginTop: '1rem'
+                  paddingTop: '1rem',
               }}>
-                <h1 className="title is-size-3 is-bold-light has-text-right"
+                <h1 className="title is-size-3 is-bold-light has-text-left"
                   style={{
-                    paddingBottom: `1rem`,
-                    backgroundImage: `url(/img/${snakeCase(tagHeader)}.png)`,
+                    paddingBottom: `3rem`,
+                    paddingTop: `1rem`,
+                    width:`80vw`,
                   }}>
                   {tagHeader}
                 </h1>
