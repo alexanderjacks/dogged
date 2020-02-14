@@ -57,7 +57,7 @@ const TagsPage = ({
                     to={`/tags/${kebabCase(tag.fieldValue)}/`}
                     style={{
                       padding: `1.2rem`,
-                      backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
+                      backgroundImage: `url(/img/tag-${snakeCase(tag.fieldValue)}.png)`,
                       border: `2px gold dotted`,
                       borderRadius: `1.5rem`,
                   }}>

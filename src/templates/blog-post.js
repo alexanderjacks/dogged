@@ -61,7 +61,7 @@ export const BlogPostTemplate = ({
                 class="title is-size-4"
                 style={{
                   padding: `1rem`,
-                  backgroundImage: `url(/img/${snakeCase(tag)}.png)`,
+                  backgroundImage: `url(/img/tag-${snakeCase(tag)}.png)`,
                   fontSize:`110%`,
                   border: `2px gold dotted`,
                   borderRadius: `1.5rem`,

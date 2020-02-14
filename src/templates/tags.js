@@ -66,14 +66,21 @@ class TagRoute extends React.Component {
                 style={{
                   paddingTop: '1rem',
               }}>
-                <h1 className="title is-size-3 is-bold-light has-text-left"
-                  style={{
-                    paddingBottom: `3rem`,
-                    paddingTop: `1rem`,
-                    width:`80vw`,
-                  }}>
-                  {tagHeader}
-                </h1>
+                <div
+                style={{
+                  backgroundImage:`url(/img/tag-${snakeCase(tag)}.png)`,
+                }}>
+                  <h1 className="title is-size-3 is-bold-light has-text-left"
+                    style={{
+                      paddingLeft: `2rem`,
+                      paddingBottom: `3rem`,
+                      paddingTop: `2rem`,
+                      width:`100%`,
+                      backgroundImage: `linear-gradient(to right,#ffff,#fff3)`,
+                    }}>
+                    {tagHeader}
+                  </h1>
+                </div>
                 <ul className="taglist columns">
                   {postLinks}
                 </ul>
