@@ -13,26 +13,31 @@ class TagRoute extends React.Component {
         className='column'
         style={{
           display:`flex`,
-          flexFlow: `row wrap`,
+          flexFlow: `column nowrap`,
           justifyContent:`center`,
           alignItems:`center`,
-          padding:`0.8rem`,
           marginBottom:`0.4rem`,
           marginRight:`0.4rem`,
           borderRadius: `1.5rem`,
           border: `chocolate 6px groove`,
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
       }}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-3">{post.node.frontmatter.title}</h2>
-
-          <PreviewCompatibleImage
-            className="image"
-            imageInfo={{
-              image: `/img/${snakeCase(post.node.frontmatter.title)}.png`,
-              alt: `image for item ${post.node.frontmatter.title}`,
-            }}
-          />
+        <Link to={post.node.fields.slug}
+        style={{
+          padding:`0.2rem`,
+          backgroundImage: `url(/img/${snakeCase(post.node.frontmatter.title)}.png)`,
+          backgroundPosition: `center`,
+          backgroundRepeat: `no-repeat`,
+        }}>
+          <h2 className="is-size-3"
+          style={{
+            paddingTop:`1.2rem`,
+            textShadow: '2px 2px 4px #ff00ffcc,-2px -2px 4px #ff00ffcc,-2px 2px 4px #ff00ffcc,2px -2px 4px #ff00ffcc',
+            textAlign: 'center',
+            lineHeight: '1',
+          }}>
+            {post.node.frontmatter.title}
+          </h2>
         </Link>
       </li>
     ))
@@ -47,7 +52,7 @@ class TagRoute extends React.Component {
       <Layout>
         <section className="section"
           style={{
-            minHeight: `65vh`,
+            minHeight: `75vh`,
             backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
         }}>
           <Helmet title={`${tag} | ${title}`} />
@@ -56,15 +61,16 @@ class TagRoute extends React.Component {
               <div
                 className="column is-10 is-offset-1"
                 style={{
-                  marginBottom: '6rem',
+                  marginBottom: '3rem',
                   marginTop: '1rem'
               }}>
-                <h1 className="title is-size-4 is-bold-light">
+                <h1 className="title is-size-3 is-bold-light has-text-right"
+                  style={{
+                    paddingBottom: `1rem`,
+                    backgroundImage: `url(/img/${snakeCase(tagHeader)}.png)`,
+                  }}>
                   {tagHeader}
                 </h1>
-                <h2 className="title is-size-4 is-bold-light">
-                <Link to="/tags/">All Stardew metadata tags</Link>
-                </h2>
                 <ul className="taglist columns">
                   {postLinks}
                 </ul>
@@ -102,13 +108,6 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
-            featuredimage {
-              childImageSharp {
-                fluid(maxWidth: 200, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
             tags
           }
         }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { kebabCase } from 'lodash'
+import { kebabCase, snakeCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
@@ -51,12 +51,14 @@ const TagsPage = ({
                 <li key={tag.fieldValue}>
                   <Link
                     to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                    class="title is-size-4"
                     style={{
                       padding: `1rem`,
-                      backgroundColor: `snow`,
+                      backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
                       fontSize:`110%`,
                       border: `2px gold dotted`,
                       borderRadius: `1.5rem`,
+                      textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
                   }}>
                     {tag.fieldValue} ({tag.totalCount})
                   </Link>
