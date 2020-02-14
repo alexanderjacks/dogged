@@ -6,6 +6,7 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Strawberry.png
 sellPrice: 120
-tags: 
+tags:
   - Spring
+  - Maru
 ---
