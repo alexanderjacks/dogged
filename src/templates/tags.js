@@ -74,8 +74,10 @@ class TagRoute extends React.Component {
                     style={{
                       paddingLeft: `2rem`,
                       paddingBottom: `3rem`,
+                      border: `4`,
                       paddingTop: `2rem`,
                       width:`100%`,
+                      border: `#09f 6px groove`,
                       backgroundImage: `linear-gradient(to right,#ffff,#fff3)`,
                     }}>
                     {tagHeader}

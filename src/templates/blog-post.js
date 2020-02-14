@@ -45,7 +45,7 @@ export const BlogPostTemplate = ({
           <ul className="taglist"
           style={{
             backgroundImage:`linear-gradient(to right, #0000aa33, navy, #0000aa33)`,
-            padding: `2rem`,
+            padding: `2.5rem`,
             marginTop: `0.15rem`,
             marginBottom: `1.5rem`,
             display: `flex`,
@@ -55,7 +55,11 @@ export const BlogPostTemplate = ({
             borderRadius: `25%`,
           }}>
             {tags.map(tag => (
-              <li key={tag + `tag`}>
+              <li key={tag + `tag`}
+              style={{
+                marginBottom: `1.8rem`,
+                marginTop: `1.4rem`
+              }}>
                 <Link
                 to={`/tags/${kebabCase(tag)}/`}
                 class="title is-size-4"
