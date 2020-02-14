@@ -8,4 +8,6 @@ featuredimage: /img/Starfruit.png
 sellPrice: 750
 tags: 
   - Summer
+  -  edible
+  -  fruit
 ---

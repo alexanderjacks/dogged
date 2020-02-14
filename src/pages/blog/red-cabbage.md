@@ -8,4 +8,6 @@ featuredimage: /img/Red_Cabbage.png
 sellPrice: 260
 tags: 
   - Summer
+  -  edible
+  -  vegetable
 ---
