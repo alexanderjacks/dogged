@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { snakeCase } from 'lodash'
+import { snakeCase, titleCase } from 'lodash'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
@@ -13,11 +13,11 @@ class TagRoute extends React.Component {
         className='column'
         style={{
           display:`flex`,
-          flexFlow: `column nowrap`,
+          flexFlow: `row wrap`,
           justifyContent:`center`,
           alignItems:`center`,
-          marginBottom:`0.4rem`,
-          marginRight:`0.4rem`,
+          marginBottom:`0.6rem`,
+          marginRight:`0.6rem`,
           borderRadius: `1.5rem`,
           border: `chocolate 6px groove`,
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
