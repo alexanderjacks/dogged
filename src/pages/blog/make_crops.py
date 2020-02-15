@@ -9,14 +9,14 @@ with open('gosh.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
-    headers = ['templateKey', 'title', 'description', 'featuredpost', 'sellPrice', 'tags'] # manual entry for now
+    headers = ['templateKey', 'title', 'description', 'type', 'sellPrice', 'tags'] # manual entry for now
     # this needs to count down for the row count (while)
 
     for row in pulpy_data:
         # gotta assign fields to vars for later
         description = row['description']
         title = row['title']
-        featuredpost = row['featuredpost']
+        type = row['type']
         sellPrice = row['sellPrice']
         tags =  row['tags'] # could try to split these now...
         working_file_name = row['title'] # for db schema
@@ -32,6 +32,7 @@ with open('gosh.csv', 'rb') as csvfile:
         # f.write('Close to generating data file for {} ...'.format(md_file_name))
         f.write('templateKey: blog-post\n')
         f.write('title: {}\n'.format(title))
+        f.write('type: {}\n'.format(type))
         f.write('description: {}\n'.format(description))
         f.write('featuredpost: false\n')
         f.write('date: 2020-02-10T00:00:02.711Z\n')

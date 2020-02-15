@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Wheat
+type: vegetable
 description: One of the most widely cultivated grains. Makes a great flour for breads and cakes
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

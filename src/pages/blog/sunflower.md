@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Sunflower
+type: flower
 description: A common misconception is that the flower turns so it's always facing the sun
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

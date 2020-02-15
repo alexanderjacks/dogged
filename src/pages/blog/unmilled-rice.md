@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Unmilled Rice
+type: vegetable
 description: Rice in its rawest form. Run this through a mill to increase the value
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

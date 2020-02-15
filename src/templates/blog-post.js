@@ -13,6 +13,7 @@ export const BlogPostTemplate = ({
   contentComponent,
   description,
   featuredimage,
+  type,
   tags,
   sellPrice,
   title,
@@ -127,6 +128,10 @@ export const BlogPostTemplate = ({
           }}>
           <h1 class="heading">sell price :&nbsp;</h1>
           <h1 class="title">{sellPrice}g</h1>
+          <hr/>
+          <h1 class="heading">type :&nbsp;</h1>
+          <h1 class="title">{type}</h1>
+          <hr/>
         </div>
 
       </div>
@@ -138,6 +143,7 @@ BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
+  type: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
   featuredimage: PropTypes.object,
@@ -152,6 +158,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        type={post.frontmatter.type}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
           <Helmet titleTemplate="%s | Item Data">
@@ -186,15 +193,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        type
         tags
         sellPrice
-        featuredimage {
-          childImageSharp {
-            fluid(maxWidth: 48, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        featuredimage
       }
     }
   }

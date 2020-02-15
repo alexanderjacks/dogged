@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Coconut
+type: fruit
 description: A seed of the coconut palm. It has many culinary uses.
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

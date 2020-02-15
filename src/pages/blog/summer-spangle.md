@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Summer Spangle
+type: flower
 description: A tropical bloom that thrives in the humid summer air. Has a sweet, tangy aroma.
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

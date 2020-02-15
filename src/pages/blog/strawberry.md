@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Strawberry
+type: fruit
 description: A sweet, juicy favorite with an appealing red color
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

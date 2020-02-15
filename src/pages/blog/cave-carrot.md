@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Cave Carrot
+type: forage
 description: A starchy snack found in caves. It helps miners work longer.
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

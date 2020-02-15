@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Garlic
+type: vegetable
 description: Adds a wonderful zestiness to dishes. High quality garlic can be pretty spicy.
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

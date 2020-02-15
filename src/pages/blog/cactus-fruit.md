@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Cactus Fruit
+type: fruit
 description: The sweet fruit of the prickly pear cactus.
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Grape
+type: fruit
 description: A sweet cluster of fruit.,
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z

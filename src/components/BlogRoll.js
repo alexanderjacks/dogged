@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { snakeCase } from 'lodash'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
   render() {
@@ -30,12 +30,12 @@ class BlogRoll extends React.Component {
                 }}
               >
                 <Link to={post.fields.slug}>
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: post.frontmatter.featuredimage,
-                      alt: `image for item ${post.frontmatter.title}`,
-                    }}
-                  />
+                  <div style={{
+                    padding: `1.1rem`,
+                    backgroundImage: `url(/img/${snakeCase(post.frontmatter.featuredimage)}.png)`,
+                    border: `2px navy dotted`,
+                    borderRadius: `0.4rem`,
+                  }}></div>
                   <h4
                   className="has-text-primary">
                     {post.frontmatter.title}
@@ -80,13 +80,8 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 48, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+                type
+                featuredimage
               }
             }
           }

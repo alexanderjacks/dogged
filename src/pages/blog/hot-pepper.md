@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Hot Pepper
+type: fruit
 description: Fiery hot with a hint of sweetness
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z
