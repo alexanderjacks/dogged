@@ -5,7 +5,9 @@ import Img from 'gatsby-image'
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = {
     maxWidth:`48px`,
+    width:`48px`,
     maxHeight:`48px`,
+    height:`48px`,
     minWidth:`48px`,
     minHeight:`48px`,
    }

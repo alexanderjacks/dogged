@@ -114,6 +114,7 @@ export const BlogPostTemplate = ({
         <p class="heading">{description}</p>
 
         <div
+          class="columns is-mobile"
           style={{
             margin:`0.6rem`,
             padding:`1.2rem`,
@@ -122,16 +123,14 @@ export const BlogPostTemplate = ({
             backgroundColor: `#ffffff99`,
             minWidth: `65vw`,
             display: `flex`,
-            flexFlow: `row wrap`,
+            flexFlow: `column wrap`,
             justifyContent: `center`,
             alignItems: `center`
           }}>
-          <h1 class="heading">sell price :&nbsp;</h1>
-          <h1 class="title">{sellPrice}g</h1>
-          <hr/>
-          <h1 class="heading">type :&nbsp;</h1>
-          <h1 class="title">{type}</h1>
-          <hr/>
+
+          <h1 class="heading column is-6">sell price:&nbsp;</h1><h1 class="title column">{sellPrice}g</h1>
+          <h1 class="heading column is-6">type:&nbsp;</h1>
+          <h1 class="title column">{type}</h1>
         </div>
 
       </div>
@@ -196,7 +195,6 @@ export const pageQuery = graphql`
         type
         tags
         sellPrice
-        featuredimage
       }
     }
   }

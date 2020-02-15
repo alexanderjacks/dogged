@@ -31,11 +31,13 @@ class BlogRoll extends React.Component {
               >
                 <Link to={post.fields.slug}>
                   <div style={{
-                    padding: `1.1rem`,
-                    backgroundImage: `url(/img/${snakeCase(post.frontmatter.featuredimage)}.png)`,
-                    border: `2px navy dotted`,
-                    borderRadius: `0.4rem`,
-                  }}></div>
+                    minWidth: 48,
+                    minHeight: 48,
+                    backgroundRepeat: `no-repeat`,
+                    backgroundPosition: `center`,
+                    backgroundImage: `url(/img/${snakeCase(post.frontmatter.title)}.png)`
+                  }}>
+                  </div>
                   <h4
                   className="has-text-primary">
                     {post.frontmatter.title}
@@ -81,7 +83,6 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 type
-                featuredimage
               }
             }
           }
