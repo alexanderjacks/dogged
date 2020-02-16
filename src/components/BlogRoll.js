@@ -30,6 +30,7 @@ class BlogRoll extends React.Component {
                 }}
               >
                 <Link to={post.fields.slug}>
+                {/* img workaround for Gatsby Img grief */}
                   <div style={{
                     minWidth: 48,
                     minHeight: 48,
@@ -38,6 +39,7 @@ class BlogRoll extends React.Component {
                     backgroundImage: `url(/img/${snakeCase(post.frontmatter.title)}.png)`
                   }}>
                   </div>
+                  {/* good job, end of workaround */}
                   <h4
                   className="has-text-primary">
                     {post.frontmatter.title}

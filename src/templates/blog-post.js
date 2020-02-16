@@ -4,8 +4,6 @@ import { kebabCase, snakeCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import BackwardsCompatibleImage from '../components/BackwardsCompatibleImage'
 import Content, { HTMLContent } from '../components/Content'
 
 export const BlogPostTemplate = ({
@@ -93,23 +91,30 @@ export const BlogPostTemplate = ({
         }}>
 
         <div class="cluster-bunch">
-          <PreviewCompatibleImage
-            className="image"
-            imageInfo={{
-              image: featuredimage,
-              alt: `featured image thumbnail for post ${title}`,
-            }}
-          />
+        {/* workaround for Gatsby Img grief */}
+          <div style={{
+            minWidth: 48,
+            minHeight: 48,
+            backgroundRepeat: `no-repeat`,
+            backgroundPosition: `center`,
+            backgroundImage: `url(/img/${snakeCase(title)}.png)`
+          }}>
+          </div>
+          {/* good job, end of workaround */}
           <h1 style={{
             fontSize: `5.2vw`
           }}>{title}</h1>
-          <BackwardsCompatibleImage
-            className="image"
-            imageInfo={{
-              image: featuredimage,
-              alt: `featured image thumbnail for post ${title}`,
-            }}
-          />
+          {/* workaround for Gatsby Img grief */}
+            <div style={{
+              minWidth: 48,
+              minHeight: 48,
+              transform:`scaleX(-1)`,
+              backgroundRepeat: `no-repeat`,
+              backgroundPosition: `center`,
+              backgroundImage: `url(/img/${snakeCase(title)}.png)`
+            }}>
+            </div>
+            {/* good job, end of workaround */}
         </div>
         <p class="heading">{description}</p>
 
