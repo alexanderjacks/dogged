@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Crystal Fruit
-type: fruit
+type: Fruit
 description: A delicate fruit that pops up from the snow.
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z
@@ -12,4 +12,5 @@ tags:
   -  forageable
   -  jelly
   -  wine
+  -  bundle
 ---

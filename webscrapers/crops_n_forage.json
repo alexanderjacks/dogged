@@ -1027,6 +1027,30 @@
    "Used In": ["Winter Seeds", "Winter Foraging Bundle", "Sandy (loved gift)"]
  },
  {
+   "Crop": "Cactus Fruit",
+   "Foragable": true,
+   "Seeds": "Cactus Fruit Seeds",
+   "Seasons": {"All": true, "Indoor": true},
+   "Type": "Fruit",
+   "Description": "The sweet fruit of the prickly pear cactus.",
+   "Place": "All",
+   "Sell Price": 75,
+   "Restores": "75  33",
+   "Used In": ["Exotic Foraging Bundle", "Jelly", "Wine", "Linus (loved gift)", "Pam (loved gift)", "Sam (loved gift)"]
+ },
+ {
+   "Crop": "Coconut",
+   "Foragable": true,
+   "Seeds": "Unavailable",
+   "Seasons": ["Spring","Summer","Fall","Winter"],
+   "Type": "Fruit",
+   "Description": "A seed of the coconut palm. It has many culinary uses.",
+   "Place": "All",
+   "Sell Price": 100,
+   "Restores": "Inedible",
+   "Used In": ["Tom Kha Soup", "Exotic Foraging Bundle", "Jelly", "Wine", "Haley (loved gift)", "Linus (loved gift)"]
+ },
+ {
    "Crop": "Holly",
    "Foragable": true,
    "Seasons": ["Winter"],
@@ -1150,29 +1174,5 @@
    "Sell Price": 25,
    "Restores": "30  13",
    "Used In": ["Survival Burger", "Miner's Treat", "Roots Platter", "Stir Fry", "Exotic Foraging Bundle"]
- },
- {
-   "Crop": "Cactus Fruit",
-   "Foragable": true,
-   "Seeds": "Cactus Fruit Seeds",
-   "Seasons": {"All": true, "Indoor": true},
-   "Type": "Fruit",
-   "Description": "The sweet fruit of the prickly pear cactus.",
-   "Place": "All",
-   "Sell Price": 75,
-   "Restores": "75  33",
-   "Used In": ["Exotic Foraging Bundle", "Jelly", "Wine", "Linus (loved gift)", "Pam (loved gift)", "Sam (loved gift)"]
- },
- {
-   "Crop": "Coconut",
-   "Foragable": true,
-   "Seeds": "Unavailable",
-   "Seasons": ["Spring","Summer","Fall","Winter"],
-   "Type": "Fruit",
-   "Description": "A seed of the coconut palm. It has many culinary uses.",
-   "Place": "All",
-   "Sell Price": 100,
-   "Restores": "Inedible",
-   "Used In": ["Tom Kha Soup", "Exotic Foraging Bundle", "Jelly", "Wine", "Haley (loved gift)", "Linus (loved gift)"]
  }
 ]

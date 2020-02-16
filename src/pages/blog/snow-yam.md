@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Snow Yam
-type: forage
+type: Forage
 description: This little yam was hiding beneath the snow.
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z
@@ -12,4 +12,5 @@ tags:
   -  edible
   -  forage
   -  forageable
+  -  bundle
 ---

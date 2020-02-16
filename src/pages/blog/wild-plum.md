@@ -1,15 +1,13 @@
 ---
 templateKey: blog-post
-title: Grape
+title: Wild Plum
 type: fruit
-description: A sweet cluster of fruit.
+description: Tart and juicy with a pungent aroma.
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Grape.png
+featuredimage: /img/Wild_Plum.png
 sellPrice: 80
 tags: 
-  - fruit
-  -  seed
-  -  trellis
+  - Fall
   -  forageable
 ---

@@ -9,5 +9,5 @@ featuredimage: /img/Beet.png
 sellPrice: 100
 tags: 
   - vegetable
-  -  \"The Mysterious Qi\" Quest
+  -  "The Mysterious Qi" Quest
 ---
