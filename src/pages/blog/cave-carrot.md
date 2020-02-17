@@ -12,7 +12,7 @@ tags:
   - edible
   - The Mines
   - Survival Burger
-  - Miners Treat
+  - Miner's Treat
   - Roots Platter
   - Stir Fry
   - Exotic Foraging Bundle

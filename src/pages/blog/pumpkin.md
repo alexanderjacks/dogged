@@ -10,7 +10,7 @@ sellPrice: 320
 tags:
   - vegetable
   - Abigail
-  - Autumns Bounty
+  - Autumn's Bounty
   - Pumpkin Pie
   - Pumpkin Soup
   - Jack-O-Lantern

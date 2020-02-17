@@ -11,7 +11,7 @@ tags:
   - Spring
   - Summer
   - The Mines
-  - Farm Cave
+  - Farm
   - Secret Woods
   - Fried Mushroom
   - Stir Fry
