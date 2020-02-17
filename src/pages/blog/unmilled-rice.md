@@ -7,7 +7,8 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Unmilled_Rice.png
 sellPrice: 30
-tags: 
+tags:
   - Spring
-  -  vegetable
+  - vegetable
+  - Rice
 ---

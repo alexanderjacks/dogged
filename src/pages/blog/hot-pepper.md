@@ -7,10 +7,14 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Hot_Pepper.png
 sellPrice: 40
-tags: 
+tags:
   - Summer
-  -  edible
-  -  Linus
-  -  Shane
-  -  vegetable
+  - edible
+  - fruit
+  - Pepper Poppers
+  - Spicy Eel
+  - Summer Crops Bundle
+  - Knee Therapy Quest
+  - Lewis
+  - Shane
 ---

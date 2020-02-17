@@ -7,7 +7,8 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Sea_Urchin.png
 sellPrice: 160
-tags: 
+tags:
   - forageable
-  -  fishpond
+  - fishpond
+  - Dye Bundle
 ---

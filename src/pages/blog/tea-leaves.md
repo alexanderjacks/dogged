@@ -7,8 +7,9 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Tea_Leaves.png
 sellPrice: 55
-tags: 
+tags:
   - vegetable
-  -  Caroline
-  -  monthly
+  - Caroline
+  - monthly
+  - Green Tea
 ---

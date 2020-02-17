@@ -7,9 +7,9 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Sap.png
 sellPrice: 2
-tags: 
+tags:
   - Spring
-  -  Summer
-  -  Fall
-  -  Winter
+  - Summer
+  - Fall
+  - Winter
 ---

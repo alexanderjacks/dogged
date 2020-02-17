@@ -7,8 +7,12 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Cauliflower.png
 sellPrice: 175
-tags: 
+tags:
   - Spring
-  -  edible
-  -  vegetable
+  - edible
+  - vegetable
+  - Cheese Cauliflower
+  - Spring Crops Bundle
+  - Jodis Request Quest
+  - Maru
 ---

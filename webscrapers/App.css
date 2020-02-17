@@ -1,0 +1,276 @@
+@import "PlacesNStuff.css";
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+* {
+  margin: 0;
+}
+
+.p-3 {
+  margin: 1.2rem 1.2rem 1.2rem 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6, .SortMenuItem {
+  font-family: 'Fredoka One', cursive;
+  line-height: 1.3;
+}
+Button span {
+  font-family: 'Fredoka One', cursive;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1 { font-size: calc(24px + 2vmin); }
+h2 { font-size: calc(20px + 2vmin); }
+h3 { font-size: calc(16px + 2vmin); }
+h4 { font-size: calc(14px + 2vmin); }
+h5 { font-size: calc(12px + 2vmin); }
+h6 { font-size: calc(10px + 2vmin); }
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.App {
+  text-align: center;
+  width: 100vw;
+  margin: 0px 0px 0px 0px;
+  padding: 0rem;
+  line-height: 1.6;
+  background-image: linear-gradient(blue, deepskyblue, forestgreen);
+}
+.Popup {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.Popup section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+/* keeps text on top of animations */
+p {z-index: 2;}
+
+.App-logo {
+    height: 10vmin;
+    pointer-events: none;
+}
+.prices_bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* large area styling */
+.App-header {
+  background-image: radial-gradient(  black, navy, blue);
+  min-height: 12vh;
+  padding: 0.2rem 0.5rem 0.4rem 0.5rem;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+FormControl { color: white; }
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  padding: 0.35rem 0rem 2rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
+  min-height: 88vh;
+  width: 100vw;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.responsive-stuff {
+  margin: 0.25rem;
+  @media only screen and (max-width: 400px) {
+    background-color: lightblue;
+  }
+  @media only screen and (max-width: 600px) {
+    background-color: forestgreen;
+  }
+  @media only screen and (max-width: 900px) {
+    background-color: lime;
+  }
+
+}
+
+.css3frame-card-back { background-image: linear-gradient(to bottom, rgba(245,222,179,0.1),rgba(245,222,179,0.95), rgba(245,222,179,1)); }
+.css3frame-card-back-sidefade {
+    background-image: linear-gradient(to right, rgba(245,222,179,0.1), rgba(245,222,179,0.2), rgba(245,222,179,0.9)),
+    linear-gradient(to left, rgba(245,222,179,0.1), rgba(245,222,179,0.2), rgba(245,222,179,0.9));
+}
+.css3frame-card-padding {
+  padding: 3px 7px 7px 7px;
+  margin: 0;
+}
+.css3frame-border-1 { border: 2px sienna solid; border-radius: 2px; }
+.css3frame-border-2 { border: 3px chocolate solid; border-radius: 2px; }
+.css3frame-border-3 { border: 5px sandybrown solid; border-radius: 7px; }
+.css3frame-border-4 { border: 2px brown solid; border-radius: 8px; }
+
+.dim-the-unchosen { background: rgba(70, 72, 82, 0.3) }
+
+.word-wrap-break {
+  word-wrap: break-word;
+}
+
+.item-plain {
+  border: white solid 0px;
+  height: 48px;
+  width: 48px;
+}
+.item-border {
+  border: sienna solid 2px;
+  background-image: radial-gradient(wheat, tan);
+  padding: 2px;
+  height: 48px;
+  width: 48px;
+}
+.crop-stages-frame {
+  border: white solid 2px;
+  background-image: radial-gradient(wheat, tan);
+  padding: 3px;
+}
+.seasonTile {
+  max-width: 48px;
+  max-height: 32px;
+}
+.lotta-text {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.lista-stuff {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navy { color: navy; }
+
+.App-header-ctrls {
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.SortMenuItem {
+  text-shadow: 2px 2px 4px navy,
+  -2px -2px 4px navy,
+  -2px 2px 4px blue,
+2px -2px 4px blue;
+  margin: 3rem;
+  font-size: 2rem;
+}
+a:hover, .firelink:hover {
+  text-decoration: none;
+  text-shadow: 2px 2px 4px red,
+  -2px -2px 4px red,
+  -2px 2px 4px gold,
+2px -2px 4px gold;
+}
+a {
+  text-decoration: none;
+}
+
+.master-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.categorical {
+  min-width: 100vw;
+}
+.tinted-card {
+  border-radius: 1.2rem;
+  padding: 10px;
+  max-width: 100vw;
+}
+/* layout utilities */
+
+.rowed {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: inherit;
+}
+.spaced-out {
+  justify-content: space-between;
+}
+.coled {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: inherit;
+}
+.coled * {
+  margin: 0.0em;
+  padding: 0.15em;
+}
+.text-shadow-white {
+  text-shadow: 2px 2px 4px white, -2px -2px 4px white, -2px 2px 4px white, 2px -2px 4px white;
+}
+
+.no-repeat-bg {
+  background-size: cover;
+  resize: both;
+}
+
+.max-tallness {
+  min-height: 100%;
+}
+.max200px {
+  max-width: 200px;
+  overflow-wrap: normal;
+}
+.max235px {
+  max-width: 235px;
+  overflow-wrap: normal;
+}
+
+.max400px {
+  max-width: 400px;
+  overflow-wrap: normal;
+}
+
+.max420px {
+  max-width: 420px;
+  overflow-wrap: normal;
+}
+.tiny-img {
+  width: 26px;
+  height: 26px;
+}
+.pulse { animation: pulse infinite 4s linear; }
+@keyframes pulse { 50% { transform: scale(1.2); }}
+
+.pulse2 { animation: pulse infinite 13s linear; }
+@keyframes pulse2 { 50% { transform: scale(1.1); }}
+
+.exploding-icon-UX {
+  animation: icon-swells-to-fill-viewport 2.2s linear;
+}
+
+@keyframes icon-swells-to-fill-viewport {
+  100% {
+    transform: scale(35);
+  }
+}

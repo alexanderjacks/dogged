@@ -7,7 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Morel.png
 sellPrice: 150
-tags: 
+tags:
   - Spring
-  -  Secret Woods
+  - Secret Woods
+  - Fried Mushroom
+  - Life Elixir
+  - Exotic Foraging Bundle
 ---

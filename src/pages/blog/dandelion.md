@@ -7,6 +7,9 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Dandelion.png
 sellPrice: 40
-tags: 
+tags:
   - Spring
+  - Salad
+  - Spring Seeds
+  - Spring Foraging Bundle
 ---

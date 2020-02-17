@@ -7,9 +7,12 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Wheat.png
 sellPrice: 25
-tags: 
+tags:
   - Summer
-  -  Fall
-  -  edible
-  -  vegetable
+  - Fall
+  - edible
+  - flower
+  - Beer
+  - Wheat Flour
+  - Fodder Bundle
 ---

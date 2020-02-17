@@ -7,8 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Green_Bean.png
 sellPrice: 40
-tags: 
+tags:
   - Spring
-  -  edible
-  -  vegetable
+  - edible
+  - vegetable
+  - Bean Hotpot
+  - Spring Crops Bundle
 ---

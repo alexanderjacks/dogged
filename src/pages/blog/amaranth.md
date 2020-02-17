@@ -7,6 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Amaranth.png
 sellPrice: 150
-tags: 
+tags:
+  - Summer
+  - edible
   - vegetable
+  - Salmon Dinner
+  - Cows Delight Quest
 ---

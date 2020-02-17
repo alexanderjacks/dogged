@@ -7,10 +7,13 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Red_Mushroom.png
 sellPrice: 75
-tags: 
+tags:
   - Spring
-  -  Summer
-  -  The Mines
-  -  Farm Cave
-  -  Secret Woods
+  - Summer
+  - The Mines
+  - Farm Cave
+  - Secret Woods
+  - Dye Bundle
+  - Exotic Foraging Bundle
+  - Life Elixir
 ---

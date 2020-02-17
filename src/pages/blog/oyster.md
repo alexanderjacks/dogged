@@ -7,7 +7,7 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Oyster.png
 sellPrice: 40
-tags: 
+tags:
   - forageable
-  -  Crab Pot Bundle
+  - Crab Pot Bundle
 ---

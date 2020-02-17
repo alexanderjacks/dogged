@@ -7,8 +7,9 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Blue_Jazz.png
 sellPrice: 50
-tags: 
+tags:
   - Spring
-  -  edible
-  -  flower
+  - edible
+  - flower
+  - Lucky Lunch
 ---

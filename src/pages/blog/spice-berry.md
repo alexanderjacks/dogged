@@ -7,9 +7,13 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Spice_Berry.png
 sellPrice: 80
-tags: 
+tags:
   - Summer
-  -  fruit
-  -  jelly
-  -  wine
+  - fruit
+  - jelly
+  - wine
+  - Summer Seeds
+  - Summer Foraging Bundle
+  - Jelly
+  - Wine
 ---

@@ -7,8 +7,11 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Crocus.png
 sellPrice: 60
-tags: 
+tags:
   - forageable
-  -  bundle
-  -  Sandy
+  - bundle
+  - Sandy
+  - Winter Seeds
+  - Winter Foraging Bundle
+  - Sandy
 ---

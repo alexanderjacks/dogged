@@ -7,7 +7,12 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Blackberry.png
 sellPrice: 20
-tags: 
+tags:
   - Fall
-  -  forageable
+  - forageable
+  - Fall Seeds
+  - Blackberry Cobbler
+  - Fall Foraging Bundle
+  - Jelly
+  - Wine
 ---

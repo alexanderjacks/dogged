@@ -7,9 +7,9 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Tulip.png
 sellPrice: 30
-tags: 
+tags:
   - Spring
-  -  edible
-  -  Evelyn
-  -  flower
+  - edible
+  - Evelyn
+  - flower
 ---

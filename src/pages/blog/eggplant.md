@@ -7,8 +7,11 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Eggplant.png
 sellPrice: 60
-tags: 
+tags:
   - edible
-  -  Summer
-  -  multi
+  - Summer
+  - multi
+  - Eggplant Parmesan
+  - Survival Burger
+  - Fall Crops Bundle
 ---

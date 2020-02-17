@@ -7,7 +7,8 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Chanterelle.png
 sellPrice: 160
-tags: 
+tags:
   - Fall
-  -  forageable
+  - forageable
+  - Life Elixir
 ---

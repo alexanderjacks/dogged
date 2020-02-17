@@ -7,6 +7,9 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Wild_Horseradish.png
 sellPrice: 50
-tags: 
+tags:
   - Spring
+  - Spring Seeds
+  - Spring Foraging Bundle
+  - Krobus
 ---

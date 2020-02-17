@@ -7,7 +7,9 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Clam.png
 sellPrice: 50
-tags: 
+tags:
   - forageable
-  -  Clam Chowder
+  - Speed-Gro
+  - Chowder
+  - Crab Pot Bundle
 ---

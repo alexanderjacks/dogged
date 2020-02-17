@@ -7,9 +7,14 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Parsnip.png
 sellPrice: 35
-tags: 
+tags:
   - Spring
-  -  edible
-  -  Pam
-  -  vegetable
+  - edible
+  - Pam
+  - vegetable
+  - Farmers Lunch
+  - Parsnip Soup
+  - Spring Crops Bundle
+  - Quality Crops Bundle
+  - Pam
 ---

@@ -7,9 +7,14 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Melon.png
 sellPrice: 250
-tags: 
+tags:
   - Summer
-  -  Haley
-  -  edible
-  -  fruit
+  - edible
+  - fruit
+  - Fruit Salad
+  - Pink Cake
+  - Summer Crops Bundle
+  - Quality Crops Bundle
+  - Crop Research Quest
+  - Haley
 ---

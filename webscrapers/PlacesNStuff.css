@@ -1,0 +1,133 @@
+/* time/place background styling */
+.Spring { background: url(./img/Spring.png), wheat ; }
+.Summer { background: url(./img/Summer.png), wheat ; }
+.Fall { background: url(./img/Fall.png), wheat ; }
+.Winter { background: url(./img/Winter.png), wheat ; }
+
+.Town { background: url(./img/paper-Town.png), wheat ; }
+.Secret_Woods { background: url(./img/paper-Secret_Woods.png), wheat ; }
+.Bushes { background: url(./img/paper-Bushes.png), wheat ; }
+.River { background: url(./img/paper-River.png), wheat ; }
+.Lake { background: url(./img/paper-Lake.png), wheat ; }
+.Ocean { background: url(./img/paper-Ocean.png), wheat ; }
+.The_Beach { background: url(./img/paper-The_Beach.png), wheat ; }
+.The_Mines { background: url(./img/paper-The_Mines.png), wheat ; }
+.The_Sewers { background: url(./img/paper-The_Sewers.png), wheat ; }
+.Mutant_Bug_Lair { background: url(./img/paper-Mutant_Bug_Lair.png), wheat ; }
+.Night_Market { background: url(./img/paper-Night_Market.png), wheat ; }
+.The_Desert { background: url(./img/paper-The_Desert.png), wheat ; }
+.Skull_Cavern { background: url(./img/paper-Skull_Cavern.png), wheat ; }
+.Witchs_Swamp { background: url(./img/paper-Witchs_Swamp.png), wheat ; }
+.Special { background: url(./img/paper-Special.png), wheat ; }
+
+/* Minerals */
+.Furnace { background: url(./img/paper-Furnace.png), wheat ; }
+.Magma_Geode { background: url(./img/Magma_Geode.png), maroon ; }
+.Omni_Geode { background: url(./img/Omni_Geode.png), purple ; }
+.Geode { background: url(./img/Geode.png), chocolate ; }
+.Frozen_Geode { background: url(./img/Frozen_Geode.png), teal ; }
+
+/* Bundles' official imgs */
+.Spring_Foraging_Bundle { background: url(./img/Spring_Foraging_Bundle.png); }
+.Summer_Foraging_Bundle { background: url(./img/Summer_Foraging_Bundle.png); }
+.Fall_Foraging_Bundle { background: url(./img/Fall_Foraging_Bundle.png); }
+.Winter_Foraging_Bundle { background: url(./img/Winter_Foraging_Bundle.png); }
+.Construction_Bundle { background: url(./img/Construction_Bundle.png); }
+.Exotic_Foraging_Bundle { background: url(./img/Exotic_Foraging_Bundle.png); }
+.Spring_Crops_Bundle { background: url(./img/Spring_Crops_Bundle.png); }
+.Summer_Crops_Bundle { background: url(./img/Summer_Crops_Bundle.png); }
+.Fall_Crops_Bundle { background: url(./img/Fall_Crops_Bundle.png); }
+.Quality_Crops_Bundle { background: url(./img/Quality_Crops_Bundle.png); }
+.Animal_Bundle { background: url(./img/Animal_Bundle.png); }
+.Artisan_Bundle { background: url(./img/Artisan_Bundle.png); }
+.River_Fish_Bundle { background: url(./img/River_Fish_Bundle.png); }
+.Lake_Fish_Bundle { background: url(./img/Lake_Fish_Bundle.png); }
+.Ocean_Fish_Bundle { background: url(./img/Ocean_Fish_Bundle.png); }
+.Night_Fishing_Bundle { background: url(./img/Night_Fishing_Bundle.png); }
+.Specialty_Fish_Bundle { background: url(./img/Specialty_Fish_Bundle.png); }
+.Crab_Pot_Bundle { background: url(./img/Crab_Pot_Bundle.png); }
+.Blacksmiths_Bundle { background: url(./img/Blacksmiths_Bundle.png); }
+.Geologists_Bundle { background: url(./img/Geologists_Bundle.png); }
+.Adventurers_Bundle { background: url(./img/Adventurers_Bundle.png); }
+.Chefs_Bundle { background: url(./img/Chefs_Bundle.png); }
+.Dye_Bundle { background: url(./img/Dye_Bundle.png); }
+.Field_Research_Bundle { background: url(./img/Field_Research_Bundle.png); }
+.Fodder_Bundle { background: url(./img/Fodder_Bundle.png); }
+.Enchanters_Bundle { background: url(./img/Enchanters_Bundle.png); }
+.g2500_Bundle { background: url(./img/g2500_Bundle.png); }
+.g5000_Bundle { background: url(./img/g5000_Bundle.png); }
+.g10000_Bundle { background: url(./img/g10000_Bundle.png); }
+.g25000_Bundle { background: url(./img/g25000_Bundle.png); }
+
+/* Recipes */
+.Fried_Egg { background: url(./img/Fried_Egg.png); }
+.Omelet { background: url(./img/Omelet.png); }
+.Salad { background: url(./img/Salad.png); }
+.Cheese_Cauliflower { background: url(./img/Cheese_Cauliflower.png); }
+.Baked_Fish { background: url(./img/Baked_Fish.png); }
+.Parsnip_Soup { background: url(./img/Parsnip_Soup.png); }
+.Vegetable_Medley { background: url(./img/Vegetable_Medley.png); }
+.Complete_Breakfast { background: url(./img/Complete_Breakfast.png); }
+.Fried_Calamari { background: url(./img/Fried_Calamari.png); }
+.Strange_Bun { background: url(./img/Strange_Bun.png); }
+.Lucky_Lunch { background: url(./img/Lucky_Lunch.png); }
+.Fried_Mushroom { background: url(./img/Fried_Mushroom.png); }
+.Pizza { background: url(./img/Pizza.png); }
+.Bean_Hotpot { background: url(./img/Bean_Hotpot.png); }
+.Glazed_Yams { background: url(./img/Glazed_Yams.png); }
+.Carp_Surprise { background: url(./img/Carp_Surprise.png); }
+.Hashbrowns { background: url(./img/Hashbrowns.png); }
+.Pancakes { background: url(./img/Pancakes.png); }
+.Salmon_Dinner { background: url(./img/Salmon_Dinner.png); }
+.Fish_Taco { background: url(./img/Fish_Taco.png); }
+.Crispy_Bass { background: url(./img/Crispy_Bass.png); }
+.Pepper_Poppers { background: url(./img/Pepper_Poppers.png); }
+.Bread { background: url(./img/Bread.png); }
+.Tom_Kha_Soup { background: url(./img/Tom_Kha_Soup.png); }
+.Trout_Soup { background: url(./img/Trout_Soup.png); }
+.Chocolate_Cake { background: url(./img/Chocolate_Cake.png); }
+.Pink_Cake { background: url(./img/Pink_Cake.png); }
+.Rhubarb_Pie { background: url(./img/Rhubarb_Pie.png); }
+.Cookie { background: url(./img/Cookie.png); }
+.Spaghetti { background: url(./img/Spaghetti.png); }
+.Fried_Eel { background: url(./img/Fried_Eel.png); }
+.Spicy_Eel { background: url(./img/Spicy_Eel.png); }
+.Sashimi { background: url(./img/Sashimi.png); }
+.Maki_Roll { background: url(./img/Maki_Roll.png); }
+.Tortilla { background: url(./img/Tortilla.png); }
+.Red_Plate { background: url(./img/Red_Plate.png); }
+.Eggplant_Parmesan { background: url(./img/Eggplant_Parmesan.png); }
+.Rice_Pudding { background: url(./img/Rice_Pudding.png); }
+.Ice_Cream { background: url(./img/Ice_Cream.png); }
+.Blueberry_Tart { background: url(./img/Blueberry_Tart.png); }
+.Autumn%27s_Bounty { background: url(./img/Autumn's_Bounty.png); }
+.Pumpkin_Soup { background: url(./img/Pumpkin_Soup.png); }
+.Super_Meal { background: url(./img/Super_Meal.png); }
+.Cranberry_Sauce { background: url(./img/Cranberry_Sauce.png); }
+.Stuffing { background: url(./img/Stuffing.png); }
+.Farmer%27s_Lunch { background: url(./img/Farmer's_Lunch.png); }
+.Survival_Burger { background: url(./img/Survival_Burger.png); }
+.Dish_O%27_The_Sea { background: url(./img/Dish_O'_The_Sea.png); }
+.Miner%27s_Treat { background: url(./img/Miner's_Treat.png); }
+.Roots_Platter { background: url(./img/Roots_Platter.png); }
+.Algae_Soup { background: url(./img/Algae_Soup.png); }
+.Pale_Broth { background: url(./img/Pale_Broth.png); }
+.Plum_Pudding { background: url(./img/Plum_Pudding.png); }
+.Artichoke_Dip { background: url(./img/Artichoke_Dip.png); }
+.Stir_Fry { background: url(./img/Stir_Fry.png); }
+.Roasted_Hazelnuts { background: url(./img/Roasted_Hazelnuts.png); }
+.Pumpkin_Pie { background: url(./img/Pumpkin_Pie.png); }
+.Radish_Salad { background: url(./img/Radish_Salad.png); }
+.Fruit_Salad { background: url(./img/Fruit_Salad.png); }
+.Blackberry_Cobbler { background: url(./img/Blackberry_Cobbler.png); }
+.Cranberry_Candy { background: url(./img/Cranberry_Candy.png); }
+.Bruschetta { background: url(./img/Bruschetta.png); }
+.Coleslaw { background: url(./img/Coleslaw.png); }
+.Fiddlehead_Risotto { background: url(./img/Fiddlehead_Risotto.png); }
+.Poppyseed_Muffin { background: url(./img/Poppyseed_Muffin.png); }
+.Chowder { background: url(./img/Chowder.png); }
+.Lobster_Bisque { background: url(./img/Lobster_Bisque.png); }
+.Escargot { background: url(./img/Escargot.png); }
+.Fish_Stew { background: url(./img/Fish_Stew.png); }
+.Maple_Bar { background: url(./img/Maple_Bar.png); }
+.Crab_Cakes { background: url(./img/Crab_Cakes.png); }

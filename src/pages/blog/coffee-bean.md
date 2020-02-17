@@ -7,8 +7,9 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Coffee_Bean.png
 sellPrice: 15
-tags: 
+tags:
   - Spring
-  -  Summer
-  -  seed
+  - Summer
+  - seed
+  - Coffee
 ---

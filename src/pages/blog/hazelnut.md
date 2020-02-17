@@ -2,12 +2,16 @@
 templateKey: blog-post
 title: Hazelnut
 type: forage
-description: That's one big hazelnut!,
+description: Thats one big hazelnut!,
 featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Hazelnut.png
 sellPrice: 90
-tags: 
+tags:
   - Fall
-  -  forageable
+  - forageable
+  - Fall Seeds
+  - Roasted Hazelnuts
+  - Stuffing
+  - Fall Foraging Bundle
 ---

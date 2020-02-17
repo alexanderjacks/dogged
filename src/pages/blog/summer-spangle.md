@@ -7,8 +7,7 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Summer_Spangle.png
 sellPrice: 90
-tags: 
+tags:
   - Summer
-  -  edible
-  -  flower
+  - flower
 ---

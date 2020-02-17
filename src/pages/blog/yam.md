@@ -7,6 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Yam.png
 sellPrice: 160
-tags: 
+tags:
   - vegetable
+  - Autumns Bounty
+  - Glazed Yams
+  - Fall Crops Bundle
+  - Linus
 ---

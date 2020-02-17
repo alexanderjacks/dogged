@@ -38,6 +38,6 @@ with open('gosh.csv', 'rb') as csvfile:
         f.write('date: 2020-02-10T00:00:02.711Z\n')
         f.write('featuredimage: {}\n'.format(featuredimage))
         f.write('sellPrice: {}\n'.format(sellPrice))
-        f.write('tags: \n  - {}\n'.format(tags).replace(',','\n  - ' ))
+        f.write('tags:\n  - {}\n'.format(tags).replace(',','\n  -' ))
         f.write('---') # formatting req
         f.close() # python saves file on close()

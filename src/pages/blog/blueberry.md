@@ -7,8 +7,11 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Blueberry.png
 sellPrice: 50
-tags: 
+tags:
   - Spring
-  -  edible
-  -  fruit
+  - edible
+  - fruit
+  - Blueberry Tart
+  - Fruit Salad
+  - Summer Crops Bundle
 ---

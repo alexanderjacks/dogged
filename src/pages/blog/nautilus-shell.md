@@ -7,7 +7,8 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Nautilus_Shell.png
 sellPrice: 120
-tags: 
+tags:
   - forageable
-  -  quest
+  - quest
+  - Field Research Bundle
 ---

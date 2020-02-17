@@ -7,10 +7,11 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Snow_Yam.png
 sellPrice: 100
-tags: 
+tags:
   - Winter
-  -  edible
-  -  forage
-  -  forageable
-  -  bundle
+  - edible
+  - forage
+  - forageable
+  - Winter Seeds
+  - Winter Foraging Bundle
 ---

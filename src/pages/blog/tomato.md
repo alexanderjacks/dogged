@@ -7,8 +7,16 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Tomato.png
 sellPrice: 60
-tags: 
+tags:
   - Summer
-  -  edible
-  -  vegetable
+  - edible
+  - flower
+  - Bruschetta
+  - Eggplant
+  - Parmesan
+  - Fish Stew
+  - Pizza
+  - Spaghetti
+  - Vegetable Medley
+  - Summer Crops Bundle
 ---

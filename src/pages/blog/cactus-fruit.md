@@ -7,12 +7,13 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Cactus_Fruit.png
 sellPrice: 75
-tags: 
-  - indoor
-  -  Sam
-  -  Pam
-  -  Linus
-  -  Jelly
-  -  The Desert
-  -  Exotic Foraging Bundle
+tags:
+  - indoors
+  - Sam
+  - Pam
+  - Linus
+  - Jelly
+  - The Desert
+  - Exotic Foraging Bundle
+  - Wine
 ---

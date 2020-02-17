@@ -7,8 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Radish.png
 sellPrice: 90
-tags: 
+tags:
   - Summer
-  -  edible
-  -  vegetable
+  - edible
+  - vegetable
+  - Radish Salad
+  - Red Plate
 ---

@@ -7,8 +7,11 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Starfruit.png
 sellPrice: 750
-tags: 
+tags:
   - Summer
-  -  edible
-  -  fruit
+  - fruit
+  - jelly
+  - wine
+  - Junimo Hut
+  - Soldiers Star Quest
 ---

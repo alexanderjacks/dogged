@@ -7,8 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Kale.png
 sellPrice: 110
-tags: 
+tags:
   - Spring
-  -  edible
-  -  vegetable
+  - edible
+  - vegetable
+  - Salmon Dinner
+  - Stir Fry
 ---

@@ -7,17 +7,18 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Coconut.png
 sellPrice: 100
-tags: 
+tags:
   - Spring
-  -  Summer
-  -  Fall
-  -  Winter
-  -  The Desert
-  -  Tom Kha Soup
-  -  Jelly
-  -  inedible
-  -  Haley
-  -  Linus
-  -  fruit
-  -  Exotic Foraging Bundle
+  - Summer
+  - Fall
+  - Winter
+  - The Desert
+  - Tom Kha Soup
+  - Jelly
+  - inedible
+  - Haley
+  - Linus
+  - fruit
+  - Exotic Foraging Bundle
+  - Wine
 ---

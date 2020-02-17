@@ -68,7 +68,7 @@ class TagRoute extends React.Component {
               }}>
                 <div
                 style={{
-                  backgroundImage:`url(/img/tag-${snakeCase(tag)}.png)`,
+                  backgroundImage:`url(/img/${snakeCase(tag)}.png)`,
                 }}>
                   <h1 className="title is-size-3 is-bold-light has-text-left"
                     style={{

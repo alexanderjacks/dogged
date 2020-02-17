@@ -7,8 +7,11 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Garlic.png
 sellPrice: 60
-tags: 
+tags:
   - Spring
-  -  edible
-  -  vegetable
+  - edible
+  - vegetable
+  - Escargot
+  - Fiddlehead Risotto
+  - Oil of Garlic
 ---

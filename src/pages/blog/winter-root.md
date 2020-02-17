@@ -7,8 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Winter_Root.png
 sellPrice: 70
-tags: 
+tags:
   - forageable
-  -  forage
-  -  bundle
+  - forage
+  - Winter Seeds
+  - Roots Platter
+  - Winter Foraging Bundle
 ---

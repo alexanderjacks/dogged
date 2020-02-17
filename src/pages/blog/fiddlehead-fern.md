@@ -7,7 +7,11 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Fiddlehead_Fern.png
 sellPrice: 90
-tags: 
+tags:
   - Summer
-  -  forageable
+  - forageable
+  - Fiddlehead Risotto
+  - Chefs Bundle
+  - Pickles
+  - Juice
 ---

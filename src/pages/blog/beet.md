@@ -7,7 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Beet.png
 sellPrice: 100
-tags: 
+tags:
   - vegetable
-  -  "The Mysterious Qi" Quest
+  - Vegetable Medley
+  - Sugar
+  - The Mysterious Qi Quest
+  - Evelyn
 ---

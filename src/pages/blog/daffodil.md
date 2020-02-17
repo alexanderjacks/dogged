@@ -7,7 +7,10 @@ featuredpost: false
 date: 2020-02-10T00:00:02.711Z
 featuredimage: /img/Daffodil.png
 sellPrice: 30
-tags: 
+tags:
   - Spring
-  -  Sandy
+  - Sandy
+  - Spring Seeds
+  - Spring Foraging Bundle
+  - Sandy
 ---
