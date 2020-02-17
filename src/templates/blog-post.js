@@ -29,55 +29,8 @@ export const BlogPostTemplate = ({
       backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
     }}>
       {helmet || ''}
-      <h2
-      className="title is-size-4 has-text-weight-bold"
-      style={{
-        display: `flex`,
-        flexFlow: `row wrap`,
-        justifyContent: `center`,
-        width: `100%`,
-      }}>
-        {title} Metadata
-      </h2>
-      {/* these tags can look the same as at /tags/ */}
-      {tags && tags.length ? (
-          <ul className="taglist"
-          style={{
-            backgroundImage:`linear-gradient(to right, #0000aa33, navy, #0000aa33)`,
-            padding: `2.5rem`,
-            marginTop: `0.15rem`,
-            marginBottom: `1.5rem`,
-            display: `flex`,
-            flexFlow: `row wrap`,
-            justifyContent: `space-around`,
-            alignItems: `center`,
-            borderRadius: `25%`,
-          }}>
-            {tags.map(tag => (
-              <li key={tag + `tag`}
-              style={{
-                marginBottom: `1.8rem`,
-                marginTop: `1.4rem`
-              }}>
-                <Link
-                to={`/tags/${kebabCase(tag)}/`}
-                class="title is-size-4"
-                style={{
-                  padding: `1rem`,
-                  backgroundImage: `url(/img/${snakeCase(tag)}.png)`,
-                  fontSize:`110%`,
-                  border: `2px gold dotted`,
-                  borderRadius: `1.5rem`,
-                  textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
-                }}>
-                  {tag}
-                </Link>
-              </li>
-            ))}
-          </ul>
-      ) : null}
 
-      <div className=""
+      <div className="basic-item-card"
         style={{
           margin:`0.6rem`,
           padding:`1.2rem`,
@@ -89,7 +42,6 @@ export const BlogPostTemplate = ({
           justifyContent: `left`,
           alignItems: `center`
         }}>
-
         <div class="cluster-bunch">
         {/* workaround for Gatsby Img grief */}
           <div style={{
@@ -103,7 +55,7 @@ export const BlogPostTemplate = ({
           {/* good job, end of workaround */}
           <h1 style={{
             fontSize: `5.2vw`
-          }}>{title}</h1>
+          }}>&nbsp;{title}&nbsp;</h1>
           {/* workaround for Gatsby Img grief */}
             <div style={{
               minWidth: 48,
@@ -122,21 +74,88 @@ export const BlogPostTemplate = ({
           class="columns is-mobile"
           style={{
             margin:`0.6rem`,
-            padding:`1.2rem`,
+            padding:`0.4rem`,
             borderRadius: `2rem`,
             border: `chocolate 6px groove`,
             backgroundColor: `#ffffff99`,
+            width: `inherit`,
             minWidth: `65vw`,
             display: `flex`,
-            flexFlow: `column wrap`,
+            flexFlow: `row wrap`,
             justifyContent: `center`,
-            alignItems: `center`
+            alignItems: `baseline`
           }}>
 
-          <h1 class="heading column is-6">sell price:&nbsp;</h1><h1 class="title column">{sellPrice}g</h1>
-          <h1 class="heading column is-6">type:&nbsp;</h1>
-          <h1 class="title column">{type}</h1>
+          <h2 class="column is-6" style={{textAlign:`right`}}>
+            sell price:&nbsp;
+          </h2>
+          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+            {sellPrice}g
+          </h1>
+          <h2 class="column is-6" style={{textAlign:`right`}}>
+            type:&nbsp;
+          </h2>
+          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+            {type}
+          </h1>
+
         </div>
+        {
+          tags &&
+        <p
+        class="heading"
+        style={{
+          display: `flex`,
+          flexFlow: `row wrap`,
+          justifyContent: `center`,
+        }}>
+          {title} Metadata
+        </p>
+        }
+        {tags && tags.length ? (
+          <ul className="taglist"
+          style={{
+            width: `100%`,
+            backgroundImage:`radial-gradient(cornsilk, #33000033)`,
+            padding: `1.5rem`,
+            marginTop: `0.15rem`,
+            marginBottom: `1.5rem`,
+            display: `flex`,
+            flexFlow: `row wrap`,
+            justifyContent: `space-around`,
+            alignItems: `center`,
+            borderRadius: `25%`,
+          }}>
+            {tags.map(tag => (
+              <li key={tag + `tag`}
+              style={{
+                marginBottom: `1.8rem`,
+                marginTop: `1.4rem`
+              }}>
+                <Link
+                to={`/tags/${kebabCase(tag)}/`}
+                class="is-size-4"
+                style={{
+                  padding: `0.8rem`,
+                  color: `black`,
+                  backgroundImage: `url(/img/${snakeCase(tag)}.png)`,
+                  fontFamily:`Fredericka the Great`,
+                  fontSize:`110%`,
+                  fontWeight: 600,
+                  display: `flex`,
+                  flexFlow: `row wrap`,
+                  justifyContent: `space-around`,
+                  alignItems: `center`,
+                  border: `2px chocolate dotted`,
+                  borderRadius: `1.5rem`,
+                  textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
+                }}>
+                  {tag}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        ) : null}
 
       </div>
     </section>
