@@ -9,5 +9,3 @@ export default ({client, slot, format = 'auto'}) => (
   data-ad-format={format}></ins>
   </div>
 )
-
-export default GoogleAd
