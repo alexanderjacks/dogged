@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
+import GoogleAd from '../components/GoogleAd'
 
 export const IndexPageTemplate = ({
   image,
