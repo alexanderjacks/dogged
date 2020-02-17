@@ -18,6 +18,7 @@ export const IndexPageTemplate = ({
   style={{
     backgroundColor: `white`,
   }}>
+  <GoogleAd client="ca-pub-1699472970547311" slot="f08c47fec0942fa0" />
     <div
       className="full-width-image margin-top-0"
       style={{
