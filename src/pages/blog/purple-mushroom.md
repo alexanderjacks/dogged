@@ -9,7 +9,6 @@ featuredimage: /img/Purple_Mushroom.png
 sellPrice: 250
 tags:
   - forageable
-  - Wizard
   - Bulletin Board
   - Exotic Foraging Bundle
   - Field Research Bundle

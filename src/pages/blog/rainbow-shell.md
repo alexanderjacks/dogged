@@ -9,6 +9,5 @@ featuredimage: /img/Rainbow_Shell.png
 sellPrice: 300
 tags:
   - forageable
-  - quest
   - The Mysterious Qi Quest
 ---

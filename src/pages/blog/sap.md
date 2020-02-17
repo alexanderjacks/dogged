@@ -12,4 +12,8 @@ tags:
   - Summer
   - Fall
   - Winter
+  - Basic Fertilizer
+  - Quality Fertilizer
+  - Trap Bobber
+  - Torch
 ---

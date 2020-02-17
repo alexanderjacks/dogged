@@ -12,6 +12,8 @@ export const BlogPostTemplate = ({
   description,
   featuredimage,
   type,
+  energy,
+  health,
   tags,
   sellPrice,
   title,
@@ -49,7 +51,7 @@ export const BlogPostTemplate = ({
             minHeight: 48,
             backgroundRepeat: `no-repeat`,
             backgroundPosition: `center`,
-            backgroundImage: `url(/img/${snakeCase(title)}.png)`
+            backgroundImage: `url(/img/${snakeCase(title).replace(' ','_')}.png)`
           }}>
           </div>
           {/* good job, end of workaround */}
@@ -63,7 +65,7 @@ export const BlogPostTemplate = ({
               transform:`scaleX(-1)`,
               backgroundRepeat: `no-repeat`,
               backgroundPosition: `center`,
-              backgroundImage: `url(/img/${snakeCase(title)}.png)`
+              backgroundImage: `url(/img/${snakeCase(title).replace(' ','_')}.png)`
             }}>
             </div>
             {/* good job, end of workaround */}
@@ -167,6 +169,8 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   type: PropTypes.string,
+  energy: PropTypes.string,
+  health: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
   featuredimage: PropTypes.object,
@@ -219,6 +223,8 @@ export const pageQuery = graphql`
         type
         tags
         sellPrice
+        energy
+        health
       }
     }
   }

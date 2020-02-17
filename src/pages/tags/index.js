@@ -58,7 +58,11 @@ const TagsPage = ({
                     style={{
                       padding: `1.2rem`,
                       backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
-                      border: `2px gold dotted`,
+                      display: `flex`,
+                      flexFlow: `row wrap`,
+                      justifyContent: `space-around`,
+                      alignItems: `center`,
+                      border: `2px chocolate dotted`,
                       borderRadius: `1.5rem`,
                   }}>
                     <span

@@ -5,7 +5,7 @@
 
 import csv # csv deciphering module
 # opens file to work from (only read not write (rb not wb))
-with open('gosh.csv', 'rb') as csvfile:
+with open('crops.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors

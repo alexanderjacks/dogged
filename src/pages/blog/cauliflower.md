@@ -13,6 +13,6 @@ tags:
   - vegetable
   - Cheese Cauliflower
   - Spring Crops Bundle
-  - Jodis Request Quest
+  - Jodi's Request Quest
   - Maru
 ---

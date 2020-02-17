@@ -9,7 +9,7 @@ featuredimage: /img/Yam.png
 sellPrice: 160
 tags:
   - vegetable
-  - Autumns Bounty
+  - Autumn's Bounty
   - Glazed Yams
   - Fall Crops Bundle
   - Linus

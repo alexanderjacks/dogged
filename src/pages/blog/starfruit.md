@@ -13,5 +13,5 @@ tags:
   - jelly
   - wine
   - Junimo Hut
-  - Soldiers Star Quest
+  - A Soldier's Star Quest
 ---

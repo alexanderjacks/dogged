@@ -12,5 +12,5 @@ tags:
   - edible
   - vegetable
   - Salmon Dinner
-  - Cows Delight Quest
+  - Cows' Delight Quest
 ---

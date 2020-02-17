@@ -9,9 +9,5 @@ featuredimage: /img/Sweet_Gem_Berry.png
 sellPrice: 3000
 tags:
   - fruit
-  - Stardrop quest
-  - Basic Fertilizer
-  - Quality Fertilizer
-  - Trap Bobber
-  - Torch
+  - Old Master Canoli Quest
 ---
