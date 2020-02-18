@@ -129,18 +129,16 @@ export const BlogPostTemplate = ({
             borderRadius: `25%`,
           }}>
             {tags.map(tag => (
-              <li key={tag + `tag`}
-              style={{
-                marginBottom: `1.8rem`,
-                marginTop: `1.4rem`
-              }}>
+              <li key={tag + `tag`} style={{ marginBottom: `1.8rem`, marginTop: `1.4rem` }}>
                 <Link
                 to={`/tags/${kebabCase(tag)}/`}
                 class="is-size-4"
                 style={{
                   padding: `0.8rem`,
                   color: `black`,
-                  backgroundImage: `url(/img/${snakeCase(tag)}.png)`,
+                  backgroundImage: `url(/img/${
+                  tag === `6am - 2am` ? `sleepless` : snakeCase(tag)
+                  }.png)`,
                   fontFamily:`Fredericka the Great`,
                   fontSize:`110%`,
                   fontWeight: 600,
