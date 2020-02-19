@@ -14,6 +14,6 @@ tags:
   - Summer
   - Winter
   - AnyWeather
-  - Mountain Fish Bundle
+  - Lake Fish Bundle
   - Willy
 ---

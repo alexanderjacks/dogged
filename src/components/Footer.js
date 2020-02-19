@@ -32,7 +32,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link className="navbar-item" to="/tags">
-                        Metadata
+                        Metadata Tags
                       </Link>
                     </li>
                   </ul>

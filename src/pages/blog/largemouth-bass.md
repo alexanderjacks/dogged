@@ -16,7 +16,7 @@ tags:
   - Fall
   - Winter
   - AnyWeather
-  - Mountain Fish Bundle
+  - Lake Fish Bundle
   - Crispy Bass
   - Fish Casserole Quest
 ---

@@ -65,7 +65,7 @@ const Navbar = class extends React.Component {
                 Item Cards
               </Link>
               <Link className="navbar-item" to="/tags">
-                Metadata
+                Metadata Tags
               </Link>
               <Link className="navbar-item" to="/products">
                 Quest Guide
