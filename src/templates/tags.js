@@ -13,29 +13,30 @@ class TagRoute extends React.Component {
         className='column'
         style={{
           display:`flex`,
-          flexFlow: `row wrap`,
+          flexFlow: `column wrap`,
           justifyContent:`center`,
           alignItems:`center`,
-          marginBottom:`0.6rem`,
-          marginRight:`0.6rem`,
+          maxWidth:`35vw`,
           borderRadius: `1.5rem`,
           border: `chocolate 6px groove`,
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
+          marginBottom:`0.6rem`,
+          marginRight:`0.6rem`,
       }}>
         <Link to={post.node.fields.slug}
-        class="has-text-center"
         style={{
-          padding:`0.2rem`,
+          padding:`0.45rem`,
+          paddingTop:`1.25rem`,
           backgroundImage: `url(/img/${snakeCase(post.node.frontmatter.title)}.png)`,
           backgroundPosition: `center`,
           backgroundRepeat: `no-repeat`,
         }}>
-          <h4 className="is-size-3"
+          <h4
           style={{
-            paddingTop:`1.2rem`,
             textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
             textAlign: 'center',
-            fontWeight: 300,
+            fontSize:`5vw`,
+            fontWeight: 400,
             lineHeight: '1',
             color:`black`,
           }}>
@@ -75,7 +76,7 @@ class TagRoute extends React.Component {
                       paddingLeft: `2rem`,
                       paddingBottom: `3rem`,
                       border: `4`,
-                      paddingTop: `2rem`,
+                      padding: `2rem`,
                       width:`100%`,
                       border: `#09f 6px groove`,
                       backgroundImage: `linear-gradient(to right,#ffff,#fff3)`,
@@ -83,7 +84,13 @@ class TagRoute extends React.Component {
                     {tagHeader}
                   </h1>
                 </div>
-                <ul className="taglist columns">
+                <ul className="taglist columns is-mobile"
+                style={{
+                  display:`flex`,
+                  flexFlow: `row wrap`,
+                  justifyContent:`center`,
+                  alignItems:`center`,
+                }}>
                   {postLinks}
                 </ul>
                 <h2 className="title is-size-4 is-bold-light">

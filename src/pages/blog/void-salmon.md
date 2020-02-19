@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Void Salmon
 description: A salmon, twisted by void energy. The fresh meat is jet black, but rapidly turns pink when exposed to air.
 note: 
@@ -14,6 +15,6 @@ tags:
   - Summer
   - Fall
   - Winter
-  - Any
+  - AnyWeather
   - The Missing Bundle
 ---

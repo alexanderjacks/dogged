@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Perch
 description: A freshwater fish of the winter.
 note: 
@@ -14,5 +15,5 @@ tags:
   - Secret Woods
   - 6am - 2am
   - Winter
-  - Any
+  - AnyWeather
 ---

@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Albacore
 description: Prefers temperature edges where cool and warm water meet.
 note: 
@@ -13,6 +14,6 @@ tags:
   - 6pm – 2am
   - Fall
   - Winter
-  - Any
+  - AnyWeather
   - Fish Stew Quest
 ---

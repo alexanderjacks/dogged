@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Largemouth Bass
 description: A popular fish that lives in Mountains.
 note: 
@@ -14,7 +15,7 @@ tags:
   - Summer
   - Fall
   - Winter
-  - Any
+  - AnyWeather
   - Mountain Fish Bundle
   - Crispy Bass
   - Fish Casserole Quest

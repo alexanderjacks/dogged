@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Smallmouth Bass
 description: A freshwater fish that is very sensitive to pollution.
 note: 
@@ -13,5 +14,5 @@ tags:
   - 6am - 2am
   - Spring
   - Fall
-  - Any
+  - AnyWeather
 ---
