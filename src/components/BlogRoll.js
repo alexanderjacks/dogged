@@ -9,7 +9,10 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <ul className="columns is-mobile is-multiline">
+      <ul className="columns is-mobile is-multiline"
+      style={{
+        paddingTop:`1rem`,
+      }}>
         {posts &&
           posts.map(({ node: post }) => (
             <li className="column" key={post.id}>
@@ -20,8 +23,8 @@ class BlogRoll extends React.Component {
                   flexFlow: `row nowrap`,
                   justifyContent:`center`,
                   alignItems:`center`,
-                  paddingTop:`3.9rem`,
-                  padding:`2.3rem`,
+                  paddingTop:`2.2rem`,
+                  padding:`1.1rem`,
                   marginBottom:`0.25rem`,
                   marginRight:`0.25rem`,
                   borderRadius: `1.5rem`,

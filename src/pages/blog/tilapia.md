@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Tilapia
 description: A primarily vegetarian fish that prefers warm water.
 note: 
@@ -12,6 +13,6 @@ tags:
   - 6am – 2pm
   - Summer
   - Fall
-  - Any
-  - Beach Fish Bundle
+  - AnyWeather
+  - Ocean Fish Bundle
 ---

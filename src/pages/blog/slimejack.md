@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Slimejack
 description: He's coated in a very thick layer of slime. He keeps slipping out of your hands!
 note: 
@@ -14,5 +15,5 @@ tags:
   - Summer
   - Fall
   - Winter
-  - Any
+  - AnyWeather
 ---

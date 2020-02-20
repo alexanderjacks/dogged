@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Halibut
 description: A flat fish that lives on the Beach floor.
 note: 
@@ -14,5 +15,5 @@ tags:
   - Spring
   - Summer
   - Winter
-  - Any
+  - AnyWeather
 ---

@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Carp
 description: A common pond fish.
 note: 
@@ -16,7 +17,7 @@ tags:
   - Summer
   - Fall
   - Winter
-  - Any
-  - Mountain Fish Bundle
+  - AnyWeather
+  - Lake Fish Bundle
   - Carp Surprise
 ---

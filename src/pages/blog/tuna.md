@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Tuna
 description: A large fish that lives in the Beach.
 note: 
@@ -12,7 +13,7 @@ tags:
   - 6am – 7pm
   - Summer
   - Winter
-  - Any
-  - Beach Fish Bundle
+  - AnyWeather
+  - Ocean Fish Bundle
   - Fish Taco
 ---

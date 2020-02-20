@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Shad
 description: Lives in a school at sea, but returns to the rivers to spawn.
 note: 

@@ -2,8 +2,9 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Sardine
-description: A common Beach fish.
+description: A common Ocean Fish.
 note: 
 sellPrice: 40
 featuredimage: /img/Sardine.png
@@ -13,7 +14,7 @@ tags:
   - Spring
   - Fall
   - Winter
-  - Any
-  - Beach Fish Bundle
+  - AnyWeather
+  - Ocean Fish Bundle
   - Dish o' The Sea
 ---

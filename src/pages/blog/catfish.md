@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Catfish
 description: An uncommon fish found in streams.
 note: Summer requires Secret Woods.

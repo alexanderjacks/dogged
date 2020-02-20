@@ -33,6 +33,7 @@ with open('fosh.csv', 'rb') as csvfile:
         f.write('templateKey: blog-post\n')
         f.write('featuredpost: false\n')
         f.write('date: 2020-02-17T15:45:45.711Z\n')
+        f.write('type: fish\n')
         f.write('title: {}\n'.format(title))
         f.write('description: {}\n'.format(description))
         f.write('note: {}\n'.format(note))

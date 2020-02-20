@@ -2,6 +2,7 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-17T15:45:45.711Z
+type: fish
 title: Sturgeon
 description: An ancient bottom-feeder with a dwindling population. Females can live up to 150 years.
 note: 
@@ -12,7 +13,7 @@ tags:
   - 6am – 7pm
   - Summer
   - Winter
-  - Any
-  - Mountain Fish Bundle
+  - AnyWeather
+  - Lake Fish Bundle
   - Willy
 ---
