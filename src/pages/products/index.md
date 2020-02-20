@@ -92,4 +92,42 @@ pricing:
         - Bring Gus a Coconut.
       plan: Exotic Spirits
       price: '600, 1 ❤️'
+    - description: >-
+        Marnie came by the farm and asked if you'd bring her a cave carrot. She's trying to train her goats to speak & and cave carrot is their favorite snack.
+      items:
+        - 3 Friendship with Marnie
+        - Bring a Cave Carrot into Marnie's shop.
+      plan: Marnie's Request
+      price: '750, 1❤️'
+    - description: >-
+        Now that you've built a furnace & you can smelt some metal.
+      plan: Smelting
+      price: 'Copper Bar'
+      items:
+        - Complete `Forging Ahead`
+        - Place 5 Copper Ore and 1 piece of Coal in Furnace
+    - description: >-
+        Kent wants to give his wife a starfruit for their anniversary.
+      plan: A Soldier's Star
+      items:
+        - Mail Summer 15 Year 2
+        -	Bring Kent a starfruit.
+        - Starfruit
+      price: '500 & 1 Friendship heart'
+    - description: >-
+        Emily wants a taste of spring. She's asking for a fresh apricot.
+      plan: Fresh Fruit
+      items:
+        - Mail Spring 6 Year 2
+        -	Bring Emily an Apricot.
+        - Apricot
+      price: '600 & 1 Friendship heart'
+    - description: >-
+        Demetrius is studying the toxin levels of the local pufferfish. He'd like you to bring him one.
+      plan: Aquatic Research
+      items:
+        - Mail Summer 6 Year 2
+        -	Bring Demetrius a Pufferfish.
+        - Pufferfish
+      price: '1000 & 1 Friendship heart'
 ---
