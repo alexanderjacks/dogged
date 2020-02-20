@@ -1,7 +1,7 @@
 # GOAL OF THIS SOFTWARE: print wallpaper name & image URL info in Terminal, then download each image item into a png
 ## please install PYTHON3, CHROMEDRIVER, SELENIUM, REQUESTS, then proceed
 ### then enter in Terminal ```pip install -r setup.py```
-#### NOW, you can run this script in Terminal with ```python3 scrape_bundles.py```
+#### NOW, you can run this script in Terminal with ```python3 scrape_wallpapers.py```
 ##### reuse & recycle & have a nice day
 
 # headless browser
@@ -55,10 +55,10 @@ image_URL = [x.get_attribute('src') for x in results]
 
 ### display scraping results in Terminal
 
-print('Bundles of Pelican Town:')
+print('Wallpapers of Pelican Town:')
 ## zip() matches the scraped elements to each other
 for wallpaper_name, image_URL in zip(wallpaper_name, image_URL):
-	png_name = 'tag-'+image_URL.split('/')[-1]
+	png_name = 'tag-'+image_URL.split('/')[-1] # plz note the unusual file prefix used here when saving the image
 #	test of variables
 	print(wallpaper_name + ": Let's use filename " + png_name + " when we save this resource ==> " + image_URL + '\n')
 ### next step is to save each image to a local file

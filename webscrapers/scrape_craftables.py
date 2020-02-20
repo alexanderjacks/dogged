@@ -1,14 +1,14 @@
-# GOAL OF THIS SOFTWARE: print Bundle name & image URL info in Terminal, then download each image item into a png
-## please install PYTHON3, CHROMEDRIVER, SELENIUM, then proceed
+# GOAL OF THIS SOFTWARE: print wallpaper name & image URL info in Terminal, then download each image item into a png
+## please install PYTHON3, CHROMEDRIVER, SELENIUM, REQUESTS, then proceed
 ### then enter in Terminal ```pip install -r setup.py```
 #### NOW, you can run this script in Terminal with ```python3 scrape_bundles.py```
 ##### reuse & recycle & have a nice day
 
 # headless browser
-from selenium import webdriver 
-from selenium.webdriver.common.by import By 
-from selenium.webdriver.support.ui import WebDriverWait 
-from selenium.webdriver.support import expected_conditions as EC 
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 # raw file data tool
 import requests
@@ -23,10 +23,10 @@ option = webdriver.ChromeOptions()
 option.add_argument("--incognito")
 
 # launches Chrome
-browser = webdriver.Chrome(executable_path='./chromedriver', chrome_options=option)
+browser = webdriver.Chrome(executable_path='./chromedriver', options=option)
 
 # surfs to this URL
-browser.get("https://stardewvalleywiki.com/Bundles")
+browser.get("https://stardewvalleywiki.com/Crafting#Artisan_Equipment")
 
 
 ###
@@ -44,29 +44,27 @@ except TimeoutException:
 ###
 
 
-### scraping Bundle info; 2 metadata elements: name & image alt 
+### scraping Bundle info; 2 metadata elements: name & image alt
 
 # scraping bundle images, they are the only element w width='136'
-results = browser.find_elements_by_xpath("//th[@id='136']")
+results = browser.find_elements_by_xpath("//img[@width='48']")
 # parsing returned objects into desired items ('list comprehension')
-bundle_name = [x.get_attribute('alt') for x in results]
-
+craftable_name = [x.get_attribute('alt') for x in results]
+image_URL = [x.get_attribute('src') for x in results]
 
 
 ### display scraping results in Terminal
 
-print('Bundles of Pelican Town:')
+print('Craftables of Pelican Town:')
 ## zip() matches the scraped elements to each other
-for bundle_name, image_URL in zip(bundle_name, image_URL):
+for craftable_name, image_URL in zip(craftable_name, image_URL):
 	png_name = image_URL.split('/')[-1]
 #	test of variables
-	print(bundle_name + ": Let's use filename " + png_name + " when we save this resource ==> " + image_URL + '\n')
+	print(craftable_name + ": Let's use filename " + png_name + " when we save this resource ==> " + image_URL + '\n')
 ### next step is to save each image to a local file
-#	download image	
+#	download image
 	rawImgData = requests.get(image_URL, stream=True)
 #	create a file & save (write) the raw (binary) image data (ergo 'wb')
 	with open(png_name, 'wb') as fd:
 		for chunk in rawImgData.iter_content(chunk_size=1024):
 			fd.write(chunk)
-
-		
