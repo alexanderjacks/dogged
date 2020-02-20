@@ -4,7 +4,6 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import BlogRoll from '../components/BlogRoll'
-import GoogleAd from '../components/GoogleAd'
 
 export const IndexPageTemplate = ({
   image,
@@ -19,7 +18,6 @@ export const IndexPageTemplate = ({
   style={{
     backgroundColor: `white`,
   }}>
-  <GoogleAd client="ca-pub-1699472970547311" slot="f08c47fec0942fa0" />
     <div
       className="full-width-image margin-top-0"
       style={{

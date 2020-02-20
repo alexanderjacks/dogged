@@ -113,7 +113,7 @@ pricing:
         - Mail Summer 15 Year 2
         -	Bring Kent a starfruit.
         - Starfruit
-      price: '500 & 1 Friendship heart'
+      price: '500 & 1❤️'
     - description: >-
         Emily wants a taste of spring. She's asking for a fresh apricot.
       plan: Fresh Fruit
@@ -121,7 +121,7 @@ pricing:
         - Mail Spring 6 Year 2
         -	Bring Emily an Apricot.
         - Apricot
-      price: '600 & 1 Friendship heart'
+      price: '600 & 1❤️'
     - description: >-
         Demetrius is studying the toxin levels of the local pufferfish. He'd like you to bring him one.
       plan: Aquatic Research
@@ -129,5 +129,5 @@ pricing:
         - Mail Summer 6 Year 2
         -	Bring Demetrius a Pufferfish.
         - Pufferfish
-      price: '1000 & 1 Friendship heart'
+      price: '1000 & 1❤️'
 ---

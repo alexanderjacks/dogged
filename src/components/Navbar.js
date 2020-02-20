@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
+import GoogleAd from './GoogleAd'
+
 import logo from '../img/logo.png'
 
 const Navbar = class extends React.Component {
@@ -45,6 +47,8 @@ const Navbar = class extends React.Component {
             <Link to="/" className="" title="Logo">
               <img src={logo} alt="StardewDex" style={{ width: '11vh', height: '11vh' }} />
             </Link>
+
+            <GoogleAd client="ca-pub-1699472970547311" slot="f08c47fec0942fa0" />
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
