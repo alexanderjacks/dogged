@@ -95,7 +95,9 @@ export const ProductPageTemplate = ({
 
               </div>
               */}
+
               <Testimonials testimonials={testimonials} />
+
 
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}

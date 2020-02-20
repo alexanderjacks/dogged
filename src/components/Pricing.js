@@ -1,31 +1,56 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import randomInt from 'random-int'
 
 const Pricing = ({ data }) => (
-  <div className="columns is-multiline">
+  <div className="columns is-multiline is-mobile">
     {data.map(price => (
-      <div key={price.plan} className="column is-one-quarter"
+      <div key={price.plan} className="column is-one-third-tablet"
       style={{
+        minWidth:`24vw`,
         border:`2px forestgreen dotted`,
         borderRadius:`1rem`,
-        marginBottom: `0.3rem`,
-        marginRight: `0.3rem`,
-        backgroundImage: `radial-gradient(snow, beige, papayawhip)`,
+        paddingTop: `1.3rem`,
+        marginTop: `1.3rem`,
+        marginLeft: `0.6rem`,
+        paddingLeft: `0.3rem`,
+        backgroundImage: `url(img/quest_bg${randomInt(1,6)}.png)`,
+        backgroundRepeat: `repeat`,
+        backgroundPosition: `cover`
       }}>
-        <h4 className="has-text-centered has-text-weight-semibold">
-          {price.plan}
-        </h4>
-        <h2 className="is-size-2 has-text-weight-bold has-text-primary has-text-centered">
-          {price.price}
-        </h2>
-        <p className="has-text-weight-semibold">{price.description}</p>
-        <ul>
-          {price.items.map(item => (
-            <li key={item} className="is-size-4">
-              {item}
-            </li>
-          ))}
-        </ul>
+        <div key={price.plan} className=""
+        style={{
+          border:`2px forestgreen dotted`,
+          borderRadius:`1rem`,
+          marginBottom: `0.3rem`,
+          marginLeft: `0.3rem`,
+          backgroundImage: `radial-gradient(snow, beige, papayawhip)`,
+        }}>
+          <h4 className="has-text-centered has-text-weight-semibold">
+            {price.plan}
+          </h4>
+          <h2 className="is-size-4 has-text-weight-bold has-text-primary has-text-centered">
+            {price.price}
+          </h2>
+          <p className=""
+          style={{
+            paddingLeft: `0.4rem`,
+            fontFamily: `Fredericka the Great, cursive`,
+            fontSize: `3vw`
+          }}>{price.description}</p>
+            {price.items.map(item => (
+              <p key={item} className=""
+              style={{
+                paddingLeft: `0.3rem`,
+                paddingBottom: `0.3rem`,
+                fontSize: `2.8vw`,
+                listStyleType: `none`
+              }}>
+                {item}
+              </p>
+            ))}
+        </div>
+
       </div>
     ))}
   </div>

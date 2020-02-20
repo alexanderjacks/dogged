@@ -2,13 +2,10 @@
 templateKey: product-page
 title: Quests
 image: /img/sshot-pots-and-shrooms.png
-heading: Time Limits on Some...
+heading: Story vs Two-Day Quests
 description: >-
   There are two major types of quests, story quests and Help Wanted quests.
-  Story quests are typically received in the mail, but a few are automatically
-  accepted at the beginning of the game to help teach the player about the game.
-  Story quests can be completed at any time after receiving them, there is no
-  time limit or expiration date.
+  Story quests are usually begun via the mail, but some tutorial quests are auto-accepted when you start a new farm. Story quests have no time limits or expiration dates. Help Wanted quests from outside Pierre's expire at 2am on the day after you accept them.
 intro:
   blurbs:
     - image: /img/Lingcod.png
@@ -38,10 +35,8 @@ intro:
 main:
   heading: Unlock 2 Achievements from Help Wanted Quests
   description: >-
-    Earning these achievements unlocks unique Hats at the Abandoned House in
-    Cindersap Forest. In addition, the day after earning "Gofer", Mayor Lewis
-    will send 500g in the mail. The day after earning "A Big Help", Mayor Lewis
-    will send 2,500g in the mail.
+    Earning "Gofer" (10 Help Wanted complete) and "A Big Help" (40 Help Wanted complete) achievements unlocks unique Hats at the Abandoned House in
+    Cindersap Forest. Mayor Lewis will also mail 500g and 2,500g rewards respectively.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/logo.png
@@ -58,16 +53,9 @@ testimonials:
     quote: A Big Help
 full_image: /img/sshot-pots-and-shrooms.png
 pricing:
-  heading: Help Wanted
+  heading: All Story Quests
   description: >-
-    Every day the bulletin board outside Pierre's General Store may have a
-    randomly generated Help Wanted quest that you can complete in exchange for
-    money and sometimes increased friendship with the quest giver. When a new
-    quest is available, the bulletin board will have a yellow exclamation point
-    floating above it. Rewarded money depends on the number of items/monsters
-    involved, the player's skills, and sometimes a bit of randomness. Once you
-    have accepted a Help Wanted quest you will have 2 days to complete it, the
-    current day and the next.
+
   plans:
     - description: Willy is challenging you to catch a Lingcod.
       items:
