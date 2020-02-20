@@ -72,6 +72,18 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: { // PWA specs
+        name: `StardewDex`,
+        short_name: `StardewDex`,
+        start_url: `/`,
+        background_color: `#ffa31c`,
+        theme_color: `#0000ff`,
+        display: `standalone`,
+      },
+    },
+    `gatsby-plugin-offline`,  // PWA ingredient
+    'gatsby-plugin-netlify', // plz keep this last in the plugins array
   ],
 }
