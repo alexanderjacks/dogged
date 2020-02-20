@@ -5,9 +5,9 @@ import randomInt from 'random-int'
 const Pricing = ({ data }) => (
   <div className="columns is-multiline is-mobile">
     {data.map(price => (
-      <div key={price.plan} className="column is-one-third-tablet"
+      <div key={price.plan} className="column"
       style={{
-        minWidth:`24vw`,
+        minWidth:`34vw`,
         border:`2px forestgreen dotted`,
         borderRadius:`1rem`,
         paddingTop: `1.3rem`,
@@ -34,16 +34,16 @@ const Pricing = ({ data }) => (
           </h2>
           <p className=""
           style={{
-            paddingLeft: `0.4rem`,
+            paddingLeft: `1vw`,
             fontFamily: `Fredericka the Great, cursive`,
-            fontSize: `3vw`
+            fontSize: `0.99rem`
           }}>{price.description}</p>
             {price.items.map(item => (
               <p key={item} className=""
               style={{
-                paddingLeft: `0.3rem`,
+                paddingLeft: `2vw`,
                 paddingBottom: `0.3rem`,
-                fontSize: `2.8vw`,
+                fontSize: `0.9rem`,
                 listStyleType: `none`
               }}>
                 {item}
