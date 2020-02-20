@@ -2,7 +2,7 @@
 templateKey: product-page
 title: Quests
 image: /img/sshot-pots-and-shrooms.png
-heading: Story vs Two-Day Quests
+heading: Story vs Help Wanted Quests
 description: >-
   There are two major types of quests, story quests and Help Wanted quests.
   Story quests are usually begun via the mail, but some tutorial quests are auto-accepted when you start a new farm. Story quests have no time limits or expiration dates. Help Wanted quests from outside Pierre's expire at 2am on the day after you accept them.
@@ -112,22 +112,19 @@ pricing:
       items:
         - Mail Summer 15 Year 2
         -	Bring Kent a starfruit.
-        - Starfruit
       price: '500 & 1❤️'
-    - description: >-
-        Emily wants a taste of spring. She's asking for a fresh apricot.
-      plan: Fresh Fruit
-      items:
-        - Mail Spring 6 Year 2
-        -	Bring Emily an Apricot.
-        - Apricot
-      price: '600 & 1❤️'
     - description: >-
         Demetrius is studying the toxin levels of the local pufferfish. He'd like you to bring him one.
       plan: Aquatic Research
       items:
         - Mail Summer 6 Year 2
         -	Bring Demetrius a Pufferfish.
-        - Pufferfish
       price: '1000 & 1❤️'
+    - plan: Fresh Fruit
+      price: '600 & 1❤️'
+      description: >-
+        Emily wants a taste of spring. She's asking for a fresh apricot.
+      items:
+        - Mail Spring 6 Year 2
+        -	Bring Emily an Apricot.
 ---

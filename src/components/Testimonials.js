@@ -5,11 +5,18 @@ import { v4 } from 'uuid'
 const Testimonials = ({ testimonials }) => (
   <div>
     {testimonials.map(testimonial => (
-      <article key={v4()} className="message">
-        <div className="message-body">
+      <article key={v4()}
+      style={{
+        fontFamily:`Fredericka the Great`,
+        marginBottom:`1.2rem`,
+      }}>
+        <div className="subtitle">
           {testimonial.quote}
           <br />
-          <cite> – {testimonial.author}</cite>
+          <cite
+          style={{
+            fontFamily:`Solway`,
+          }}> – {testimonial.author}</cite>
         </div>
       </article>
     ))}
