@@ -1,6 +1,6 @@
 templateKey,title,description,type,sellPrice,tags
 blog-post,Amaranth,A purple grain cultivated by an ancient civilization.,vegetable,150,"Summer, edible, vegetable, Salmon Dinner, Cows' Delight Quest"
-blog-post,Ancient Fruit,Its been dormant for eons.,fruit,550,"fruit, Traveling Cart, Museum reward, The Missing Bundle"
+blog-post,Ancient Fruit,Its been dormant for eons.,fruit,550,"fruit, The Missing Bundle"
 blog-post,Artichoke,"The bud of a thistle plant. The spiny outer leaves conceal a fleshy, filling interior.",vegetable,160,"Summer, Fall, edible, vegetable, Artichoke Dip, Super Meal"
 blog-post,Beet,"A sweet and earthy root vegetable. As a bonus, the leaves make a great salad.",vegetable,100,"vegetable, Vegetable Medley, Sugar, The Mysterious Qi Quest, Evelyn"
 blog-post,Blackberry,An early-fall treat.,fruit,20,"Fall, forageable, Fall Seeds, Blackberry Cobbler, Fall Foraging Bundle, Jelly, Wine"
@@ -63,7 +63,7 @@ blog-post,Sunflower,A common misconception is that the flower turns so its alway
 blog-post,Sweet Gem Berry,Its been dormant for eons.,fruit,3000,"fruit, Old Master Canoli Quest"
 blog-post,Sweet Pea,A fragrant summer flower.,flower,50,"Summer, Sandy, Summer Seeds, Summer Foraging Bundle, Sandy"
 blog-post,Tea Leaves,"The young leaves of the tea plant. Can be brewed into the popular, energizing beverage.",vegetable,55,"vegetable, Caroline, monthly, Green Tea"
-blog-post,Tomato,"Rich and slightly tangy, the Tomato has a wide variety of culinary uses",vegetable,60,"Summer, edible, flower, Bruschetta, Eggplant, Parmesan, Fish Stew, Pizza, Spaghetti, Vegetable Medley, Summer Crops Bundle"
+blog-post,Tomato,"Rich and slightly tangy, the Tomato has a wide variety of culinary uses",vegetable,60,"Summer, edible, flower, Bruschetta, Eggplant Parmesan, Fish Stew, Pizza, Spaghetti, Vegetable Medley, Summer Crops Bundle"
 blog-post,Tulip,The most popular spring flower. Has a very faint sweet smell,flower,30,"Spring, edible, flower, Evelyn"
 blog-post,Unmilled Rice,Rice in its rawest form. Run this through a mill to increase the value,vegetable,30,"Spring, vegetable, Rice"
 blog-post,Wheat,One of the most widely cultivated grains. Makes a great flour for breads and cakes,vegetable,25,"Summer, Fall, edible, flower, Beer, Wheat Flour, Fodder Bundle"

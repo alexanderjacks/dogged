@@ -29,7 +29,7 @@ const TagsPage = ({
           boxShadow: '0.5rem 0 0 #c0c, -0.5rem 0 0 #c0c',
           backgroundColor: '#f0f',
           color: 'white',
-          padding: '1rem',
+          padding: '0.6rem',
         }}
       >
         Stardew by Metadata
@@ -48,15 +48,16 @@ const TagsPage = ({
             style={{ marginBottom: '3rem' }}>
             <ul className="taglist">
               {group.map(tag => (
+                tag.fieldValue &&
                 <li key={tag.fieldValue}
                   style={{
-                    marginRight:`0.3rem`,
-                    marginBottom:`2.3rem`,
+                    marginRight:`0.15rem`,
+                    marginBottom:`0.3rem`,
                   }}>
                   <Link
                     to={`/tags/${kebabCase(tag.fieldValue)}/`}
                     style={{
-                      padding: `1.2rem`,
+                      padding: `1.05rem`,
                       backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
                       display: `flex`,
                       flexFlow: `row wrap`,

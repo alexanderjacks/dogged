@@ -9,7 +9,5 @@ featuredimage: /img/Ancient_Fruit.png
 sellPrice: 550
 tags:
   - fruit
-  - Traveling Cart
-  - Museum reward
   - The Missing Bundle
 ---

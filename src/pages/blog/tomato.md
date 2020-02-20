@@ -12,8 +12,7 @@ tags:
   - edible
   - flower
   - Bruschetta
-  - Eggplant
-  - Parmesan
+  - Eggplant Parmesan
   - Fish Stew
   - Pizza
   - Spaghetti
