@@ -105,4 +105,3 @@ pricing:
       plan: Exotic Spirits
       price: '600, 1 ❤️'
 ---
-
