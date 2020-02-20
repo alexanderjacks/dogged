@@ -88,12 +88,12 @@ export const BlogPostTemplate = ({
             alignItems: `baseline`
           }}>
 
-          <h2 class="column is-6" style={{textAlign:`right`}}>
+          { sellPrice && <><h2 class="column is-6" style={{textAlign:`right`}}>
             sell price:
           </h2>
           <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>
             {sellPrice}g
-          </h1>
+          </h1></>}
           <h2 class="column is-6" style={{textAlign:`right`}}>
             type:
           </h2>

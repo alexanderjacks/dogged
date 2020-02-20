@@ -9,7 +9,7 @@ with open('crops.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
-    headers = ['templateKey', 'title', 'description', 'type', 'sellPrice', 'tags'] # manual entry for now
+    headers = ['title', 'description', 'type', 'sellPrice', 'tags'] # manual entry for now
     # this needs to count down for the row count (while)
 
     for row in pulpy_data:

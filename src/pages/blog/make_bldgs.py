@@ -9,7 +9,7 @@ with open('bldgs.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
-    headers = ['templateKey', 'title', 'description', 'type', 'sellPrice', 'tags'] # manual entry for now
+    headers = ['title', 'description', 'type', 'footprint', 'source', 'cost', 'tags'] # manual entry for now
     # this needs to count down for the row count (while)
 
     for row in pulpy_data:
@@ -17,7 +17,9 @@ with open('bldgs.csv', 'rb') as csvfile:
         description = row['description']
         title = row['title']
         type = row['type']
-        sellPrice = row['sellPrice']
+        cost = row['cost']
+        footprint = row['footprint']
+        source = row['source']
         tags =  row['tags'] # could try to split these now...
         working_file_name = row['title'] # for db schema
         # formatting filename, from the data object name
@@ -35,9 +37,11 @@ with open('bldgs.csv', 'rb') as csvfile:
         f.write('type: {}\n'.format(type))
         f.write('description: {}\n'.format(description))
         f.write('featuredpost: false\n')
-        f.write('date: 2020-02-10T00:00:02.711Z\n')
+        f.write('date: 2020-02-21T14:54:54.711Z\n')
         f.write('featuredimage: {}\n'.format(featuredimage))
-        f.write('sellPrice: {}\n'.format(sellPrice))
+        if cost: f.write('cost: {}\n'.format(cost))
+        if footprint: f.write('footprint: {}\n'.format(footprint))
+        if source: f.write('source: {}\n'.format(source))
         f.write('tags:\n  - {}\n'.format(tags).replace(',','\n  -' ))
         f.write('---') # formatting req
         f.close() # python saves file on close()

@@ -1,0 +1,27 @@
+title,description,type,footprint,source,cost,tags
+Barn,"Wood (350) Stone (150), Houses 4 barn-dwelling animals.",building,7x4,robin,6000,"Wood, Stone, "
+Big Barn,"Wood (450) Stone (200), Houses 8 barn-dwelling animals. Allows animals to give birth. Unlocks goats.",building,7x4,robin,12000,"Wood, Stone, "
+Deluxe Barn,"Wood (550) Stone (300), Houses 12 barn-dwelling animals. Comes with an auto-feed system. Unlocks sheep and pigs.",building,7x4,robin,25000,"Wood, Stone, "
+Coop,"Wood (300) Stone (100), Houses 4 coop-dwelling animals.",building,6x3,robin,4000,"Wood, Stone, "
+Big Coop,"Wood (400) Stone (150), Houses 8 coop-dwelling animals. Comes with an incubator. Unlocks ducks.",building,6x3,robin,10000,"Wood, Stone, "
+Deluxe Coop,"Wood (500) Stone (200), Houses 12 coop-dwelling animals. Comes with an auto-feed system. Unlocks rabbits.",building,6x3,robin,20000,"Wood, Stone, "
+Fish Pond,"Stone (200) Seaweed (5) Green Algae (5), Raise fish and harvest their produce. Fish multiply over time.",building,5x5,robin,5000,"Stone, Seaweed, Green Algae, "
+Mill,"Stone (50) Wood (150) Cloth (4), Allows you to create flour from wheat and sugar from beets.",building,4x2,robin,2500,"Stone, Wood, Cloth"
+Shed,"Wood (300), An empty building. Fill it with whatever you like! The interior can be decorated.",building,7x3,robin,15000,Wood
+Big Shed,"Wood (550) Stone (300), Doubles the size of the shed. The interior can be decorated.",building,7x3,robin,20000,"Wood, Stone"
+Silo,"Stone (100) Clay (10) Copper Bar (5), Allows you to cut and store grass for feed.",building,3x3,robin,100,"Stone, Clay, Copper Bar"
+Slime Hutch,"Stone (500) Refined Quartz (10) Iridium Bar (1), Raise up to 20 slimes. Fill water troughs and slimes will create slime balls.",building,11x6,robin,10000,"Stone, Refined Quartz, Iridium Bar, Slimes"
+Stable,"Hardwood (100) Iron Bar (5), Allows you to keep and ride a horse. Horse included.",building,4x2,robin,10000,"Hardwood, Iron Bar, Horse"
+Well,"Stone (75), Provides a place for you to refill your watering can.",building,3x3,robin,1000,Stone
+Stone Cabin,"Stone (10), A home for a friend! Subsidized by the town agricultural fund.",building,5x3,robin,100,"Stone, multiplayer"
+Plank Cabin,"Wood (5) Fiber (10), A home for a friend! Subsidized by the town agricultural fund.",building,5x3,robin,100,"Wood, Fiber, multiplayer"
+Log Cabin,"Wood (10), A home for a friend! Subsidized by the town agricultural fund.",building,5x3,robin,100,"Wood, multiplayer"
+Shipping Bin,"Wood (150), Throw items inside to sell them overnight.",building,2x1,robin,250,Wood
+Mayonnaise Machine,"Wood (15) Stone (15) Earth Crystal (1) Copper Bar (1), Turns eggs into mayonnaise.",equipment,1x1,Farming Level 2,,"Wood, Stone, Earth Crystal, Copper Bar"
+Bee House,"Wood (40) Coal (8) Iron Bar (1) Maple Syrup (1), Place outside and wait for delicious honey! (Except in Winter).",equipment,1x1,Farming Level 3,,"Wood, Coal, Iron Bar, Maple Syrup"
+Preserves Jar,"Wood (50) Stone (40) Coal (8), Turns vegetables into pickles and fruit into jam.",equipment,1x1,Farming Level 4,,"Wood, Stone, Coal"
+Cheese Press,"Wood (45) Stone (45) Hardwood (10) Copper Bar (1), Turns milk into cheese.",equipment,1x1,Farming Level 6,,"Wood, Stone, Hardwood, Copper Bar"
+Loom,"Wood (60) Fiber (30) Pine Tar (1), Turns raw wool into fine cloth.",equipment,1x1,Farming Level 7,,"Wood, Fiber, Pine Tar"
+Keg,"Wood (30) Copper Bar (1) Iron Bar (1) Oak Resin (1), Place a fruit or vegetable in here. Eventually it will turn into a beverage.",equipment,1x1,Farming Level 8,,"Wood, Copper Bar, Iron Bar, Oak Resin"
+Oil Maker,"Slime (50) Hardwood (20) Gold Bar (1), Makes gourmet truffle oil.",equipment,1x1,Farming Level 8,,"Slime, Hardwood, Gold Bar"
+Cask,"Wood (20) Hardwood (1), Use in the cellar to age products like wine and cheese.",equipment,1x1,Farmhouse cellar upgrade,,"Wood, Hardwood"
