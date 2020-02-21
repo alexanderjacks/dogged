@@ -30,6 +30,7 @@
     "prop-types": "^15.6.0",
     "random-int": "^2.0.1",
     "react": "^16.8.4",
+    "react-adsense": "^0.1.0",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "typeface-fredericka-the-great": "^1.1.3",

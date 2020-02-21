@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import GoogleAd from './GoogleAd'
+import AdSense from 'react-adsense';
 
 import logo from '../img/logo.png'
 
@@ -48,7 +48,10 @@ const Navbar = class extends React.Component {
               <img src={logo} alt="StardewDex" style={{ width: '11vh', height: '11vh' }} />
             </Link>
 
-            <GoogleAd client="ca-pub-1699472970547311" slot="f08c47fec0942fa0" />
+            <AdSense.Google
+              client='ca-pub-1699472970547311'
+              slot='6359860180'
+            />
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
