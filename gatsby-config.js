@@ -78,9 +78,10 @@ module.exports = {
         name: `StardewDex`,
         short_name: `StardewDex`,
         start_url: `/`,
-        background_color: `#ffa31c`,
+        background_color: `#00ffff`,
         theme_color: `#0000ff`,
         display: `standalone`,
+        icon: `static/img/apple-touch-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,  // PWA ingredient
