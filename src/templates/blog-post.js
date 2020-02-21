@@ -12,6 +12,7 @@ export const BlogPostTemplate = ({
   description,
   featuredimage,
   type,
+  cost,
   energy,
   health,
   tags,
@@ -87,12 +88,33 @@ export const BlogPostTemplate = ({
             justifyContent: `center`,
             alignItems: `baseline`
           }}>
-
+          { cost && <><h1 class="column subtitle is-10 is-offset-1" style={{textAlign:`center`}}>
+            {cost}<div
+            style={{
+              padding:`0.15rem`,
+              display: `inline-block`,
+              minWidth: `28px`,
+              minHeight: `28px`,
+              backgroundImage: `url(/img/g_coin.png)`,
+              backgroundPosition: `cover`,
+              backgroundRepeat: `no-repeat`,
+            }}></div>
+          </h1>
+          </>}
           { sellPrice && <><h2 class="column is-6" style={{textAlign:`right`}}>
             sell price:
           </h2>
-          <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>
-            {sellPrice}g
+          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+            {sellPrice}<div
+            style={{
+              padding:`0.15rem`,
+              display: `inline-block`,
+              minWidth: `28px`,
+              minHeight: `28px`,
+              backgroundImage: `url(/img/g_coin.png)`,
+              backgroundPosition: `cover`,
+              backgroundRepeat: `no-repeat`,
+            }}></div>
           </h1></>}
           <h2 class="column is-6" style={{textAlign:`right`}}>
             type:
@@ -136,7 +158,7 @@ export const BlogPostTemplate = ({
                 style={{
                   padding: `0.8rem`,
                   color: `black`,
-                  backgroundImage: `url(/img/${snakeCase(tag)}.png)`,
+                  backgroundImage: `url(/img/${snakeCase(tag.split(' (')[0])}.png)`,
                   fontFamily:`Fredericka the Great`,
                   fontWeight: 600,
                   display: `flex`,
@@ -164,6 +186,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   type: PropTypes.string,
+  cost: PropTypes.string,
   energy: PropTypes.string,
   health: PropTypes.string,
   title: PropTypes.string,
@@ -181,6 +204,7 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         type={post.frontmatter.type}
+        cost={post.frontmatter.cost}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
           <Helmet titleTemplate="%s | Item Data">
@@ -216,6 +240,7 @@ export const pageQuery = graphql`
         title
         description
         type
+        cost
         tags
         sellPrice
         energy

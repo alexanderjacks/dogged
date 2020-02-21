@@ -2,15 +2,14 @@
 templateKey: blog-post
 title: Barn
 type: building
-description: Wood (350) Stone (150), Houses 4 barn-dwelling animals.
+description: Houses 4 barn-dwelling animals.
 featuredpost: false
 date: 2020-02-21T14:54:54.711Z
 featuredimage: /img/Barn.png
 cost: 6000
 footprint: 7x4
-source: robin
+source: Robin
 tags:
-  - Wood
-  - Stone
-  - 
+  - Wood (350)
+  - Stone (150)
 ---

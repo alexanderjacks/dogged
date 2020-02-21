@@ -2,15 +2,14 @@
 templateKey: blog-post
 title: Plank Cabin
 type: building
-description: Wood (5) Fiber (10), A home for a friend! Subsidized by the town agricultural fund.
+description: A home for a friend! Subsidized by the town agricultural fund.
 featuredpost: false
 date: 2020-02-21T14:54:54.711Z
 featuredimage: /img/Plank_Cabin.png
 cost: 100
 footprint: 5x3
-source: robin
+source: Robin
 tags:
-  - Wood
-  - Fiber
-  - multiplayer
+  - Wood (5)
+  - Fiber (10)
 ---

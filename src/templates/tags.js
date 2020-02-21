@@ -27,7 +27,7 @@ class TagRoute extends React.Component {
         style={{
           padding:`0.45rem`,
           paddingTop:`1.25rem`,
-          backgroundImage: `url(/img/${snakeCase(post.node.frontmatter.title)}.png)`,
+          backgroundImage: `url(/img/${snakeCase(post.node.frontmatter.title.split(' (')[0])}.png)`,
           backgroundPosition: `center`,
           backgroundRepeat: `no-repeat`,
         }}>
