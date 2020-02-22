@@ -88,8 +88,9 @@ export const BlogPostTemplate = ({
             justifyContent: `center`,
             alignItems: `baseline`
           }}>
+
           { cost && <><h1 class="column subtitle is-10 is-offset-1" style={{textAlign:`center`}}>
-            {cost}<div
+            {cost}&nbsp;<div
             style={{
               padding:`0.15rem`,
               display: `inline-block`,
@@ -101,6 +102,7 @@ export const BlogPostTemplate = ({
             }}></div>
           </h1>
           </>}
+
           { sellPrice && <><h2 class="column is-6" style={{textAlign:`right`}}>
             sell price:
           </h2>
@@ -115,7 +117,41 @@ export const BlogPostTemplate = ({
               backgroundPosition: `cover`,
               backgroundRepeat: `no-repeat`,
             }}></div>
-          </h1></>}
+          </h1>
+          </>}
+          { energy && <><h2 class="column is-6" style={{textAlign:`right`}}>
+            energy:
+          </h2>
+          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+            {energy}&nbsp;<div
+            style={{
+              padding:`0.15rem`,
+              display: `inline-block`,
+              minWidth: `28px`,
+              minHeight: `28px`,
+              backgroundImage: `url(/img/Energy_icon.png)`,
+              backgroundPosition: `cover`,
+              backgroundRepeat: `no-repeat`,
+            }}></div>
+          </h1>
+          </>}
+          { health && <><h2 class="column is-6" style={{textAlign:`right`}}>
+            health:
+          </h2>
+          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+            {health}&nbsp;<div
+            style={{
+              padding:`0.15rem`,
+              display: `inline-block`,
+              minWidth: `28px`,
+              minHeight: `28px`,
+              backgroundImage: `url(/img/Health_icon.png)`,
+              backgroundPosition: `cover`,
+              backgroundRepeat: `no-repeat`,
+            }}></div>
+          </h1>
+          </>}
+
           <h2 class="column is-6" style={{textAlign:`right`}}>
             type:
           </h2>
@@ -203,6 +239,8 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        energy={post.frontmatter.energy}
+        health={post.frontmatter.health}
         type={post.frontmatter.type}
         cost={post.frontmatter.cost}
         featuredimage={post.frontmatter.featuredimage}

@@ -13,7 +13,8 @@ class TagRoute extends React.Component {
         className='column'
         style={{
           display:`flex`,
-          flexFlow: `column wrap`,
+          flexDirection: `column`,
+          height:`100%`,
           justifyContent:`center`,
           alignItems:`center`,
           maxWidth:`35vw`,
@@ -25,8 +26,9 @@ class TagRoute extends React.Component {
       }}>
         <Link to={post.node.fields.slug}
         style={{
+          width:`100%`,
+          height:`100%`,
           padding:`0.45rem`,
-          paddingTop:`1.25rem`,
           backgroundImage: `url(/img/${snakeCase(post.node.frontmatter.title.split(' (')[0])}.png)`,
           backgroundPosition: `center`,
           backgroundRepeat: `no-repeat`,
