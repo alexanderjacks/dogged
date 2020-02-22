@@ -78,13 +78,18 @@ module.exports = {
         name: `StardewDex`,
         short_name: `StardewDex`,
         start_url: `/`,
-        background_color: `#00ffff`,
+        background_color: `#ff00ff77`,
         theme_color: `#0000ff`,
         display: `standalone`,
         icon: `static/img/apple-touch-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-offline`,  // PWA ingredient
+    {
+      resolve: `gatsby-plugin-offline`, // PWA ingredient
+      options: {
+        appendScript: require.resolve(`./src/adwrapper.js`),
+      },
+    },
     'gatsby-plugin-netlify', // plz keep this last in the plugins array
   ],
 }
