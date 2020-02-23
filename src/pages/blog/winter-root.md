@@ -15,4 +15,5 @@ tags:
   - Winter Seeds
   - Roots Platter
   - Winter Foraging Bundle
+  - edible
 ---

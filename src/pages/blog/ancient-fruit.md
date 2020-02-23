@@ -12,4 +12,9 @@ featuredimage: /img/Ancient_Fruit.png
 tags:
   - fruit
   - The Missing Bundle
+  - reharvest
+  - Spring
+  - Summer
+  - Fall
+  - inedible
 ---

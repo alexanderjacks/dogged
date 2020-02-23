@@ -14,4 +14,5 @@ tags:
   - vegetable
   - Rice
   - pickles
+  - edible
 ---

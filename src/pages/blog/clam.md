@@ -19,4 +19,5 @@ tags:
   - Summer
   - Fall
   - Winter
+  - inedible
 ---

@@ -16,4 +16,5 @@ tags:
   - wine
   - Junimo Hut
   - A Soldier's Star Quest
+  - edible
 ---

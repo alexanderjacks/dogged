@@ -12,7 +12,7 @@ featuredimage: /img/Common_Mushroom.png
 tags:
   - Spring
   - Summer
-  - The Mines
+  - Mines
   - Farm
   - Secret Woods
   - Fried Mushroom
@@ -25,4 +25,5 @@ tags:
   - Forest
   - Secret Woods
   - Mines
+  - Farm
 ---

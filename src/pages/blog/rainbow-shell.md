@@ -15,4 +15,5 @@ tags:
   - forageable
   - Beach
   - Summer
+  - inedible
 ---

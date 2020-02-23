@@ -17,4 +17,5 @@ tags:
   - multiharvest
   - Traveling Cart
   - Mines
+  - inedible
 ---

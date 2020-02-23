@@ -12,5 +12,4 @@ featuredimage: /img/Holly.png
 tags:
   - forageable
   - Winter
-  - forageable
 ---

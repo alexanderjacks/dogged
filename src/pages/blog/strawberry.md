@@ -19,4 +19,6 @@ tags:
   - Maru
   - jelly
   - wine
+  - reharvest
+  - Egg Festival
 ---

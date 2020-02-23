@@ -12,4 +12,5 @@ featuredimage: /img/Sea_Urchin.png
 tags:
   - forageable
   - Dye Bundle
+  - inedible
 ---

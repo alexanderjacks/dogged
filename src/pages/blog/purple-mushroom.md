@@ -16,5 +16,4 @@ tags:
   - Field Research Bundle
   - Life Elixir
   - Wizard
-  - forageable
 ---

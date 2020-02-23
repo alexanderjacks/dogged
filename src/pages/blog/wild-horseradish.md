@@ -14,4 +14,5 @@ tags:
   - Spring Seeds
   - Spring Foraging Bundle
   - Krobus
+  - edible
 ---

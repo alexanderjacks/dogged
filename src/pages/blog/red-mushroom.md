@@ -12,7 +12,7 @@ featuredimage: /img/Red_Mushroom.png
 tags:
   - Spring
   - Summer
-  - The Mines
+  - Mines
   - Farm
   - Secret Woods
   - Dye Bundle

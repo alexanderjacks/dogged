@@ -21,4 +21,5 @@ tags:
   - Carving Pumpkins Quest
   - Krobus
   - pickles
+  - inedible
 ---

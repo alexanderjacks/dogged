@@ -15,4 +15,6 @@ tags:
   - monthly
   - Green Tea
   - pickles
+  - inedible
+  - trellis
 ---

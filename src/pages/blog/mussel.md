@@ -13,10 +13,10 @@ tags:
   - forageable
   - Crab Pot Bundle
   - Fish Stew
-  - forageable
   - Beach
   - Spring
   - Summer
   - Fall
   - Winter
+  - inedible
 ---

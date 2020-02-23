@@ -6,7 +6,7 @@ title: Sap
 description: A fluid obtained from trees.
 type: forage
 sellPrice: 2
-energy: 
+energy: -2
 health: 
 featuredimage: /img/Sap.png
 tags:

@@ -18,4 +18,5 @@ tags:
   - Summer Foraging Bundle
   - jelly
   - wine
+  - edible
 ---

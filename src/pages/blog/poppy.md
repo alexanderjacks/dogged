@@ -16,4 +16,5 @@ tags:
   - flower
   - Poppyseed Muffin
   - Chefs Bundle
+  - honey
 ---

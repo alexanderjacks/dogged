@@ -16,4 +16,5 @@ tags:
   - Fall Crops Bundle
   - Linus
   - pickles
+  - edible
 ---

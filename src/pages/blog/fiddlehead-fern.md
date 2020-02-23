@@ -18,4 +18,5 @@ tags:
   - Juice
   - pickles
   - Secret Woods
+  - edible
 ---

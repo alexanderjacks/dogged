@@ -12,7 +12,7 @@ featuredimage: /img/Cave_Carrot.png
 tags:
   - forageable
   - edible
-  - The Mines
+  - Mines
   - Survival Burger
   - Miner's Treat
   - Roots Platter

@@ -17,4 +17,5 @@ tags:
   - Fall Foraging Bundle
   - jelly
   - wine
+  - edible
 ---

@@ -12,4 +12,5 @@ featuredimage: /img/Summer_Spangle.png
 tags:
   - Summer
   - flower
+  - honey
 ---

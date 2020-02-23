@@ -16,4 +16,5 @@ tags:
   - Warp Totem Beach
   - Beach
   - forageable
+  - inedible
 ---

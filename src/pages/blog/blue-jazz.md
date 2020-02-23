@@ -14,4 +14,5 @@ tags:
   - edible
   - flower
   - Lucky Lunch
+  - honey
 ---

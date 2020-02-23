@@ -18,4 +18,6 @@ tags:
   - Wheat Flour
   - Fodder Bundle
   - pickles
+  - inedible
+  - Fodder Bundle
 ---

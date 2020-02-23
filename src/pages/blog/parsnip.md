@@ -18,6 +18,5 @@ tags:
   - Parsnip Soup
   - Spring Crops Bundle
   - Quality Crops Bundle
-  - Pam
   - pickles
 ---

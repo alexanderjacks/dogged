@@ -11,9 +11,8 @@ health:
 featuredimage: /img/Nautilus_Shell.png
 tags:
   - forageable
-  - quest
   - Field Research Bundle
-  - forageable
   - Beach
   - Winter
+  - inedible
 ---
