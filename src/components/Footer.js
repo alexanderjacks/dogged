@@ -16,6 +16,10 @@ const Footer = class extends React.Component {
           <AdSense.Google
             client='ca-pub-1699472970547311'
             slot='6359860180'
+            style={{ display: 'block' }}
+            format='auto'
+            responsive='true'
+            layoutKey='-gw-1+2a-9x+5c'
           />
           <Link to="/">
             <img
