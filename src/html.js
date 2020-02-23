@@ -22,9 +22,6 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </body>
-      {/* key anchor for AdSense */}
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <script dangerouslySetInnerHTML={{__html: '(window.adsbygoogle = window.adsbygoogle || []).push({});'}}></script>
     </html>
   )
 }
