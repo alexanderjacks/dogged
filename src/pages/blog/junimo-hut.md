@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Junimo Hut
-type: 
+type: building
 description: Junimos will harvest crops around the hut for you.
 featuredpost: false
 date: 2020-02-21T14:54:54.711Z

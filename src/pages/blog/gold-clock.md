@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Gold Clock
-type: 
+type: building
 description: Fences and paths stop falling apart on the Farm.
 featuredpost: false
 date: 2020-02-21T14:54:54.711Z

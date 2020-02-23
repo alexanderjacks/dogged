@@ -25,8 +25,31 @@ Loom,Turns raw wool into fine cloth.,equipment,1x1,Farming Level 7,,"Wood (60), 
 Keg,Place a fruit or vegetable in here. Eventually it will turn into a beverage.,equipment,1x1,Farming Level 8,,"Wood (30), Copper Bar (1), Iron Bar (1), Oak Resin (1)"
 Oil Maker,Makes gourmet truffle oil.,equipment,1x1,Farming Level 8,,"Slime (50), Hardwood (20), Gold Bar (1)"
 Cask,Use in the cellar to age products like wine and cheese.,equipment,1x1,Ultimate Farmhouse,,"Wood (20), Hardwood (1)"
-Junimo Hut,Junimos will harvest crops around the hut for you.,,3x2,Goblin Problem Quest complete,20000,"Stone (200), Starfruit (9), Fiber (100)"
-Gold Clock,Fences and paths stop falling apart on the Farm.,,3x2,Goblin Problem Quest complete,10000000,Wizard
-Water Obelisk,Warps you to the Beach.,,3x2,Goblin Problem Quest complete,1000000,"Iridium Bar (5), Clam (10), Coral (10)"
-Earth Obelisk,Warps you to the Mountain.,,3x2,Goblin Problem Quest complete,1000000,"Iridium Bar (10), Earth Crystal (10)"
-Desert Obelisk,Warps you to the Desert.,,3x2,Goblin Problem Quest complete,1000000,"Iridium Bar (20), Coconut (10), Cactus Fruit (10)"
+Junimo Hut,Junimos will harvest crops around the hut for you.,building,3x2,Goblin Problem Quest complete,20000,"Stone (200), Starfruit (9), Fiber (100)"
+Gold Clock,Fences and paths stop falling apart on the Farm.,building,3x2,Goblin Problem Quest complete,10000000,Wizard
+Water Obelisk,Warps you to Beach.,building,3x2,Goblin Problem Quest complete,1000000,"Iridium Bar (5), Clam (10), Coral (10)"
+Earth Obelisk,Warps you to the Mountain.,building,3x2,Goblin Problem Quest complete,1000000,"Iridium Bar (10), Earth Crystal (10)"
+Desert Obelisk,Warps you to Desert.,building,3x2,Goblin Problem Quest complete,1000000,"Iridium Bar (20), Coconut (10), Cactus Fruit (10)"
+Copper Hoe,,tool,1x3,,2000,Copper Bar (5)
+Steel Hoe,,tool,1x5,,5000,Iron Bar (5)
+Gold Hoe,,tool,3x3,,10000,Gold Bar (5)
+Iridium Hoe,,tool,3x6,,25000,Iridium Bar (5)
+Copper Axe,,tool,12,,2000,Copper Bar (5)
+Steel Axe,,tool,9,,5000,Iron Bar (5)
+Gold Axe,,tool,6,,10000,Gold Bar (5)
+Iridium Axe,,tool,3,,25000,Iridium Bar (5)
+Copper Pickaxe,,tool,,,2000,Copper Bar (5)
+Steel Pickaxe,,tool,,,5000,Iron Bar (5)
+Gold Pickaxe,,tool,,,10000,Gold Bar (5)
+Iridium Pickaxe,,tool,,,25000,Iridium Bar (5)
+Copper Pan,,tool,,,,"Night Fishing Bundle, Lake Fishing Bundle, Ocean Fishing Bundle, River Fishing Bundle, Exotic Fishing Bundle, Crab Pot Bundle"
+Golden Scythe,,tool,,,,Quarry Mine
+Training Rod,,tool,,,25,"Fish, Seaweed, Green Algae, Driftwood, Broken CD, Soggy Newspaper"
+Bamboo Pole,,tool,,,500,"Fish, Seaweed, Green Algae, Driftwood, Broken CD, Soggy Newspaper"
+Fiberglass Rod,,tool,,,1800,"Fish, Seaweed, Green Algae, Driftwood, Broken CD, Soggy Newspaper"
+Iridium Rod,,tool,,,7500,"Fish, Seaweed, Green Algae, Driftwood, Broken CD, Soggy Newspaper"
+Milk Pail,,tool,,,1000,"Milk, Large Milk, Goat Milk, Lg. Goat Milk"
+Shears,,tool,,,1000,Wool
+Heater,,equipment,1x1,,2000,"Barn, Big Barn, Deluxe Barn, Coop, Big Coop, Deluxe Coop"
+Auto-Grabber,,equipment,1x1,,25000,"Milk, Large Milk, Goat Milk, Lg. Goat Milk, White Egg, Brown Egg, Dinosaur Egg, Duck Feather, Wool, Rabbit Foot"
+Crab Pot,,equipment,1x1,,1500,"Mussel, Oyster, Crab, Lobster, Periwinkle, Crawfish, Trash, Driftwood, Broken CD"

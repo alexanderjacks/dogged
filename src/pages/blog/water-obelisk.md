@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: Water Obelisk
-type: 
-description: Warps you to the Beach.
+type: building
+description: Warps you to Beach.
 featuredpost: false
 date: 2020-02-21T14:54:54.711Z
 featuredimage: /img/Water_Obelisk.png

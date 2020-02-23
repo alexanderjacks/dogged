@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Earth Obelisk
-type: 
+type: building
 description: Warps you to the Mountain.
 featuredpost: false
 date: 2020-02-21T14:54:54.711Z
