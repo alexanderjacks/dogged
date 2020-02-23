@@ -2,11 +2,11 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-23T00:22:22.711Z
-featuredimage: /img/Seaweed.png
-title: Seaweed
-description: Seaweed
+featuredimage: /img/White_Algae.png
+title: White Algae
+description: White Algae
 type: resource
-sellPrice: 5
+sellPrice: 10
 tags:
   - resource
 ---
