@@ -12,7 +12,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          {/* does this work sitewide ? move it! */}
+          {/* key tether for AdSense! this works sitewide?? */}
           <AdSense.Google
             client='ca-pub-1699472970547311'
             slot='6359860180'
