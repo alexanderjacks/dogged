@@ -20,10 +20,10 @@ Iron Bar,Iron Bar,resource,200,resource
 Gold Bar,Gold Bar,resource,300,resource
 Iridium Bar,Iridium Bar,resource,500,resource
 Refined Quartz,Refined Quartz,resource,5,resource
-Bat Wing,Bat Wing,loot,2,monster loot
+Bat Wing,Bat Wing,loot,15,monster loot
 Void Essence,Void Essence,loot,25,resource
 Solar Essence,Solar Essence,loot,25,resource
-Hay,Hay,resource,1,
+Hay,Hay,resource,1,resource
 Sap,Sap,resource,2,"oak tree, pine tree, maple tree"
 Mixed Seeds,Mixed Seeds,seed,1,"Farm, Town, Mines, Forest, Secret Woods, Beach, forageable"
 Fire Quartz,Fire Quartz,resource,25,"forageable, mineral"

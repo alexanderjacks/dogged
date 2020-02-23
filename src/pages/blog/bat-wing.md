@@ -6,7 +6,7 @@ featuredimage: /img/Bat_Wing.png
 title: Bat Wing
 description: Bat Wing
 type: loot
-sellPrice: 2
+sellPrice: 15
 tags:
   - monster loot
 ---
