@@ -1,16 +1,19 @@
 ---
 templateKey: blog-post
-title: Radish
-type: vegetable
-description: A crisp and refreshing root vegetable with hints of pepper when eaten raw
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Radish.png
+date: 2020-02-23T00:22:22.711Z
+title: Radish
+description: A crisp and refreshing root vegetable with hints of pepper when eaten raw
+type: vegetable
 sellPrice: 90
+energy: 45
+health: 20
+featuredimage: /img/Radish.png
 tags:
   - Summer
   - edible
   - vegetable
   - Radish Salad
   - Red Plate
+  - pickles
 ---

@@ -1,16 +1,19 @@
 ---
 templateKey: blog-post
-title: Leek
-type: vegetable
-description: A tasty relative of the onion.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Leek.png
+date: 2020-02-23T00:22:22.711Z
+title: Leek
+description: A tasty relative of the onion.
+type: vegetable
 sellPrice: 60
+energy: 40
+health: 18
+featuredimage: /img/Leek.png
 tags:
   - Spring
   - Salad
   - Spring Seeds
   - Spring Foraging Bundle
   - George
+  - pickles
 ---

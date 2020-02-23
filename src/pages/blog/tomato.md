@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Tomato
-type: vegetable
-description: Rich and slightly tangy, the Tomato has a wide variety of culinary uses
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Tomato.png
+date: 2020-02-23T00:22:22.711Z
+title: Tomato
+description: Rich and slightly tangy, the Tomato has a wide variety of culinary uses
+type: vegetable
 sellPrice: 60
+energy: 20
+health: 9
+featuredimage: /img/Tomato.png
 tags:
   - Summer
   - edible
@@ -18,4 +20,6 @@ tags:
   - Spaghetti
   - Vegetable Medley
   - Summer Crops Bundle
+  - multiharvest
+  - pickles
 ---

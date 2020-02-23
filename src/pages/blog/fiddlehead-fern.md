@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Fiddlehead Fern
-type: vegetable
-description: The young shoots are an edible specialty.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Fiddlehead_Fern.png
+date: 2020-02-23T00:22:22.711Z
+title: Fiddlehead Fern
+description: The young shoots are an edible specialty.
+type: vegetable
 sellPrice: 90
+energy: 25
+health: 11
+featuredimage: /img/Fiddlehead_Fern.png
 tags:
   - Summer
   - forageable
@@ -14,4 +16,6 @@ tags:
   - Chefs Bundle
   - Pickles
   - Juice
+  - pickles
+  - Secret Woods
 ---

@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Purple Mushroom
-type: Forage
-description: A rare mushroom found deep in caves.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Purple_Mushroom.png
+date: 2020-02-23T00:22:22.711Z
+title: Purple Mushroom
+description: A rare mushroom found deep in caves.
+type: forage
 sellPrice: 250
+energy: 125
+health: 56
+featuredimage: /img/Purple_Mushroom.png
 tags:
   - forageable
   - Bulletin Board
@@ -14,4 +16,5 @@ tags:
   - Field Research Bundle
   - Life Elixir
   - Wizard
+  - forageable
 ---

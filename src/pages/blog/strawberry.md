@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Strawberry
-type: fruit
-description: A sweet, juicy favorite with an appealing red color
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Strawberry.png
+date: 2020-02-23T00:22:22.711Z
+title: Strawberry
+description: A sweet, juicy favorite with an appealing red color
+type: fruit
 sellPrice: 120
+energy: 50
+health: 22
+featuredimage: /img/Strawberry.png
 tags:
   - Spring
   - Maru
@@ -15,4 +17,6 @@ tags:
   - fruit
   - Demetrius
   - Maru
+  - jelly
+  - wine
 ---

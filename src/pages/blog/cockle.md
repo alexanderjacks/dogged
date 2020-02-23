@@ -1,13 +1,20 @@
 ---
 templateKey: blog-post
-title: Cockle
-type: Fish
-description: A common saltwater clam.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Cockle.png
+date: 2020-02-23T00:22:22.711Z
+title: Cockle
+description: A common saltwater clam.
+type: Fish
 sellPrice: 50
+energy: 
+health: 
+featuredimage: /img/Cockle.png
 tags:
   - forageable
   - Crab Pot Bundle
+  - Beach
+  - Spring
+  - Summer
+  - Fall
+  - Winter
 ---

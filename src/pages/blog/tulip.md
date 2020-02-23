@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Tulip
-type: flower
-description: The most popular spring flower. Has a very faint sweet smell
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Tulip.png
+date: 2020-02-23T00:22:22.711Z
+title: Tulip
+description: The most popular spring flower. Has a very faint sweet smell
+type: flower
 sellPrice: 30
+energy: 45
+health: 20
+featuredimage: /img/Tulip.png
 tags:
   - Spring
   - edible

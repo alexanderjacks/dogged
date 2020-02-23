@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Salad
+description: A healthy garden salad. 
 type: cooking
+sellPrice: 110
 energy: 113
 health: 50
-description: A healthy garden salad. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Salad.png
-sellPrice: 110
 tags:
   - Leek
   - Dandelion

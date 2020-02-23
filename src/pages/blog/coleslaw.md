@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Coleslaw
+description: It's light,  fresh and very healthy. 
 type: cooking
+sellPrice: 345
 energy: 213
 health: 95
-description: It's light,  fresh and very healthy. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Coleslaw.png
-sellPrice: 345
 tags:
   - Red Cabbage
   - Vinegar

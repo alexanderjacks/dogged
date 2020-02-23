@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Crab Cakes
+description: Crab, bread crumbs, and egg formed into patties then fried to a golden brown. 
 type: cooking
+sellPrice: 275
 energy: 225
 health: 101
-description: Crab, bread crumbs, and egg formed into patties then fried to a golden brown. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Crab_Cakes.png
-sellPrice: 275
 tags:
   - Crab
   - Wheat Flour

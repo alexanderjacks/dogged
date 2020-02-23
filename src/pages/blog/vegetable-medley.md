@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Vegetable Medley
+description: This is very nutritious. 
 type: cooking
+sellPrice: 120
 energy: 165
 health: 74
-description: This is very nutritious. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Vegetable_Medley.png
-sellPrice: 120
 tags:
   - Tomato
   - Beet

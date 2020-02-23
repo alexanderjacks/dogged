@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Omelet
+description: It's super fluffy. 
 type: cooking
+sellPrice: 125
 energy: 100
 health: 45
-description: It's super fluffy. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Omelet.png
-sellPrice: 125
 tags:
   - Egg
   - Milk

@@ -1,14 +1,16 @@
 ---
 templateKey: blog-post
-title: Amaranth
-type: vegetable
-description: A purple grain cultivated by an ancient civilization.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Amaranth.png
+date: 2020-02-23T00:22:22.711Z
+title: Amaranth
+description: A purple grain cultivated by an ancient civilization.
+type: vegetable
 sellPrice: 150
+energy: 50
+health: 22
+featuredimage: /img/Amaranth.png
 tags:
-  - Summer
+  - Fall
   - edible
   - vegetable
   - Salmon Dinner

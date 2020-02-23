@@ -1,30 +1,29 @@
 # GOAL OF THIS SOFTWARE: scrape from a CSV into a batch of md files
-## w the right type of CSV, you can run this script in Terminal with ```python make_crops.py``` and score markdown files per row!
+## w the right type of CSV, you can run this script in Terminal with ```python make_EDIBLES.py``` and score markdown files per row!
 ### reuse & recycle & have a nice day
 
 
 import csv # csv deciphering module
 # opens file to work from (only read not write (rb not wb))
-with open('recipes.csv', 'rb') as csvfile:
+with open('EDIBLES.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
-    headers = ['templateKey', 'title', 'description', 'type', 'energy', 'health', 'sellPrice', 'tags'] # manual entry for now
-    # this needs to count down for the row count (while)
+    headers = ['templateKey', 'title', 'description', 'type', 'sellPrice', 'tags', 'energy', 'health',] # manual entry for now
 
     for row in pulpy_data:
         # gotta assign fields to vars for later
-        description = row['description']
         title = row['title']
+        description = row['description']
         type = row['type']
-        energy = row['energy']
-        health = row['health']
         sellPrice = row['sellPrice']
         tags =  row['tags'] # could try to split these now...
-        working_file_name = row['title'] # for db schema
-        # formatting filename, from the data object name
-        img_file_name = working_file_name.replace(' ','_') # b/c filesystem
-        md_file_name = working_file_name.lower().replace(' ','-') # b/c filesystem
+        energy = row['energy']
+        health = row['health']
+
+        # formatting filenames, from the data object name
+        img_file_name = title.replace(' ','_') # b/c filesystem
+        md_file_name = title.lower().replace(' ','-') # b/c filesystem
         #
         # creating img asset path
         featuredimage = '/img/{}.png'.format(img_file_name)

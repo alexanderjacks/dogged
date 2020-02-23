@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Winter Root
-type: Forage
-description: A starchy tuber.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Winter_Root.png
+date: 2020-02-23T00:22:22.711Z
+title: Winter Root
+description: A starchy tuber.
+type: forage
 sellPrice: 70
+energy: 25
+health: 11
+featuredimage: /img/Winter_Root.png
 tags:
   - forageable
   - forage

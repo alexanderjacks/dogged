@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Snow Yam
-type: Forage
-description: This little yam was hiding beneath the snow.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Snow_Yam.png
+date: 2020-02-23T00:22:22.711Z
+title: Snow Yam
+description: This little yam was hiding beneath the snow.
+type: forage
 sellPrice: 100
+energy: 30
+health: 13
+featuredimage: /img/Snow_Yam.png
 tags:
   - Winter
   - edible

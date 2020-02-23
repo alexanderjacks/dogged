@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Lucky Lunch
+description: A special little meal. 
 type: cooking
+sellPrice: 250
 energy: 100
 health: 45
-description: A special little meal. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Lucky_Lunch.png
-sellPrice: 250
 tags:
   - Sea Cucumber
   - Tortilla

@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Fried Egg
+description: Sunny-side up. 
 type: cooking
+sellPrice: 35
 energy: 50
 health: 22
-description: Sunny-side up. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Fried_Egg.png
-sellPrice: 35
 tags:
   - Egg
   - edible

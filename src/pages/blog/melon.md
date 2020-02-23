@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Melon
-type: fruit
-description: A cool, sweet summer treat
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Melon.png
+date: 2020-02-23T00:22:22.711Z
+title: Melon
+description: A cool, sweet summer treat
+type: fruit
 sellPrice: 250
+energy: 113
+health: 50
+featuredimage: /img/Melon.png
 tags:
   - Summer
   - edible

@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Fruit Salad
+description: A delicious combination of summer fruits. 
 type: cooking
+sellPrice: 450
 energy: 263
 health: 118
-description: A delicious combination of summer fruits. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Fruit_Salad.png
-sellPrice: 450
 tags:
   - Blueberry
   - Melon

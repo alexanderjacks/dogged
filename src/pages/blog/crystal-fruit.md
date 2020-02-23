@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Crystal Fruit
-type: Fruit
-description: A delicate fruit that pops up from the snow.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Crystal_Fruit.png
+date: 2020-02-23T00:22:22.711Z
+title: Crystal Fruit
+description: A delicate fruit that pops up from the snow.
+type: Fruit
 sellPrice: 150
+energy: 63
+health: 28
+featuredimage: /img/Crystal_Fruit.png
 tags:
   - fruit
   - forageable
@@ -15,6 +17,6 @@ tags:
   - bundle
   - Winter Seeds
   - Winter Foraging Bundle
-  - Jelly
-  - Wine
+  - jelly
+  - wine
 ---

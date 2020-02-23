@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Spice Berry
-type: fruit
-description: It fills the air with a pungent aroma.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Spice_Berry.png
+date: 2020-02-23T00:22:22.711Z
+title: Spice Berry
+description: It fills the air with a pungent aroma.
+type: fruit
 sellPrice: 80
+energy: 25
+health: 11
+featuredimage: /img/Spice_Berry.png
 tags:
   - Summer
   - fruit
@@ -14,6 +16,6 @@ tags:
   - wine
   - Summer Seeds
   - Summer Foraging Bundle
-  - Jelly
-  - Wine
+  - jelly
+  - wine
 ---

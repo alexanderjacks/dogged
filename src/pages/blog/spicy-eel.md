@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Spicy Eel
+description: It's really spicy! Be careful. 
 type: cooking
+sellPrice: 175
 energy: 115
 health: 51
-description: It's really spicy! Be careful. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Spicy_Eel.png
-sellPrice: 175
 tags:
   - Eel
   - Hot Pepper

@@ -1,14 +1,19 @@
 ---
 templateKey: blog-post
-title: Nautilus Shell
-type: Forage
-description: An ancient shell.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Nautilus_Shell.png
+date: 2020-02-23T00:22:22.711Z
+title: Nautilus Shell
+description: An ancient shell.
+type: forage
 sellPrice: 120
+energy: 
+health: 
+featuredimage: /img/Nautilus_Shell.png
 tags:
   - forageable
   - quest
   - Field Research Bundle
+  - forageable
+  - Beach
+  - Winter
 ---

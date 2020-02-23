@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Common Mushroom
-type: forage
-description: Slightly nutty, with good texture.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Common_Mushroom.png
+date: 2020-02-23T00:22:22.711Z
+title: Common Mushroom
+description: Slightly nutty, with good texture.
+type: forage
 sellPrice: 40
+energy: 38
+health: 17
+featuredimage: /img/Common_Mushroom.png
 tags:
   - Spring
   - Summer
@@ -17,4 +19,10 @@ tags:
   - Stir Fry
   - Tom Kha Soup
   - Fall Foraging Bundle
+  - forageable
+  - Town
+  - Mountain
+  - Forest
+  - Secret Woods
+  - Mines
 ---

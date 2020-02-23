@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Cookie
+description: Very chewy. 
 type: cooking
+sellPrice: 140
 energy: 90
 health: 40
-description: Very chewy. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Cookie.png
-sellPrice: 140
 tags:
   - Wheat Flour
   - Sugar

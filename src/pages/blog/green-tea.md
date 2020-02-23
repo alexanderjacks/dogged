@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Green Tea
+description: A pleasant,  energizing beverage made from lightly processed tea leaves. 
 type: cooking
+sellPrice: 100
 energy: 13
 health: 5
-description: A pleasant,  energizing beverage made from lightly processed tea leaves. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Green_Tea.png
-sellPrice: 100
 tags:
   - Tea Leaves
   - edible

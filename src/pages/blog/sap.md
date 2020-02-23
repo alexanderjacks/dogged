@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Sap
-type: forage
-description: A fluid obtained from trees.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Sap.png
+date: 2020-02-23T00:22:22.711Z
+title: Sap
+description: A fluid obtained from trees.
+type: forage
 sellPrice: 2
+energy: 
+health: 
+featuredimage: /img/Sap.png
 tags:
   - Spring
   - Summer

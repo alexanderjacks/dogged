@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Strange Bun
+description: What's inside? 
 type: cooking
+sellPrice: 225
 energy: 100
 health: 45
-description: What's inside? 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Strange_Bun.png
-sellPrice: 225
 tags:
   - Wheat Flour
   - Periwinkle

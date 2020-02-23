@@ -1,19 +1,21 @@
 ---
 templateKey: blog-post
-title: Cactus Fruit
-type: Fruit
-description: The sweet fruit of the prickly pear cactus.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Cactus_Fruit.png
+date: 2020-02-23T00:22:22.711Z
+title: Cactus Fruit
+description: The sweet fruit of the prickly pear cactus.
+type: Fruit
 sellPrice: 75
+energy: 75
+health: 33
+featuredimage: /img/Cactus_Fruit.png
 tags:
   - indoors
   - Sam
   - Pam
   - Linus
-  - Jelly
+  - jelly
   - The Desert
   - Exotic Foraging Bundle
-  - Wine
+  - wine
 ---

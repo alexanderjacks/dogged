@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Lobster Bisque
+description: This delicate soup is a secret family recipe of Willy's. 
 type: cooking
+sellPrice: 205
 energy: 225
 health: 101
-description: This delicate soup is a secret family recipe of Willy's. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Lobster_Bisque.png
-sellPrice: 205
 tags:
   - Lobster
   - Milk

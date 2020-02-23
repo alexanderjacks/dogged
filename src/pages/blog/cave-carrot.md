@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Cave Carrot
-type: Forage
-description: A starchy snack found in caves. It helps miners work longer.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Cave_Carrot.png
+date: 2020-02-23T00:22:22.711Z
+title: Cave Carrot
+description: A starchy snack found in caves. It helps miners work longer.
+type: forage
 sellPrice: 25
+energy: 30
+health: 13
+featuredimage: /img/Cave_Carrot.png
 tags:
   - forageable
   - edible

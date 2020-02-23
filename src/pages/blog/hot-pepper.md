@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Hot Pepper
-type: fruit
-description: Fiery hot with a hint of sweetness
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Hot_Pepper.png
+date: 2020-02-23T00:22:22.711Z
+title: Hot Pepper
+description: Fiery hot with a hint of sweetness
+type: fruit
 sellPrice: 40
+energy: 13
+health: 5
+featuredimage: /img/Hot_Pepper.png
 tags:
   - Summer
   - edible
@@ -17,4 +19,5 @@ tags:
   - Knee Therapy Quest
   - Lewis
   - Shane
+  - reharvest
 ---

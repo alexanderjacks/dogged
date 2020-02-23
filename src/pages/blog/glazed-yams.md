@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Glazed Yams
+description: Sweet and satisfying... The sugar gives it a hint of caramel. 
 type: cooking
+sellPrice: 200
 energy: 200
 health: 90
-description: Sweet and satisfying... The sugar gives it a hint of caramel. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Glazed_Yams.png
-sellPrice: 200
 tags:
   - Yam
   - Sugar

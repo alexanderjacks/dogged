@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Roots Platter
+description: This'll get you digging for more. 
 type: cooking
+sellPrice: 100
 energy: 125
 health: 56
-description: This'll get you digging for more. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Roots_Platter.png
-sellPrice: 100
 tags:
   - Cave Carrot
   - Winter Root

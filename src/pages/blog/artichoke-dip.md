@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Artichoke Dip
+description: It's cool and refreshing. 
 type: cooking
+sellPrice: 210
 energy: 100
 health: 45
-description: It's cool and refreshing. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Artichoke_Dip.png
-sellPrice: 210
 tags:
   - Artichoke
   - Milk

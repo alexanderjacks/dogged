@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Spaghetti
+description: An old favorite. 
 type: cooking
+sellPrice: 120
 energy: 75
 health: 33
-description: An old favorite. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Spaghetti.png
-sellPrice: 120
 tags:
   - Wheat Flour
   - Tomato

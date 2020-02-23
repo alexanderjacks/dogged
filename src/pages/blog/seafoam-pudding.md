@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Seafoam Pudding
+description: This briny pudding will really get you into the maritime mindset! 
 type: cooking
+sellPrice: 300
 energy: 175
 health: 78
-description: This briny pudding will really get you into the maritime mindset! 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Seafoam_Pudding.png
-sellPrice: 300
 tags:
   - Flounder
   - Midnight Carp

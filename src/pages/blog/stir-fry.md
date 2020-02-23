@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Stir Fry
+description: Julienned vegetables on a bed of rice. 
 type: cooking
+sellPrice: 335
 energy: 200
 health: 90
-description: Julienned vegetables on a bed of rice. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Stir_Fry.png
-sellPrice: 335
 tags:
   - Cave Carrot
   - Common Mushroom

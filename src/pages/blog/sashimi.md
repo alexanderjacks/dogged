@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Sashimi
+description: Raw fish sliced into thin pieces. 
 type: cooking
+sellPrice: 75
 energy: 75
 health: 33
-description: Raw fish sliced into thin pieces. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Sashimi.png
-sellPrice: 75
 tags:
   - Fish
   - edible

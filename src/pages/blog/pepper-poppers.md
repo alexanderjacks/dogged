@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Pepper Poppers
+description: Spicy breaded peppers filled with cheese. 
 type: cooking
+sellPrice: 200
 energy: 130
 health: 58
-description: Spicy breaded peppers filled with cheese. 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Pepper_Poppers.png
-sellPrice: 200
 tags:
   - Hot Pepper
   - Cheese

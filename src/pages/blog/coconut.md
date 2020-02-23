@@ -1,24 +1,27 @@
 ---
 templateKey: blog-post
-title: Coconut
-type: Fruit
-description: A seed of the coconut palm. It has many culinary uses.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Coconut.png
+date: 2020-02-23T00:22:22.711Z
+title: Coconut
+description: A seed of the coconut palm. It has many culinary uses.
+type: Fruit
 sellPrice: 100
+energy: 
+health: 
+featuredimage: /img/Coconut.png
 tags:
   - Spring
   - Summer
   - Fall
   - Winter
-  - The Desert
+  - Desert
   - Tom Kha Soup
-  - Jelly
+  - jelly
   - inedible
   - Haley
   - Linus
   - fruit
   - Exotic Foraging Bundle
-  - Wine
+  - wine
+  - forageable
 ---

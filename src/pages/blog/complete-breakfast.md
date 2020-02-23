@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Complete Breakfast
+description: You'll feel ready to take on the world! 
 type: cooking
+sellPrice: 350
 energy: 200
 health: 90
-description: You'll feel ready to take on the world! 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Complete_Breakfast.png
-sellPrice: 350
 tags:
   - Fried Egg
   - Milk

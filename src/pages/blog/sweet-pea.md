@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Sweet Pea
-type: flower
-description: A fragrant summer flower.
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Sweet_Pea.png
+date: 2020-02-23T00:22:22.711Z
+title: Sweet Pea
+description: A fragrant summer flower.
+type: flower
 sellPrice: 50
+energy: 0
+health: 0
+featuredimage: /img/Sweet_Pea.png
 tags:
   - Summer
   - Sandy

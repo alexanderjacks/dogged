@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
+featuredpost: false
+date: 2020-02-23T00:22:22.711Z
 title: Rhubarb Pie
+description: Mmm,  tangy and sweet! 
 type: cooking
+sellPrice: 400
 energy: 215
 health: 96
-description: Mmm,  tangy and sweet! 
-featuredpost: false
-date: 2020-02-16T21:45:12.711Z
 featuredimage: /img/Rhubarb_Pie.png
-sellPrice: 400
 tags:
   - Rhubarb
   - Wheat Flour

@@ -1,12 +1,14 @@
 ---
 templateKey: blog-post
-title: Hazelnut
-type: forage
-description: Thats one big hazelnut!,
 featuredpost: false
-date: 2020-02-10T00:00:02.711Z
-featuredimage: /img/Hazelnut.png
+date: 2020-02-23T00:22:22.711Z
+title: Hazelnut
+description: Thats one big hazelnut!,
+type: forage
 sellPrice: 90
+energy: 30
+health: 13
+featuredimage: /img/Hazelnut.png
 tags:
   - Fall
   - forageable
