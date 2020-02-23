@@ -84,7 +84,7 @@ module.exports = {
         icon: `static/img/apple-touch-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-offline`, // PWA ingredient
+    // `gatsby-plugin-offline`, // PWA ingredient
     'gatsby-plugin-netlify', // plz keep this last in the plugins array
   ],
 }
