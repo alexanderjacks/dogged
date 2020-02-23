@@ -73,6 +73,12 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-1699472970547311`
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: { // PWA specs
         name: `StardewDex`,

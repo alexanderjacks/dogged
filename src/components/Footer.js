@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import AdSense from 'react-adsense';
 
 import logo from '../img/logo.png'
 import facebook from '../img/social/facebook.svg'
@@ -12,15 +11,6 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          {/* key tether for AdSense! this works sitewide?? */}
-          <AdSense.Google
-            client='ca-pub-1699472970547311'
-            slot='6359860180'
-            style={{ display: 'block' }}
-            format='auto'
-            responsive='true'
-            layoutKey='-gw-1+2a-9x+5c'
-          />
           <Link to="/">
             <img
               src={logo}
