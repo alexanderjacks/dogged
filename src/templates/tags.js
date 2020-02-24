@@ -14,36 +14,39 @@ class TagRoute extends React.Component {
         style={{
           display:`flex`,
           flexDirection: `column`,
-          height:`100%`,
           justifyContent:`center`,
           alignItems:`center`,
-          maxWidth:`35vw`,
           borderRadius: `1.5rem`,
           border: `chocolate 6px groove`,
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
-          marginBottom:`0.6rem`,
-          marginRight:`0.6rem`,
+          margin:`0.23rem`,
       }}>
         <Link to={post.node.fields.slug}
         style={{
-          width:`100%`,
-          height:`100%`,
-          padding:`0.45rem`,
+          marginLeft:`auto`,
+          marginRight:`auto`,
           backgroundImage: `url(/img/${snakeCase(post.node.frontmatter.title.split(' (')[0])}.png)`,
           backgroundPosition: `center`,
           backgroundRepeat: `no-repeat`,
+          display:`flex`,
+          flexDirection: `column`,
+          justifyContent:`center`,
+          alignItems:`center`,
         }}>
-          <h4
+          <div
           style={{
             textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
-            textAlign: 'center',
             fontSize:`5vw`,
             fontWeight: 400,
+            fontFamily: `Fredericka the Great`,
             lineHeight: '1',
+            textAlign:`center`,
+            marginLeft:`auto`,
             color:`black`,
+            padding:`1.2rem`,
           }}>
             {post.node.frontmatter.title}
-          </h4>
+          </div>
         </Link>
       </li>
     ))
