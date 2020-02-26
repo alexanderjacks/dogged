@@ -41,15 +41,16 @@ class BlogRoll extends React.Component {
                     backgroundPosition: `center`,
                     backgroundImage: `url(/img/${snakeCase(post.frontmatter.title)}.png)`
                   }}>
+                    {/* good job, end of workaround */}
+                    <h4
+                    className=""
+                    style={{
+                      color:`black`,
+                      textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
+                    }}>
+                      {post.frontmatter.title}
+                    </h4>
                   </div>
-                  {/* good job, end of workaround */}
-                  <h4
-                  className="has-text-primary">
-                    {post.frontmatter.title}
-                  </h4>
-                  <p>
-                    {post.excerpt}
-                  </p>
                 </article>
               </Link>
             </li>

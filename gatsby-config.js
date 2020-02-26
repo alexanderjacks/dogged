@@ -73,9 +73,9 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
-      resolve: `gatsby-plugin-google-adsense`,
+      resolve: `gatsby-plugin-google-adsense`, // <-- really wish this could magically work w PWA architecture; love that it exists at all
       options: {
-        publisherId: `ca-pub-1699472970547311`
+        publisherId: `ca-pub-1699472970547311` // AdSense acct, use on other sites amply
       },
     },
     {
@@ -85,12 +85,12 @@ module.exports = {
         short_name: `StardewDex`,
         start_url: `/`,
         background_color: `#0000ff`,
-        theme_color: `#ff00ff`,
+        theme_color: `#ff00ff`,//possible entirely too loud but a nice branding attempt for now
         display: `standalone`,
         icon: `static/img/apple-touch-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // `gatsby-plugin-offline`, // PWA flag!
+    // `gatsby-plugin-offline`, // PWA flag! breaks AdSense ;_;
     'gatsby-plugin-netlify', // plz keep this last in the plugins array
   ],
 }

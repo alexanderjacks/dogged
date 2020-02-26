@@ -70,7 +70,7 @@ class TagRoute extends React.Component {
               <div
                 className="column"
                 style={{
-                  paddingTop: '1rem',
+                  paddingTop: '0.5rem',
               }}>
                 <div
                 style={{

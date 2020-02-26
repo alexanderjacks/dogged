@@ -45,10 +45,8 @@ const TagsPage = ({
           marginBottom: '2.3rem',
           marginTop: '0.3rem',
       }}>
-        <ul className="taglist columns is-multiline is-mobile"
+        <ul className="columns is-multiline is-mobile"
         style={{
-          display:`flex`,
-          flexFlow:`row wrap`,
           textAlign:`center`,
           padding:`0rem`
         }}
@@ -56,10 +54,8 @@ const TagsPage = ({
           {group.map(tag => (
             tag.fieldValue &&
             <li key={tag.fieldValue}
-            class="column is-one-quarter"
+            class="column is-one-quarter is-half-mobile"
               style={{
-                marginRight:`0.1rem`,
-                marginBottom:`0.2rem`,
               }}>
               <Link
                 to={`/tags/${kebabCase(tag.fieldValue)}/`}
