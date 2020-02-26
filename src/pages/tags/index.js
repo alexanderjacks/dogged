@@ -70,13 +70,14 @@ const TagsPage = ({
                   borderRadius: `1.5rem`,
               }}>
                 <span
-                style={{
-                  letterSpacing:`0.15rem`,
-                  fontSize:`1.4rem`,
-                  fontWeight: 800,
-                  textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
-                  color:`black`,
-                  fontFamily:`'Fredericka the Great', cursive`
+                  class="pinker-on-hover"
+                  style={{
+                    letterSpacing:`0.15rem`,
+                    fontSize:`1.4rem`,
+                    fontWeight: 800,
+                    textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
+                    color:`black`,
+                    fontFamily:`'Fredericka the Great', cursive`
                 }}>
                   {tag.fieldValue} ({tag.totalCount})
                 </span>

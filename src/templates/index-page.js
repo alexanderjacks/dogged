@@ -16,7 +16,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div
   style={{
-    backgroundColor: `white`,
+    backgroundColor: `navy`,
   }}>
     <div
       className="full-width-image margin-top-0"
@@ -25,7 +25,8 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `bottom left`,
-        backgroundAttachment: `fixed`,            backgroundSize: 'cover',
+        backgroundAttachment: `fixed`,
+        backgroundSize: 'cover',
       }}
     >
       <div
@@ -41,8 +42,6 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              '#c0c 0.5rem 0px 0px, #c0c -0.5rem 0px 0px',
             backgroundImage: 'linear-gradient(to left, #f0f,#0ff,#f0f)',
             color: 'white',
             textShadow: '2px 2px 4px navy,-2px -2px 4px navy,-2px 2px 4px navy,2px -2px 4px navy',

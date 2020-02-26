@@ -43,7 +43,7 @@ class BlogRoll extends React.Component {
                   }}>
                     {/* good job, end of workaround */}
                     <h4
-                    className=""
+                    className="better-on-hover"
                     style={{
                       color:`black`,
                       textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
