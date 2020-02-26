@@ -44,20 +44,29 @@ const TagsPage = ({
       <div className="container content">
         <div className="columns">
           <div
-            className="column is-10 is-offset-1"
-            style={{ marginBottom: '3rem' }}>
-            <ul className="taglist">
+            className="column is-12"
+            style={{
+              marginBottom: '2.3rem',
+              marginTop: '0.3rem',
+            }}>
+            <ul className="taglist"
+            style={{
+              display:`flex`,
+              flexFlow:`row wrap`,
+              justifyContent:`center`,
+              alignItems:`center`,
+            }}>
               {group.map(tag => (
                 tag.fieldValue &&
                 <li key={tag.fieldValue}
                   style={{
-                    marginRight:`0.15rem`,
-                    marginBottom:`0.3rem`,
+                    marginRight:`0.1rem`,
+                    marginBottom:`0.2rem`,
                   }}>
                   <Link
                     to={`/tags/${kebabCase(tag.fieldValue)}/`}
                     style={{
-                      padding: `1.05rem`,
+                      padding: `0.85rem`,
                       backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
                       display: `flex`,
                       flexFlow: `row wrap`,

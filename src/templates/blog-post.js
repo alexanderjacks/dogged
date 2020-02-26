@@ -187,12 +187,12 @@ export const BlogPostTemplate = ({
             borderRadius: `25%`,
           }}>
             {tags.map(tag => (
-              <li key={tag + `tag`} style={{ marginBottom: `0.4rem`, marginTop: `0.4rem` }}>
+              <li key={tag + `tag`} style={{ marginBottom: `0.2rem`, marginTop: `0.2rem` }}>
                 <Link
                 to={`/tags/${kebabCase(tag)}/`}
                 class="is-size-5"
                 style={{
-                  padding: `0.8rem`,
+                  padding: `0.7rem`,
                   color: `black`,
                   backgroundImage: `url(/img/${snakeCase(tag.split(' (')[0])}.png)`,
                   fontFamily:`Fredericka the Great`,
@@ -201,6 +201,7 @@ export const BlogPostTemplate = ({
                   flexFlow: `row wrap`,
                   justifyContent: `space-around`,
                   alignItems: `center`,
+                  margin:`0.35rem`,
                   border: `2px chocolate dotted`,
                   borderRadius: `1.5rem`,
                   textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
