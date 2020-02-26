@@ -56,7 +56,7 @@ const TagsPage = ({
           {group.map(tag => (
             tag.fieldValue &&
             <li key={tag.fieldValue}
-            class="column is-one-quarter is-half-mobile"
+            class="column is-one-quarter"
               style={{
                 marginRight:`0.1rem`,
                 marginBottom:`0.2rem`,

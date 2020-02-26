@@ -68,7 +68,7 @@ class TagRoute extends React.Component {
           <div className="container content">
             <div className="columns">
               <div
-                className="column is-10 is-offset-1"
+                className="column"
                 style={{
                   paddingTop: '1rem',
               }}>
