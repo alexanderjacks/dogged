@@ -26,7 +26,6 @@ const TagsPage = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #c0c, -0.5rem 0 0 #c0c',
           backgroundColor: '#f0f',
           color: 'white',
           padding: '0.6rem',
@@ -41,57 +40,54 @@ const TagsPage = ({
         backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
     }}>
       <Helmet title={`Tags | ${title}`} />
-      <div className="container content">
-        <div className="columns">
-          <div
-            className="column is-12"
-            style={{
-              marginBottom: '2.3rem',
-              marginTop: '0.3rem',
-            }}>
-            <ul className="taglist"
-            style={{
-              display:`flex`,
-              flexFlow:`row wrap`,
-              justifyContent:`center`,
-              alignItems:`center`,
-            }}>
-              {group.map(tag => (
-                tag.fieldValue &&
-                <li key={tag.fieldValue}
-                  style={{
-                    marginRight:`0.1rem`,
-                    marginBottom:`0.2rem`,
-                  }}>
-                  <Link
-                    to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                    style={{
-                      padding: `0.85rem`,
-                      backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
-                      display: `flex`,
-                      flexFlow: `row wrap`,
-                      justifyContent: `space-around`,
-                      alignItems: `center`,
-                      border: `2px chocolate dotted`,
-                      borderRadius: `1.5rem`,
-                  }}>
-                    <span
-                    style={{
-                      letterSpacing:`0.15rem`,
-                      fontSize:`1.4rem`,
-                      fontWeight: 800,
-                      textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
-                      color:`black`,
-                      fontFamily:`'Fredericka the Great', cursive`
-                    }}>
-                      {tag.fieldValue} ({tag.totalCount})
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+      <div className=""
+        style={{
+          marginBottom: '2.3rem',
+          marginTop: '0.3rem',
+      }}>
+        <ul className="taglist columns is-multiline is-mobile"
+        style={{
+          display:`flex`,
+          flexFlow:`row wrap`,
+          textAlign:`center`,
+          padding:`0rem`
+        }}
+        >
+          {group.map(tag => (
+            tag.fieldValue &&
+            <li key={tag.fieldValue}
+            class="column is-one-quarter is-half-mobile"
+              style={{
+                marginRight:`0.1rem`,
+                marginBottom:`0.2rem`,
+              }}>
+              <Link
+                to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                style={{
+                  padding: `0.85rem`,
+                  backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
+                  display: `flex`,
+                  flexFlow: `row wrap`,
+                  justifyContent: `space-around`,
+                  alignItems: `center`,
+                  border: `2px chocolate dotted`,
+                  borderRadius: `1.5rem`,
+              }}>
+                <span
+                style={{
+                  letterSpacing:`0.15rem`,
+                  fontSize:`1.4rem`,
+                  fontWeight: 800,
+                  textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
+                  color:`black`,
+                  fontFamily:`'Fredericka the Great', cursive`
+                }}>
+                  {tag.fieldValue} ({tag.totalCount})
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   </Layout>

@@ -16,23 +16,23 @@ class BlogRoll extends React.Component {
         {posts &&
           posts.map(({ node: post }) => (
             <li className="column" key={post.id}>
-              <article
-                className="btn"
-                style={{
-                  display:`flex`,
-                  flexFlow: `row nowrap`,
-                  justifyContent:`center`,
-                  alignItems:`center`,
-                  paddingTop:`2.2rem`,
-                  padding:`1.1rem`,
-                  marginBottom:`0.25rem`,
-                  marginRight:`0.25rem`,
-                  borderRadius: `1.5rem`,
-                  border: `chocolate 6px groove`,
-                  backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
-                }}
-              >
-                <Link to={post.fields.slug}>
+              <Link to={post.fields.slug}>
+                <article
+                  className="btn"
+                  style={{
+                    display:`flex`,
+                    flexFlow: `row nowrap`,
+                    justifyContent:`center`,
+                    alignItems:`center`,
+                    paddingTop:`2.2rem`,
+                    padding:`1.1rem`,
+                    marginBottom:`0.25rem`,
+                    marginRight:`0.25rem`,
+                    borderRadius: `1.5rem`,
+                    border: `chocolate 6px groove`,
+                    backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
+                  }}
+                >
                 {/* img workaround for Gatsby Img grief */}
                   <div style={{
                     minWidth: 48,
@@ -47,11 +47,11 @@ class BlogRoll extends React.Component {
                   className="has-text-primary">
                     {post.frontmatter.title}
                   </h4>
-                <p>
-                  {post.excerpt}
-                </p>
-                </Link>
-              </article>
+                  <p>
+                    {post.excerpt}
+                  </p>
+                </article>
+              </Link>
             </li>
           ))}
       </ul>
