@@ -19,4 +19,5 @@ tags:
   - Peach
   - Pomegranate
   - Cherry
+  - bundles
 ---

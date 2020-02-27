@@ -10,4 +10,5 @@ tags:
   - Common MushroomWild Plum
   - Hazelnut
   - Blackberry
+  - bundles
 ---

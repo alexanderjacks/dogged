@@ -13,4 +13,5 @@ tags:
   - Gold quality Ancient Fruit (5)
   - Gold or Iridium quality Void Salmon
   - Caviar
+  - bundles
 ---

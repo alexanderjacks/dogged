@@ -10,4 +10,5 @@ tags:
   - Copper Bar
   - Iron Bar
   - Gold Bar
+  - bundles
 ---

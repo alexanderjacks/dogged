@@ -11,4 +11,5 @@ tags:
   - Earth Crystal
   - Frozen Tear
   - Fire Quartz
+  - bundles
 ---

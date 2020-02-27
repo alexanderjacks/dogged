@@ -8,4 +8,5 @@ description: Vault
 reward: Lightning Rod (1)
 tags:
   - 10000'
+  - bundles
 ---

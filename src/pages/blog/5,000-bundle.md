@@ -8,4 +8,5 @@ description: Vault
 reward: Quality Fertilizer (30)
 tags:
   - 5000'
+  - bundles
 ---

@@ -5,7 +5,7 @@
 
 import csv # csv deciphering module
 # opens file to work from (only read not write (rb not wb))
-with open('resourcesloot.csv', 'rb') as csvfile:
+with open('rlmg.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
@@ -31,7 +31,7 @@ with open('resourcesloot.csv', 'rb') as csvfile:
         f.write('---\n') # formatting req
         f.write('templateKey: blog-post\n') # b/c CMS
         f.write('featuredpost: false\n') # b/c CMS
-        f.write('date: 2020-02-23T00:22:22.711Z\n') # b/c CMS
+        f.write('date: 2020-02-27T06:12:22.711Z\n') # b/c CMS
         f.write('featuredimage: {}\n'.format(featuredimage)) # b/c CMS
         f.write('title: {}\n'.format(title))
         f.write('description: {}\n'.format(description))

@@ -13,4 +13,5 @@ tags:
   - Large Goat Milk
   - Wool
   - Duck Egg
+  - bundles
 ---

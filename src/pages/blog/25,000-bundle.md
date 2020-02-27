@@ -8,4 +8,5 @@ description: Vault
 reward: Crystalarium (1)
 tags:
   - 25000'
+  - bundles
 ---

@@ -11,4 +11,5 @@ tags:
   - Tuna
   - Red Snapper
   - Tilapia
+  - bundles
 ---

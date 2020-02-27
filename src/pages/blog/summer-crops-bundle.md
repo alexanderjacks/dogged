@@ -11,4 +11,5 @@ tags:
   - Hot Pepper
   - Blueberry
   - Melon
+  - bundles
 ---

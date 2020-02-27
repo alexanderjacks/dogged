@@ -12,4 +12,5 @@ tags:
   - Stone (99)
   - Hardwood (10)
   - Charcoal Kiln (1)
+  - bundles
 ---

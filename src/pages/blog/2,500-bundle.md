@@ -8,4 +8,5 @@ description: Vault
 reward: Chocolate Cake (3)
 tags:
   - 2500'
+  - bundles
 ---
