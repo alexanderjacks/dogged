@@ -12,4 +12,5 @@ tags:
   - Solar Essence
   - Void Essence
   - bundles
+  - Boiler Room
 ---

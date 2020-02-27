@@ -9,4 +9,5 @@ reward: Lightning Rod (1)
 tags:
   - 10000g
   - bundles
+  - Vault
 ---

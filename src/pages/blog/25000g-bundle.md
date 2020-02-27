@@ -9,4 +9,5 @@ reward: Crystalarium (1)
 tags:
   - 25000g
   - bundles
+  - Vault
 ---

@@ -12,4 +12,5 @@ tags:
   - Cauliflower
   - Potato
   - bundles
+  - Pantry
 ---

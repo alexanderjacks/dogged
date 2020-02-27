@@ -13,4 +13,5 @@ tags:
   - Hardwood (10)
   - Charcoal Kiln (1)
   - bundles
+  - Craft Room
 ---

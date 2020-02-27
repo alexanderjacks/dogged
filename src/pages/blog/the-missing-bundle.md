@@ -14,4 +14,5 @@ tags:
   - Gold or Iridium Void Salmon
   - Caviar
   - bundles
+  - Abandoned Jojamart
 ---

@@ -8,10 +8,11 @@ description: Pantry
 reward: Cheese Press (1)
 tags:
   - Large Milk
-  - Large Egg (Brown)
+  - Large Brown Egg
   - Large Egg
   - Large Goat Milk
   - Wool
   - Duck Egg
   - bundles
+  - Pantry
 ---

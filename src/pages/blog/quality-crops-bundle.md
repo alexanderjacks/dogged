@@ -12,4 +12,5 @@ tags:
   - Pumpkin (5)
   - Corn (5)
   - bundles
+  - Pantry
 ---

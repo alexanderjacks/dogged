@@ -12,4 +12,5 @@ tags:
   - Blueberry
   - Melon
   - bundles
+  - Pantry
 ---

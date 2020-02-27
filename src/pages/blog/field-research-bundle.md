@@ -12,4 +12,5 @@ tags:
   - Chub
   - Frozen Geode
   - bundles
+  - Bulletin Board
 ---

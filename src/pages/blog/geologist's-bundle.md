@@ -12,4 +12,5 @@ tags:
   - Frozen Tear
   - Fire Quartz
   - bundles
+  - Boiler Room
 ---

@@ -14,4 +14,5 @@ tags:
   - Maki Roll
   - Fried Egg
   - bundles
+  - Bulletin Board
 ---

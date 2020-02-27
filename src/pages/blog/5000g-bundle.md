@@ -9,4 +9,5 @@ reward: Quality Fertilizer (30)
 tags:
   - 5000g
   - bundles
+  - Vault
 ---

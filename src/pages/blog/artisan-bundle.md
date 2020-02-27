@@ -20,4 +20,5 @@ tags:
   - Pomegranate
   - Cherry
   - bundles
+  - Pantry
 ---

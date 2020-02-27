@@ -12,4 +12,5 @@ tags:
   - Pumpkin
   - Yam
   - bundles
+  - Pantry
 ---
