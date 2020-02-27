@@ -12,6 +12,7 @@ export const BlogPostTemplate = ({
   description,
   featuredimage,
   type,
+  reward,
   cost,
   energy,
   health,
@@ -151,14 +152,12 @@ export const BlogPostTemplate = ({
             }}></div>
           </h1>
           </>}
-
-          <h2 class="column is-6" style={{textAlign:`right`}}>
-            type:
-          </h2>
-          <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>
-            {type}
-          </h1>
-
+          {type && <><h2 class="column is-6" style={{textAlign:`right`}}>type:</h2>
+          <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>{type}</h1>
+          </>}
+          {reward && <><h2 class="column is-6" style={{textAlign:`right`}}>reward:</h2>
+          <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>{reward}</h1>
+          </>}
         </div>
         {
           tags &&
@@ -169,6 +168,7 @@ export const BlogPostTemplate = ({
           flexFlow: `row wrap`,
           justifyContent: `center`,
         }}>
+          {/* would like a trick to swap Ingredients:Metadata based on title of blog-post (Ing for bundles, quests, etc) */}
           {title} Metadata
         </p>
         }
@@ -223,6 +223,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   type: PropTypes.string,
+  reward: PropTypes.string,
   cost: PropTypes.string,
   energy: PropTypes.string,
   health: PropTypes.string,
@@ -243,6 +244,7 @@ const BlogPost = ({ data }) => {
         energy={post.frontmatter.energy}
         health={post.frontmatter.health}
         type={post.frontmatter.type}
+        reward={post.frontmatter.reward}
         cost={post.frontmatter.cost}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
@@ -279,6 +281,7 @@ export const pageQuery = graphql`
         title
         description
         type
+        reward
         cost
         tags
         sellPrice
