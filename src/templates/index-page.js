@@ -16,7 +16,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div
   style={{
-    backgroundColor: `navy`,
+    background: `radial-gradient(#0ff, navy)`,
   }}>
     <div
       className="full-width-image margin-top-0"

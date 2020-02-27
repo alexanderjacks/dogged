@@ -11,7 +11,7 @@ tags:
   - Dinosaur Mayonnaise
   - Prismatic Shard
   - Gold quality Ancient Fruit (5)
-  - Gold or Iridium quality Void Salmon
+  - Gold or Iridium Void Salmon
   - Caviar
   - bundles
 ---

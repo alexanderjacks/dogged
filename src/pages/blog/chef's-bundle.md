@@ -4,8 +4,8 @@ featuredpost: false
 date: 2020-02-26T00:00:02.711Z
 featuredimage: /img/Chef's_Bundle.png
 title: Chef's Bundle
-description: Pink Cake (3)
-room: Bulletin Board
+description: Bulletin Board
+reward: Pink Cake (3)
 tags:
   - Maple Syrup
   - Fiddlehead Fern
@@ -13,4 +13,5 @@ tags:
   - Poppy
   - Maki Roll
   - Fried Egg
+  - bundles
 ---

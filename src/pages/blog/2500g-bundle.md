@@ -2,11 +2,11 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-26T00:00:02.711Z
-featuredimage: /img/5,000_Bundle.png
-title: 5,000 Bundle
+featuredimage: /img/2500g_Bundle.png
+title: 2500g Bundle
 description: Vault
-reward: Quality Fertilizer (30)
+reward: Chocolate Cake (3)
 tags:
-  - 5000'
+  - 2500g
   - bundles
 ---

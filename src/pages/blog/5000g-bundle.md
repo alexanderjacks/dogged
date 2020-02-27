@@ -2,11 +2,11 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-26T00:00:02.711Z
-featuredimage: /img/10,000_Bundle.png
-title: 10,000 Bundle
+featuredimage: /img/5000g_Bundle.png
+title: 5000g Bundle
 description: Vault
-reward: Lightning Rod (1)
+reward: Quality Fertilizer (30)
 tags:
-  - 10000'
+  - 5000g
   - bundles
 ---

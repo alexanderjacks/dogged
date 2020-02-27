@@ -2,11 +2,11 @@
 templateKey: blog-post
 featuredpost: false
 date: 2020-02-26T00:00:02.711Z
-featuredimage: /img/2,500_Bundle.png
-title: 2,500 Bundle
+featuredimage: /img/10000g_Bundle.png
+title: 10000g Bundle
 description: Vault
-reward: Chocolate Cake (3)
+reward: Lightning Rod (1)
 tags:
-  - 2500'
+  - 10000g
   - bundles
 ---
