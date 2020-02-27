@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
 title: StardewDex
-image: /img/sshot-spring-ponds.png
-heading: Quests Detailed
+image: /img/_Mines_Chests.png
+heading: 'Bundles, Quests, Loves, Festivals, Fish & More'
 subheading: Stardew Valley Quick Guide
 mainpitch:
   title: StardewDex?
