@@ -1,19 +1,21 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Sunfish.png
 title: Sunfish
 description: A common river fish.
-note: 
+type: fish
 sellPrice: 30
-featuredimage: /img/Sunfish.png
+energy: 
+health: 
 tags:
+  - fish
   - Town
   - Forest
   - 6am – 7pm
-  - Spring
-  - Summer
+  - spring
+  - summer
   - Sun
   - Wind
   - River Fish Bundle

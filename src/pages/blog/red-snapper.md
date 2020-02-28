@@ -1,19 +1,21 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Red_Snapper.png
 title: Red Snapper
 description: A popular fish with a nice red color.
-note: 
+type: fish
 sellPrice: 50
-featuredimage: /img/Red_Snapper.png
+energy: 
+health: 
 tags:
+  - fish
   - Beach
   - 6am – 7pm
-  - Summer
-  - Fall
-  - Winter
+  - summer
+  - fall
+  - winter
   - Rain
   - Ocean Fish Bundle
 ---

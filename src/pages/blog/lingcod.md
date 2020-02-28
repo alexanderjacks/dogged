@@ -1,19 +1,21 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Lingcod.png
 title: Lingcod
 description: A fearsome predator that will eat almost AnyWeatherthing it can cram into its mouth.
-note: 
+type: fish
 sellPrice: 120
-featuredimage: /img/Lingcod.png
+energy: 
+health: 
 tags:
+  - fish
   - Town
   - Forest
   - Mountain
   - 6am - 2am
-  - Winter
+  - winter
   - AnyWeather
   - Catch a Lingcod Quest
 ---

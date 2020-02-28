@@ -1,17 +1,19 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Pufferfish.png
 title: Pufferfish
 description: Inflates when threatened.
-note: 
+type: fish
 sellPrice: 200
-featuredimage: /img/Pufferfish.png
+energy: 
+health: 
 tags:
+  - fish
   - Beach
   - 12pm – 4pm
-  - Summer
+  - summer
   - Sun
   - Specialty Fish Bundle
   - Abigail

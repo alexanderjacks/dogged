@@ -61,7 +61,7 @@ const TagsPage = ({
                 to={`/tags/${kebabCase(tag.fieldValue)}/`}
                 style={{
                   padding: `0.85rem`,
-                  backgroundImage: `url(/img/${snakeCase(tag.fieldValue)}.png)`,
+                  backgroundImage: `url(/img/${snakeCase(tag.fieldValue.split('(')[0])}.png)`,
                   display: `flex`,
                   flexFlow: `row wrap`,
                   justifyContent: `space-around`,

@@ -1,18 +1,20 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Smallmouth_Bass.png
 title: Smallmouth Bass
 description: A freshwater fish that is very sensitive to pollution.
-note: 
+type: fish
 sellPrice: 50
-featuredimage: /img/Smallmouth_Bass.png
+energy: 
+health: 
 tags:
+  - fish
   - Town
   - Secret Woods
   - 6am - 2am
-  - Spring
-  - Fall
+  - spring
+  - fall
   - AnyWeather
 ---

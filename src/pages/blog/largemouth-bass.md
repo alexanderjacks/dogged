@@ -1,20 +1,22 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Largemouth_Bass.png
 title: Largemouth Bass
 description: A popular fish that lives in Mountains.
-note: 
+type: fish
 sellPrice: 100
-featuredimage: /img/Largemouth_Bass.png
+energy: 
+health: 
 tags:
+  - fish
   - Mountain
   - 6am – 7pm
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - AnyWeather
   - Lake Fish Bundle
   - Crispy Bass

@@ -1,18 +1,20 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Midnight_Carp.png
 title: Midnight Carp
 description: This shy fish only feels comfortable at night.
-note: 
+type: fish
 sellPrice: 150
-featuredimage: /img/Midnight_Carp.png
+energy: 
+health: 
 tags:
+  - fish
   - Mountain
   - 10pm – 2am
-  - Fall
-  - Winter
+  - fall
+  - winter
   - AnyWeather
   - Seafoam Pudding
 ---

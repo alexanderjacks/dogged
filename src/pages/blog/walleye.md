@@ -1,21 +1,24 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Walleye.png
 title: Walleye
 description: A freshwater fish caught at night.
-note: Winter requires Rain Totem.
+type: fish
 sellPrice: 105
-featuredimage: /img/Walleye.png
+energy: 
+health: 
 tags:
+  - fish
   - Town
   - Forest
   - Mountain
   - Secret Woods
   - 12pm – 2am
-  - Fall
-  - Winter
+  - fall
+  - winter
   - Rain
   - Night Fishing Bundle
+  - Rain Totem
 ---

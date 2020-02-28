@@ -1,18 +1,20 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Salmon.png
 title: Salmon
 description: Swims upstream to lay its eggs.
-note: 
+type: fish
 sellPrice: 75
-featuredimage: /img/Salmon.png
+energy: 
+health: 
 tags:
+  - fish
   - Town
   - Forest
   - 6am – 7pm
-  - Fall
+  - fall
   - AnyWeather
   - Salmon Dinner
 ---

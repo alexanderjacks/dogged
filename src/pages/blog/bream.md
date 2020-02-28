@@ -1,21 +1,23 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Bream.png
 title: Bream
 description: A fairly common river fish that becomes active at night.
-note: 
+type: fish
 sellPrice: 45
-featuredimage: /img/Bream.png
+energy: 
+health: 
 tags:
+  - fish
   - Town
   - Forest
   - 6pm – 2am
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - AnyWeather
   - Night Fishing Bundle
   - Baked Fish

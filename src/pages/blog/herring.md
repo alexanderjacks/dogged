@@ -1,17 +1,19 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Herring.png
 title: Herring
 description: A common Ocean Fish.
-note: 
+type: fish
 sellPrice: 30
-featuredimage: /img/Herring.png
+energy: 
+health: 
 tags:
+  - fish
   - Beach
   - 6am - 2am
-  - Spring
-  - Winter
+  - spring
+  - winter
   - AnyWeather
 ---

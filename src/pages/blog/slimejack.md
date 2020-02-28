@@ -1,19 +1,21 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Slimejack.png
 title: Slimejack
 description: He's coated in a very thick layer of slime. He keeps slipping out of your hands!
-note: 
+type: fish
 sellPrice: 100
-featuredimage: /img/Slimejack.png
+energy: 
+health: 
 tags:
+  - fish
   - Bug Lair
   - 6am - 2am
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - AnyWeather
 ---

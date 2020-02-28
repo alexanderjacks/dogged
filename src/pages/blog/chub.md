@@ -1,21 +1,23 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Chub.png
 title: Chub
 description: A common freshwater fish known for its voracious appetite.
-note: 
+type: fish
 sellPrice: 50
-featuredimage: /img/Chub.png
+energy: 
+health: 
 tags:
+  - fish
   - Forest
   - Mountain
   - 6am - 2am
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - AnyWeather
   - Field Research Bundle
 ---

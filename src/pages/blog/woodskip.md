@@ -1,22 +1,24 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Woodskip.png
 title: Woodskip
 description: A very sensitive fish that can only live in pools deep in the forest.
-note: 
+type: fish
 sellPrice: 75
-featuredimage: /img/Woodskip.png
+energy: 
+health: 
 tags:
+  - fish
   - Secret Woods
   - Forest
   - Farm
   - 6am - 2am
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - AnyWeather
   - Specialty Fish Bundle
 ---

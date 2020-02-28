@@ -1,18 +1,20 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Tilapia.png
 title: Tilapia
 description: A primarily vegetarian fish that prefers warm water.
-note: 
+type: fish
 sellPrice: 75
-featuredimage: /img/Tilapia.png
+energy: 
+health: 
 tags:
+  - fish
   - Beach
   - 6am – 2pm
-  - Summer
-  - Fall
+  - summer
+  - fall
   - AnyWeather
   - Ocean Fish Bundle
 ---

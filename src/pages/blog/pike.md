@@ -1,19 +1,21 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Pike.png
 title: Pike
 description: A freshwater fish that's difficult to catch.
-note: 
+type: fish
 sellPrice: 100
-featuredimage: /img/Pike.png
+energy: 
+health: 
 tags:
+  - fish
   - Town
   - Forest
   - Secret Woods
   - 6am - 2am
-  - Summer
-  - Winter
+  - summer
+  - winter
   - AnyWeather
 ---

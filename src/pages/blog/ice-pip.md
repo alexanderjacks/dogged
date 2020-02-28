@@ -1,19 +1,22 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Ice_Pip.png
 title: Ice Pip
 description: A rare fish that thrives in extremely cold conditions.
-note: Requires fishing level 5
+type: fish
 sellPrice: 500
-featuredimage: /img/Ice_Pip.png
+energy: 
+health: 
 tags:
+  - fish
   - Mine 60
   - 6am - 2am
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - AnyWeather
+  - Fishing level 5
 ---

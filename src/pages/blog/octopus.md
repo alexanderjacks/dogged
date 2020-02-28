@@ -1,17 +1,19 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-02-17T15:45:45.711Z
-type: fish
+date: 2020-02-27T20:52:45.711Z
+featuredimage: /img/Octopus.png
 title: Octopus
 description: A mysterious and intelligent creature.
-note: 
+type: fish
 sellPrice: 150
-featuredimage: /img/Octopus.png
+energy: 
+health: 
 tags:
+  - fish
   - Beach
   - 6am – 1pm
-  - Summer
+  - summer
   - AnyWeather
   - Willy
 ---

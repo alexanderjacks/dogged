@@ -54,7 +54,7 @@ export const BlogPostTemplate = ({
             minHeight: 48,
             backgroundRepeat: `no-repeat`,
             backgroundPosition: `center`,
-            backgroundImage: `url(/img/${snakeCase(title).replace(' ','_').replace(/[0-9]/g,'')}.png)`
+            backgroundImage: `url(/img/${snakeCase(title.split('(')[0])}.png)`
           }}>
           </div>
           {/* good job, end of workaround */}
@@ -69,7 +69,7 @@ export const BlogPostTemplate = ({
               transform:`scaleX(-1)`,
               backgroundRepeat: `no-repeat`,
               backgroundPosition: `center`,
-              backgroundImage: `url(/img/${snakeCase(title).replace(' ','_').replace(/[0-9]/g,'')}.png)`
+              backgroundImage: `url(/img/${snakeCase(title.split('(')[0])}.png)`
             }}>
             </div>
             {/* good job, end of workaround */}
