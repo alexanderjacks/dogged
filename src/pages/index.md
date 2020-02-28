@@ -2,7 +2,7 @@
 templateKey: index-page
 title: StardewDex
 image: /img/Mines_Chests.png
-heading: 'Bundles, Quests, Loves, Festivals, Fish & More'
+heading: 'Bundles! Fish! Quests, Loves, Festivals & More Coming Soon! '
 subheading: Stardew Valley Quick Guide
 mainpitch:
   title: StardewDex?
@@ -10,9 +10,7 @@ mainpitch:
     This app links together all the items, people, events of Pelican Town. It
     aims to work better than a wiki, especially on mobile, and can help you earn
     your Achievements fast.
-description: >-
-  Many of the villager quests have special requirements. Read more about them in
-  these pages!
+description: Tackle the Bundles and rebuild the Community Center for 30+ rewards!
 intro:
   blurbs:
     - image: /img/coffee.png
