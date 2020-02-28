@@ -5,6 +5,7 @@ date: 2020-02-26T00:00:02.711Z
 featuredimage: /img/The_Missing_Bundle.png
 title: The Missing Bundle
 description: Abandoned Jojamart
+count: 4 out of 5
 reward: Movie Theater
 tags:
   - Silver quality Wine (any)

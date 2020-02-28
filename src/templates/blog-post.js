@@ -14,6 +14,7 @@ export const BlogPostTemplate = ({
   type,
   reward,
   cost,
+  count,
   energy,
   health,
   tags,
@@ -58,7 +59,8 @@ export const BlogPostTemplate = ({
           </div>
           {/* good job, end of workaround */}
           <h1 style={{
-            fontSize: `5.2vw`
+            fontSize: `5.2vw`,
+            margin:`1.5rem`,
           }}>&nbsp;{title}&nbsp;</h1>
           {/* workaround for Gatsby Img grief */}
             <div style={{
@@ -77,13 +79,12 @@ export const BlogPostTemplate = ({
         <div
           class="columns is-mobile"
           style={{
-            margin:`0.6rem`,
-            padding:`0.4rem`,
+            margin:`0.1rem`,
+            padding:`0.25rem`,
             borderRadius: `2rem`,
             border: `chocolate 6px groove`,
             backgroundColor: `#ffffff99`,
             width: `inherit`,
-            minWidth: `65vw`,
             display: `flex`,
             flexFlow: `row wrap`,
             justifyContent: `center`,
@@ -153,10 +154,22 @@ export const BlogPostTemplate = ({
           </h1>
           </>}
           {type && <><h2 class="column is-6" style={{textAlign:`right`}}>type:</h2>
-          <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>{type}</h1>
+          <h2 class="is-size-6 column is-6" style={{textAlign:`left`}}>{type}</h2>
           </>}
           {reward && <><h2 class="column is-6" style={{textAlign:`right`}}>reward:</h2>
-          <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>{reward}</h1>
+          <h2 class="is-size-6 column is-6" style={{textAlign:`left`}}>{reward}</h2>
+          <div style={{
+            minWidth: 48,
+            width: `40vw`,
+            minHeight: 48,
+            backgroundRepeat: `no-repeat`,
+            backgroundPosition: `center`,
+            backgroundImage: `url(/img/${snakeCase(reward.replace(/[0-9]/,''))}.png)`
+          }}>
+          </div>
+          </>}
+          {count && <><h2 class="column is-6" style={{textAlign:`right`}}>requires:</h2>
+          <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>{count}</h1>
           </>}
         </div>
         {
@@ -194,7 +207,7 @@ export const BlogPostTemplate = ({
                 style={{
                   padding: `0.7rem`,
                   color: `black`,
-                  backgroundImage: `url(/img/${snakeCase(tag.split(' (')[0])}.png)`,
+                  backgroundImage: `url(/img/${snakeCase(tag.replace([0-9],''))}.png)`,
                   fontFamily:`Fredericka the Great`,
                   fontWeight: 600,
                   display: `flex`,
@@ -225,6 +238,7 @@ BlogPostTemplate.propTypes = {
   type: PropTypes.string,
   reward: PropTypes.string,
   cost: PropTypes.string,
+  count: PropTypes.string,
   energy: PropTypes.string,
   health: PropTypes.string,
   title: PropTypes.string,
@@ -283,6 +297,7 @@ export const pageQuery = graphql`
         type
         reward
         cost
+        count
         tags
         sellPrice
         energy

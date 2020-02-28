@@ -9,13 +9,14 @@ with open('bundles.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
-    headers = ['title', 'description', 'reward', 'tags'] # manual entry for now
+    headers = ['title', 'description', 'count', 'reward', 'tags'] # manual entry for now
     # this needs to count down for the row count (while)
 
     for row in pulpy_data:
         # gotta assign fields to vars for later
         title = row['title']
         description = row['description']
+        count = row['count']
         reward = row['reward']
         tags =  row['tags'] # could try to split these now...
 
@@ -35,6 +36,7 @@ with open('bundles.csv', 'rb') as csvfile:
         f.write('featuredimage: {}\n'.format(featuredimage))
         f.write('title: {}\n'.format(title))
         f.write('description: {}\n'.format(description))
+        f.write('count: {}\n'.format(count))
         f.write('reward: {}\n'.format(reward))
         f.write('tags:\n  - {}\n'.format(tags).replace(',','\n  -' ))
         f.write('---') # formatting req
