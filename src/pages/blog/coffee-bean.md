@@ -10,8 +10,8 @@ energy:
 health: 
 featuredimage: /img/Coffee_Bean.png
 tags:
-  - Spring
-  - Summer
+  - spring
+  - summer
   - seed
   - Coffee
   - multiharvest

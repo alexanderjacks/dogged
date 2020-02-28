@@ -10,10 +10,10 @@ energy: 38
 health: 17
 featuredimage: /img/Pomegranate.png
 tags:
-  - Fall
+  - fall
   - tree
   - reharvest
   - Artisan Bundle
-  - Enchanters Bundle
+  - Enchanter's Bundle
   - edible
 ---

@@ -15,6 +15,5 @@ tags:
   - Glazed Yams
   - Fall Crops Bundle
   - Linus
-  - pickles
-  - edible
+  -  edible
 ---

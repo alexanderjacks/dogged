@@ -10,8 +10,8 @@ energy:
 health: -50
 featuredimage: /img/Red_Mushroom.png
 tags:
-  - Spring
-  - Summer
+  - spring
+  - summer
   - Mines
   - Farm
   - Secret Woods

@@ -11,7 +11,7 @@ tags:
   - Silver quality Wine (any)
   - Dinosaur Mayonnaise
   - Prismatic Shard
-  - Gold quality Ancient Fruit (5)
+  - Gold Ancient Fruit (5)
   - Gold or Iridium Void Salmon
   - Caviar
   - bundles

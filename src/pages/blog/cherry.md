@@ -10,7 +10,7 @@ energy: 38
 health: 17
 featuredimage: /img/Cherry.png
 tags:
-  - Spring
+  - spring
   - tree
   - edible
 ---

@@ -8,7 +8,7 @@ description: Vault
 count: 5000g
 reward: Quality Fertilizer (30)
 tags:
-  - 5000g
   - bundles
   - Vault
+  - 5000g
 ---

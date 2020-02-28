@@ -15,9 +15,9 @@ tags:
   - Chowder
   - Crab Pot Bundle
   - Beach
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - inedible
 ---

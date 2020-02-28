@@ -10,8 +10,8 @@ energy: 38
 health: 17
 featuredimage: /img/Common_Mushroom.png
 tags:
-  - Spring
-  - Summer
+  - spring
+  - summer
   - Mines
   - Farm
   - Secret Woods

@@ -10,7 +10,7 @@ reward: Gold Bar (5)
 tags:
   - Oak Resin
   - Wine
-  - Rabbits Foot
+  - Rabbit's Foot
   - Pomegranate
   - bundles
   - Bulletin Board

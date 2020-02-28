@@ -10,7 +10,7 @@ energy: 45
 health: 20
 featuredimage: /img/Summer_Spangle.png
 tags:
-  - Summer
+  - summer
   - flower
   - honey
 ---

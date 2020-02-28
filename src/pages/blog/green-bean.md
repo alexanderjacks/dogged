@@ -10,12 +10,11 @@ energy: 25
 health: 11
 featuredimage: /img/Green_Bean.png
 tags:
-  - Spring
+  - spring
   - edible
   - vegetable
   - Bean Hotpot
   - Spring Crops Bundle
-  - pickles
-  - reharvest
+  -  reharvest
   - trellis
 ---

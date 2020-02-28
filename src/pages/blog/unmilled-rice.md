@@ -10,9 +10,8 @@ energy: 3
 health: 1
 featuredimage: /img/Unmilled_Rice.png
 tags:
-  - Spring
+  - spring
   - vegetable
   - Rice
-  - pickles
-  - edible
+  -  edible
 ---

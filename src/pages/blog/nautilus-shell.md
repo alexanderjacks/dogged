@@ -13,6 +13,6 @@ tags:
   - forageable
   - Field Research Bundle
   - Beach
-  - Winter
+  - winter
   - inedible
 ---

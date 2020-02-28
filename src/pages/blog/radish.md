@@ -10,7 +10,7 @@ energy: 45
 health: 20
 featuredimage: /img/Radish.png
 tags:
-  - Summer
+  - summer
   - edible
   - vegetable
   - Radish Salad

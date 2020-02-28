@@ -10,11 +10,10 @@ energy: 45
 health: 20
 featuredimage: /img/Hops.png
 tags:
-  - Summer
+  - summer
   - edible
   - vegetable
   - Pale Ale
-  - pickles
-  - reharvest
+  -  reharvest
   - trellis
 ---

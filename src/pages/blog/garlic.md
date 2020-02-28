@@ -10,7 +10,7 @@ energy: 20
 health: 9
 featuredimage: /img/Garlic.png
 tags:
-  - Spring
+  - spring
   - edible
   - vegetable
   - Escargot

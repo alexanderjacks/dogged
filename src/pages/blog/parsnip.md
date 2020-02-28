@@ -10,7 +10,7 @@ energy: 25
 health: 11
 featuredimage: /img/Parsnip.png
 tags:
-  - Spring
+  - spring
   - edible
   - Pam
   - vegetable

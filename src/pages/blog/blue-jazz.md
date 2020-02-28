@@ -10,7 +10,7 @@ energy: 45
 health: 20
 featuredimage: /img/Blue_Jazz.png
 tags:
-  - Spring
+  - spring
   - edible
   - flower
   - Lucky Lunch

@@ -10,7 +10,7 @@ energy: 25
 health: 11
 featuredimage: /img/Salmonberry.png
 tags:
-  - Spring
+  - spring
   - Forest
   - Town
   - Mountain

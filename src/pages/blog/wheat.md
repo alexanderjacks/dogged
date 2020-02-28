@@ -10,14 +10,13 @@ energy:
 health: 
 featuredimage: /img/Wheat.png
 tags:
-  - Summer
-  - Fall
+  - summer
+  - fall
   - edible
   - flower
   - Beer
   - Wheat Flour
   - Fodder Bundle
-  - pickles
-  - inedible
+  -  inedible
   - Fodder Bundle
 ---

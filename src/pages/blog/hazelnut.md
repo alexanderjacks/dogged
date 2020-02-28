@@ -10,7 +10,7 @@ energy: 30
 health: 13
 featuredimage: /img/Hazelnut.png
 tags:
-  - Fall
+  - fall
   - forageable
   - Fall Seeds
   - Roasted Hazelnuts

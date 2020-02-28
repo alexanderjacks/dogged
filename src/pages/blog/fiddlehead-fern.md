@@ -10,13 +10,11 @@ energy: 25
 health: 11
 featuredimage: /img/Fiddlehead_Fern.png
 tags:
-  - Summer
+  - summer
   - forageable
   - Fiddlehead Risotto
-  - Chefs Bundle
-  - Pickles
-  - Juice
-  - pickles
-  - Secret Woods
+  - Chef's Bundle
+  -  Juice
+  -  Secret Woods
   - edible
 ---

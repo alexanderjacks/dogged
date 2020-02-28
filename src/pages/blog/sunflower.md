@@ -10,8 +10,8 @@ energy: 45
 health: 20
 featuredimage: /img/Sunflower.png
 tags:
-  - Summer
-  - Fall
+  - summer
+  - fall
   - edible
   - flower
   - Oil

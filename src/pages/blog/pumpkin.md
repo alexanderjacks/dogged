@@ -20,6 +20,5 @@ tags:
   - Quality Crops Bundle
   - Carving Pumpkins Quest
   - Krobus
-  - pickles
-  - inedible
+  -  inedible
 ---

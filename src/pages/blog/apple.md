@@ -11,7 +11,7 @@ health: 17
 featuredimage: /img/Apple.png
 tags:
   - tree
-  - Fall
+  - fall
   - reharvest
   - Fodder Bundle
   - edible

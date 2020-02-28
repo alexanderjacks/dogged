@@ -11,8 +11,7 @@ health: 17
 featuredimage: /img/Cranberries.png
 tags:
   - fruit
-  - multi
-  - wine
+  -  wine
   - jelly
   - Cranberry Candy
   - Cranberry Sauce

@@ -10,7 +10,7 @@ energy: 50
 health: 22
 featuredimage: /img/Amaranth.png
 tags:
-  - Fall
+  - fall
   - edible
   - vegetable
   - Salmon Dinner

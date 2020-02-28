@@ -10,7 +10,7 @@ energy: 45
 health: 20
 featuredimage: /img/Tulip.png
 tags:
-  - Spring
+  - spring
   - edible
   - flower
   - Evelyn

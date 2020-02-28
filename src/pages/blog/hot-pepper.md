@@ -10,7 +10,7 @@ energy: 13
 health: 5
 featuredimage: /img/Hot_Pepper.png
 tags:
-  - Summer
+  - summer
   - edible
   - fruit
   - Pepper Poppers

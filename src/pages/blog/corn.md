@@ -10,13 +10,13 @@ energy: 25
 health: 11
 featuredimage: /img/Corn.png
 tags:
-  - Summer
-  - Fall
+  - summer
+  - fall
   - edible
   - vegetable
-  - Tortilla Oil
+  - Tortilla
+  - Oil
   - Fall Crops Bundle
   - Quality Crops Bundle
-  - pickles
-  - reharvest
+  -  reharvest
 ---

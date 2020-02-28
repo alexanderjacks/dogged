@@ -14,7 +14,6 @@ tags:
   - Caroline
   - monthly
   - Green Tea
-  - pickles
-  - inedible
+  -  inedible
   - trellis
 ---

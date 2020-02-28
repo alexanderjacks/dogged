@@ -10,7 +10,7 @@ energy: 13
 health: 5
 featuredimage: /img/Wild_Horseradish.png
 tags:
-  - Spring
+  - spring
   - Spring Seeds
   - Spring Foraging Bundle
   - Krobus

@@ -10,7 +10,7 @@ energy: 30
 health: 13
 featuredimage: /img/Snow_Yam.png
 tags:
-  - Winter
+  - winter
   - edible
   - forage
   - forageable

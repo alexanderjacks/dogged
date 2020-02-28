@@ -10,7 +10,7 @@ energy: 113
 health: 50
 featuredimage: /img/Melon.png
 tags:
-  - Summer
+  - summer
   - edible
   - fruit
   - Fruit Salad

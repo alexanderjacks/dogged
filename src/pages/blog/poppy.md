@@ -10,11 +10,11 @@ energy: 45
 health: 20
 featuredimage: /img/Poppy.png
 tags:
-  - Summer
+  - summer
   - Penny
   - edible
   - flower
   - Poppyseed Muffin
-  - Chefs Bundle
+  - Chef's Bundle
   - honey
 ---

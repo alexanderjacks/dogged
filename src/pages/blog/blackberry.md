@@ -10,7 +10,7 @@ energy: 25
 health: 11
 featuredimage: /img/Blackberry.png
 tags:
-  - Fall
+  - fall
   - forageable
   - Fall Seeds
   - Blackberry Cobbler

@@ -11,11 +11,9 @@ health: 9
 featuredimage: /img/Eggplant.png
 tags:
   - edible
-  - Summer
-  - multi
-  - Eggplant Parmesan
+  - summer
+  -  Eggplant Parmesan
   - Survival Burger
   - Fall Crops Bundle
-  - pickles
-  - reharvest
+  -  reharvest
 ---

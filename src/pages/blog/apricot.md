@@ -10,7 +10,7 @@ energy: 38
 health: 17
 featuredimage: /img/Apricot.png
 tags:
-  - Spring
+  - spring
   - tree
   - reharvest
   - Fresh Fruit Quest

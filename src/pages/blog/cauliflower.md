@@ -10,7 +10,7 @@ energy: 75
 health: 33
 featuredimage: /img/Cauliflower.png
 tags:
-  - Spring
+  - spring
   - edible
   - vegetable
   - Cheese Cauliflower

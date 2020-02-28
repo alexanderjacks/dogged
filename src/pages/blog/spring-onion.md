@@ -10,7 +10,7 @@ energy: 13
 health: 5
 featuredimage: /img/Spring_Onion.png
 tags:
-  - Spring
+  - spring
   - forageable
   - Forest
   - edible

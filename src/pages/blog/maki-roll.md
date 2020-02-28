@@ -10,7 +10,7 @@ energy: 100
 health: 45
 featuredimage: /img/Maki_Roll.png
 tags:
-  - Fish
+  - fish
   - Seaweed
   - Rice
   - edible

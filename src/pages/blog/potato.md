@@ -10,7 +10,7 @@ energy: 25
 health: 11
 featuredimage: /img/Potato.png
 tags:
-  - Spring
+  - spring
   - edible
   - vegetable
   - Hashbrowns

@@ -10,8 +10,8 @@ energy: 30
 health: 13
 featuredimage: /img/Artichoke.png
 tags:
-  - Summer
-  - Fall
+  - summer
+  - fall
   - edible
   - vegetable
   - Artichoke Dip

@@ -10,7 +10,7 @@ energy: 20
 health: 9
 featuredimage: /img/Morel.png
 tags:
-  - Spring
+  - spring
   - Secret Woods
   - Fried Mushroom
   - Life Elixir

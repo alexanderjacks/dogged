@@ -35,8 +35,8 @@ Cookie,Very chewy. ,cooking,140,"Wheat Flour, Sugar, Egg, edible",90,40
 Spaghetti,An old favorite. ,cooking,120,"Wheat Flour, Tomato, edible",75,33
 Fried Eel,Greasy but flavorful. ,cooking,120,"Eel, Oil, edible",75,33
 Spicy Eel,It's really spicy! Be careful. ,cooking,175,"Eel, Hot Pepper, edible",115,51
-Sashimi,Raw fish sliced into thin pieces. ,cooking,75,"Fish, edible",75,33
-Maki Roll,Fish and rice wrapped in seaweed. ,cooking,220,"Fish, Seaweed, Rice, edible",100,45
+Sashimi,Raw fish sliced into thin pieces. ,cooking,75,"fish, edible",75,33
+Maki Roll,Fish and rice wrapped in seaweed. ,cooking,220,"fish, Seaweed, Rice, edible",100,45
 Tortilla,Can be used as a vessel for food or eaten by itself. ,cooking,50,"Corn, edible",50,22
 Red Plate,Full of antioxidants. ,cooking,400,"Red Cabbage, Radish, edible",240,108
 Eggplant Parmesan,"Tangy,  cheesy,  and wonderful. ",cooking,200,"Eggplant, Tomato, edible",175,78
@@ -74,82 +74,82 @@ Escargot,Butter-soaked snails cooked to perfection. ,cooking,125,"Snail, Garlic,
 Fish Stew,"It smells a lot like the sea. Tastes better,  though. ",cooking,175,"Crayfish, Mussel, Periwinkle, Tomato, edible",225,101
 Maple Bar,It's a sweet doughnut topped with a rich maple glaze. ,cooking,300,"Maple Syrup, Sugar, Wheat Flour, edible",225,101
 Crab Cakes,"Crab, bread crumbs, and egg formed into patties then fried to a golden brown. ",cooking,275,"Crab, Wheat Flour, Egg, Oil, edible",225,101
-Amaranth,A purple grain cultivated by an ancient civilization.,vegetable,150,"Fall, edible, vegetable, Salmon Dinner, Cows' Delight Quest",50,22
-Apple,A crisp fruit used for juice and cider.,fruit,100,"tree, Fall, reharvest, Fodder Bundle, edible",38,17
-Apricot,A tender little fruit with a rock-hard pit.,fruit,50,"Spring, tree, reharvest, Fresh Fruit Quest, edible",38,17
-Ancient Fruit,Its been dormant for eons.,fruit,550,"fruit, The Missing Bundle, reharvest, Spring, Summer, Fall, inedible",,
-Artichoke,"The bud of a thistle plant. The spiny outer leaves conceal a fleshy, filling interior.",vegetable,160,"Summer, Fall, edible, vegetable, Artichoke Dip, Super Meal",30,13
+Amaranth,A purple grain cultivated by an ancient civilization.,vegetable,150,"fall, edible, vegetable, Salmon Dinner, Cows' Delight Quest",50,22
+Apple,A crisp fruit used for juice and cider.,fruit,100,"tree, fall, reharvest, Fodder Bundle, edible",38,17
+Apricot,A tender little fruit with a rock-hard pit.,fruit,50,"spring, tree, reharvest, Fresh Fruit Quest, edible",38,17
+Ancient Fruit,Its been dormant for eons.,fruit,550,"fruit, The Missing Bundle, reharvest, spring, summer, fall, inedible",,
+Artichoke,"The bud of a thistle plant. The spiny outer leaves conceal a fleshy, filling interior.",vegetable,160,"summer, fall, edible, vegetable, Artichoke Dip, Super Meal",30,13
 Beet,"A sweet and earthy root vegetable. As a bonus, the leaves make a great salad.",vegetable,100,"vegetable, Vegetable Medley, Sugar, The Mysterious Qi Quest, Evelyn, pickles",30,13
-Blackberry,An early-fall treat.,fruit,20,"Fall, forageable, Fall Seeds, Blackberry Cobbler, Fall Foraging Bundle, jelly, wine, bushes",25,11
-Blue Jazz,The flower grows in a sphere to invite as many butterflies as possible.,flower,50,"Spring, edible, flower, Lucky Lunch, honey",45,20
-Blueberry,A popular berry reported to have many health benefits. The blue skin has the highest nutrient concentration,fruit,50,"Spring, edible, fruit, Blueberry Tart, Fruit Salad, Summer Crops Bundle, multiharvest, reharvest",25,11
+Blackberry,An early-fall treat.,fruit,20,"fall, forageable, Fall Seeds, Blackberry Cobbler, Fall Foraging Bundle, jelly, wine, bushes",25,11
+Blue Jazz,The flower grows in a sphere to invite as many butterflies as possible.,flower,50,"spring, edible, flower, Lucky Lunch, honey",45,20
+Blueberry,A popular berry reported to have many health benefits. The blue skin has the highest nutrient concentration,fruit,50,"spring, edible, fruit, Blueberry Tart, Fruit Salad, Summer Crops Bundle, multiharvest, reharvest",25,11
 Bok Choy,The leafy greens and fibrous stalks are healthy and delicious.,vegetable,80,"vegetable, Super Meal, pickles",25,11
 Cactus Fruit,The sweet fruit of the prickly pear cactus.,Fruit,75,"indoors, Sam, Pam, Linus, jelly, Desert, Exotic Foraging Bundle, wine, reharvest",75,33
-Cauliflower,"Valuable, but slow-growing. Despite its pale color, the florets are packed with nutrients.",vegetable,175,"Spring, edible, vegetable, Cheese Cauliflower, Spring Crops Bundle, Jodi's Request Quest, Maru, pickles",75,33
+Cauliflower,"Valuable, but slow-growing. Despite its pale color, the florets are packed with nutrients.",vegetable,175,"spring, edible, vegetable, Cheese Cauliflower, Spring Crops Bundle, Jodi's Request Quest, Maru, pickles",75,33
 Cave Carrot,A starchy snack found in caves. It helps miners work longer.,forage,25,"forageable, edible, Mines, Survival Burger, Miner's Treat, Roots Platter, Stir Fry, Exotic Foraging Bundle",30,13
-Chanterelle,A tasty mushroom with a fruity smell and slightly peppery flavor.,forage,160,"Fall, forageable, Life Elixir",75,33
-Cherry,"It's popular, and ripens sooner than most other fruits.",fruit,,"Spring, tree, edible",38,17
-Clam,Someone lived here once.,forage,50,"forageable, Speed-Gro, Chowder, Crab Pot Bundle, Beach, Spring, Summer, Fall, Winter, inedible",,
-Cockle,A common saltwater clam.,Fish,50,"forageable, Crab Pot Bundle, Beach, Spring, Summer, Fall, Winter, inedible",,
-Coconut,A seed of the coconut palm. It has many culinary uses.,Fruit,100,"Spring, Summer, Fall, Winter, Desert, Tom Kha Soup, jelly, inedible, Haley, Linus, fruit, Exotic Foraging Bundle, wine, forageable",,
-Coffee Bean,Plant in spring or summer to grow a coffee plant. Place five beans in a keg to make coffee.,seed,15,"Spring, Summer, seed, Coffee, multiharvest, Traveling Cart, Mines, inedible",,
-Common Mushroom,"Slightly nutty, with good texture.",forage,40,"Spring, Summer, Mines, Farm, Secret Woods, Fried Mushroom, Stir Fry, Tom Kha Soup, Fall Foraging Bundle, forageable, Town, Mountain, Forest, Secret Woods, Mines, Farm",38,17
+Chanterelle,A tasty mushroom with a fruity smell and slightly peppery flavor.,forage,160,"fall, forageable, Life Elixir",75,33
+Cherry,"It's popular, and ripens sooner than most other fruits.",fruit,,"spring, tree, edible",38,17
+Clam,Someone lived here once.,forage,50,"forageable, Speed-Gro, Chowder, Crab Pot Bundle, Beach, spring, summer, fall, winter, inedible",,
+Cockle,A common saltwater clam.,Fish,50,"forageable, Crab Pot Bundle, Beach, spring, summer, fall, winter, inedible",,
+Coconut,A seed of the coconut palm. It has many culinary uses.,Fruit,100,"spring, summer, fall, winter, Desert, Tom Kha Soup, jelly, inedible, Haley, Linus, fruit, Exotic Foraging Bundle, wine, forageable",,
+Coffee Bean,Plant in spring or summer to grow a coffee plant. Place five beans in a keg to make coffee.,seed,15,"spring, summer, seed, Coffee, multiharvest, Traveling Cart, Mines, inedible",,
+Common Mushroom,"Slightly nutty, with good texture.",forage,40,"spring, summer, Mines, Farm, Secret Woods, Fried Mushroom, Stir Fry, Tom Kha Soup, Fall Foraging Bundle, forageable, Town, Mountain, Forest, Secret Woods, Mines, Farm",38,17
 Coral,A colony of tiny creatures that clump together to form beautiful structures.,forage,80,"forageable, fishpond, Deluxe Speed-Gro, Warp Totem Beach, Beach, forageable, inedible",,
-Corn,"One of the most popular grains. The sweet, fresh cobs are a summer favorite",vegetable,50,"Summer, Fall, edible, vegetable, Tortilla Oil, Fall Crops Bundle, Quality Crops Bundle, pickles, reharvest",25,11
-Cranberries,These tart red berries are a traditional winter food.,fruit,75,"fruit, multi, wine, jelly, Cranberry Candy, Cranberry Sauce, Stuffing, Super Meal, multiharvest, reharvest",38,17
+Corn,"One of the most popular grains. The sweet, fresh cobs are a summer favorite",vegetable,50,"summer, fall, edible, vegetable, Tortilla, Oil, Fall Crops Bundle, Quality Crops Bundle,  reharvest",25,11
+Cranberries,These tart red berries are a traditional winter food.,fruit,75,"fruit,  wine, jelly, Cranberry Candy, Cranberry Sauce, Stuffing, Super Meal, multiharvest, reharvest",38,17
 Crocus,A flower that can bloom in the winter.,forage,60,"forageable, bundle, Sandy, Winter Seeds, Winter Foraging Bundle, Sandy",0,0
 Crystal Fruit,A delicate fruit that pops up from the snow.,Fruit,150,"fruit, forageable, jelly, wine, bundle, Winter Seeds, Winter Foraging Bundle, jelly, wine",63,28
-Daffodil,A traditional spring flower that makes a nice gift.,flower,30,"Spring, Sandy, Spring Seeds, Spring Foraging Bundle, Sandy, forageable, Town, Mountain, Forest",0,0
-Dandelion,"Not the prettiest flower, but the leaves make a good salad.",forage,40,"Spring, Salad, Spring Seeds, Spring Foraging Bundle, Town, Mountain, Forest",25,11
-Eggplant,A rich and wholesome relative of the tomato. Delicious fried or stewed.,vegetable,60,"edible, Summer, multi, Eggplant Parmesan, Survival Burger, Fall Crops Bundle, pickles, reharvest",20,9
+Daffodil,A traditional spring flower that makes a nice gift.,flower,30,"spring, Sandy, Spring Seeds, Spring Foraging Bundle, Sandy, forageable, Town, Mountain, Forest",0,0
+Dandelion,"Not the prettiest flower, but the leaves make a good salad.",forage,40,"spring, Salad, Spring Seeds, Spring Foraging Bundle, Town, Mountain, Forest",25,11
+Eggplant,A rich and wholesome relative of the tomato. Delicious fried or stewed.,vegetable,60,"edible, summer,  Eggplant Parmesan, Survival Burger, Fall Crops Bundle,  reharvest",20,9
 Fairy Rose,An old folk legend suggests that the sweet smell of this flower attracts fairies.,flower,290,"flower, Evelyn, Jas, honey",45,20
-Fiddlehead Fern,The young shoots are an edible specialty.,vegetable,90,"Summer, forageable, Fiddlehead Risotto, Chefs Bundle, Pickles, Juice, pickles, Secret Woods, edible",25,11
-Garlic,Adds a wonderful zestiness to dishes. High quality garlic can be pretty spicy.,vegetable,60,"Spring, edible, vegetable, Escargot, Fiddlehead Risotto, Oil of Garlic, pickles",20,9
+Fiddlehead Fern,The young shoots are an edible specialty.,vegetable,90,"summer, forageable, Fiddlehead Risotto, Chef's Bundle,  Juice,  Secret Woods, edible",25,11
+Garlic,Adds a wonderful zestiness to dishes. High quality garlic can be pretty spicy.,vegetable,60,"spring, edible, vegetable, Escargot, Fiddlehead Risotto, Oil of Garlic, pickles",20,9
 Grape,A sweet cluster of fruit.,fruit,80,"fruit, seed, trellis, forageable, Summer Seeds, Summer Foraging Bundle, Vincent, jelly, wine, forageable, reharvest",38,17
-Green Bean,"A juicy little bean with a cool, crisp snap.",vegetable,40,"Spring, edible, vegetable, Bean Hotpot, Spring Crops Bundle, pickles, reharvest, trellis",25,11
-Hazelnut,"Thats one big hazelnut!,",forage,90,"Fall, forageable, Fall Seeds, Roasted Hazelnuts, Stuffing, Fall Foraging Bundle",30,13
+Green Bean,"A juicy little bean with a cool, crisp snap.",vegetable,40,"spring, edible, vegetable, Bean Hotpot, Spring Crops Bundle,  reharvest, trellis",25,11
+Hazelnut,"Thats one big hazelnut!,",forage,90,"fall, forageable, Fall Seeds, Roasted Hazelnuts, Stuffing, Fall Foraging Bundle",30,13
 Holly,The leaves and bright red berries make a popular winter decoration.,forage,80,"forageable, Winter",,-37
-Hops,"A bitter, tangy flower used to flavor beer",vegetable,25,"Summer, edible, vegetable, Pale Ale, pickles, reharvest, trellis",45,20
-Hot Pepper,Fiery hot with a hint of sweetness,fruit,40,"Summer, edible, fruit, Pepper Poppers, Spicy Eel, Summer Crops Bundle, Knee Therapy Quest, Lewis, Shane, reharvest",13,5
-Kale,The waxy leaves are great in soups and stir frys.,vegetable,110,"Spring, edible, vegetable, Salmon Dinner, Stir Fry, pickles",50,22
-Leek,A tasty relative of the onion.,vegetable,60,"Spring, Salad, Spring Seeds, Spring Foraging Bundle, George, pickles",40,18
-Melon,"A cool, sweet summer treat",fruit,250,"Summer, edible, fruit, Fruit Salad, Pink Cake, Summer Crops Bundle, Quality Crops Bundle, Crop Research Quest, Haley",113,50
-Morel,Sought after for its unique nutty flavor.,forage,150,"Spring, Secret Woods, Fried Mushroom, Life Elixir, Exotic Foraging Bundle, forageable",20,9
-Mussel,A common bivalve that often lives in clusters.,Fish,30,"forageable, Crab Pot Bundle, Fish Stew, Beach, Spring, Summer, Fall, Winter, inedible",,
-Nautilus Shell,An ancient shell.,forage,120,"forageable, Field Research Bundle, Beach, Winter, inedible",,
-Orange,"Juicy, tangy, and bursting with sweet summer aroma.",fruit,,"Summer, tree, reharvest, Gus, edible",38,17
-Oyster,"Constantly filters water to find food. In the process, it removes dangerous toxins from the environment.",Fish,40,"forageable, Crab Pot Bundle, forageable, Beach, Spring, Summer, Fall, Winter, inedible",,
-Parsnip,A spring tuber closely related to the carrot. It has an earthy taste and is full of nutrients.,vegetable,35,"Spring, edible, Pam, vegetable, Farmers Lunch, Parsnip Soup, Spring Crops Bundle, Quality Crops Bundle, pickles",25,11
-Peach,It's almost fuzzy to the touch.,fruit,140,"Summer, tree, reharvest, edible",38,17
-Pomegranate,Within the fruit are clusters of juicy seeds.,fruit,140,"Fall, tree, reharvest, Artisan Bundle, Enchanters Bundle, edible",38,17
-Poppy,"In addition to its colorful flower, the Poppy has culinary and medicinal uses",flower,140,"Summer, Penny, edible, flower, Poppyseed Muffin, Chefs Bundle, honey",45,20
-Potato,A widely cultivated tuber.,vegetable,80,"Spring, edible, vegetable, Hashbrowns, Spring Crops Bundle, multiharvest, pickles",25,11
-Pumpkin,"A fall favorite, grown for its crunchy seeds and delicately flavored flesh. As a bonus, the hollow shell can be carved into a festive decoration.",vegetable,320,"vegetable, Abigail, Autumn's Bounty, Pumpkin Pie, Pumpkin Soup, Jack-O-Lantern, Fall Crops Bundle, Quality Crops Bundle, Carving Pumpkins Quest, Krobus, pickles, inedible",,
+Hops,"A bitter, tangy flower used to flavor beer",vegetable,25,"summer, edible, vegetable, Pale Ale,  reharvest, trellis",45,20
+Hot Pepper,Fiery hot with a hint of sweetness,fruit,40,"summer, edible, fruit, Pepper Poppers, Spicy Eel, Summer Crops Bundle, Knee Therapy Quest, Lewis, Shane, reharvest",13,5
+Kale,The waxy leaves are great in soups and stir frys.,vegetable,110,"spring, edible, vegetable, Salmon Dinner, Stir Fry, pickles",50,22
+Leek,A tasty relative of the onion.,vegetable,60,"spring, Salad, Spring Seeds, Spring Foraging Bundle, George, pickles",40,18
+Melon,"A cool, sweet summer treat",fruit,250,"summer, edible, fruit, Fruit Salad, Pink Cake, Summer Crops Bundle, Quality Crops Bundle, Crop Research Quest, Haley",113,50
+Morel,Sought after for its unique nutty flavor.,forage,150,"spring, Secret Woods, Fried Mushroom, Life Elixir, Exotic Foraging Bundle, forageable",20,9
+Mussel,A common bivalve that often lives in clusters.,Fish,30,"forageable, Crab Pot Bundle, Fish Stew, Beach, spring, summer, fall, winter, inedible",,
+Nautilus Shell,An ancient shell.,forage,120,"forageable, Field Research Bundle, Beach, winter, inedible",,
+Orange,"Juicy, tangy, and bursting with sweet summer aroma.",fruit,,"summer, tree, reharvest, Gus, edible",38,17
+Oyster,"Constantly filters water to find food. In the process, it removes dangerous toxins from the environment.",Fish,40,"forageable, Crab Pot Bundle, forageable, Beach, spring, summer, fall, winter, inedible",,
+Parsnip,A spring tuber closely related to the carrot. It has an earthy taste and is full of nutrients.,vegetable,35,"spring, edible, Pam, vegetable, Farmers Lunch, Parsnip Soup, Spring Crops Bundle, Quality Crops Bundle, pickles",25,11
+Peach,It's almost fuzzy to the touch.,fruit,140,"summer, tree, reharvest, edible",38,17
+Pomegranate,Within the fruit are clusters of juicy seeds.,fruit,140,"fall, tree, reharvest, Artisan Bundle, Enchanter's Bundle, edible",38,17
+Poppy,"In addition to its colorful flower, the Poppy has culinary and medicinal uses",flower,140,"summer, Penny, edible, flower, Poppyseed Muffin, Chef's Bundle, honey",45,20
+Potato,A widely cultivated tuber.,vegetable,80,"spring, edible, vegetable, Hashbrowns, Spring Crops Bundle, multiharvest, pickles",25,11
+Pumpkin,"A fall favorite, grown for its crunchy seeds and delicately flavored flesh. As a bonus, the hollow shell can be carved into a festive decoration.",vegetable,320,"vegetable, Abigail, Autumn's Bounty, Pumpkin Pie, Pumpkin Soup, Jack-O-Lantern, Fall Crops Bundle, Quality Crops Bundle, Carving Pumpkins Quest, Krobus,  inedible",,
 Purple Mushroom,A rare mushroom found deep in caves.,forage,250,"forageable, Bulletin Board, Exotic Foraging Bundle, Field Research Bundle, Life Elixir, Wizard",125,56
-Radish,A crisp and refreshing root vegetable with hints of pepper when eaten raw,vegetable,90,"Summer, edible, vegetable, Radish Salad, Red Plate, pickles",45,20
-Rainbow Shell,Its a very beautiful shell.,Forage,300,"forageable, The Mysterious Qi Quest, forageable, Beach, Summer, inedible",,
-Red Cabbage,Often used in salads and coleslaws. The color can range from purple to blue to green-yellow depending on soil conditions.,vegetable,260,"Summer, edible, vegetable, Coleslaw, Fish Taco, Red Plate, Dye Bundle, pickles",75,33
-Red Mushroom,A spotted mushroom sometimes found in caves.,forage,75,"Spring, Summer, Mines, Farm, Secret Woods, Dye Bundle, Exotic Foraging Bundle, Life Elixir, forageable",,-50
-Rhubarb,"The stalks are extremely tart, but make a great dessert when sweetened",fruit,220,"Spring, fruit, Rhubarb Pie, jelly, wine, inedible",,
-Salmonberry,A spring-time berry with the flavor of the forest.,fruit,5,"Spring, Forest, Town, Mountain, forageable, jelly, wine, forageable, bushes",25,11
-Sap,A fluid obtained from trees.,forage,2,"Spring, Summer, Fall, Winter, Basic Fertilizer, Quality Fertilizer, Trap Bobber, Torch",-2,
-Seaweed,It can be used in cooking.,,20,"Spring, Summer, Fall, Winter, Fish Pond, forageable",,
+Radish,A crisp and refreshing root vegetable with hints of pepper when eaten raw,vegetable,90,"summer, edible, vegetable, Radish Salad, Red Plate, pickles",45,20
+Rainbow Shell,Its a very beautiful shell.,Forage,300,"forageable, The Mysterious Qi Quest, forageable, Beach, summer, inedible",,
+Red Cabbage,Often used in salads and coleslaws. The color can range from purple to blue to green-yellow depending on soil conditions.,vegetable,260,"summer, edible, vegetable, Coleslaw, Fish Taco, Red Plate, Dye Bundle, pickles",75,33
+Red Mushroom,A spotted mushroom sometimes found in caves.,forage,75,"spring, summer, Mines, Farm, Secret Woods, Dye Bundle, Exotic Foraging Bundle, Life Elixir, forageable",,-50
+Rhubarb,"The stalks are extremely tart, but make a great dessert when sweetened",fruit,220,"spring, fruit, Rhubarb Pie, jelly, wine, inedible",,
+Salmonberry,A spring-time berry with the flavor of the forest.,fruit,5,"spring, Forest, Town, Mountain, forageable, jelly, wine, forageable, bushes",25,11
+Sap,A fluid obtained from trees.,forage,2,"spring, summer, fall, winter, Basic Fertilizer, Quality Fertilizer, Trap Bobber, Torch",-2,
+Seaweed,It can be used in cooking.,,20,"spring, summer, fall, winter, Fish Pond, forageable",,
 Sea Urchin,"A slow-moving, spiny creature that some consider a delicacy.",forage,160,"forageable, Dye Bundle, inedible",,
-Snow Yam,This little yam was hiding beneath the snow.,forage,100,"Winter, edible, forage, forageable, Winter Seeds, Winter Foraging Bundle",30,13
-Spice Berry,It fills the air with a pungent aroma.,fruit,80,"Summer, fruit, jelly, wine, Summer Seeds, Summer Foraging Bundle, jelly, wine, edible",25,11
-Spring Onion,These grow wild during the spring.,forage,8,"Spring, forageable, Forest, edible, brief",13,5
-Starfruit,"An extremely juicy fruit that grows in hot, humid weather. Slightly sweet with a sour undertone.",fruit,750,"Summer, fruit, jelly, wine, Junimo Hut, A Soldier's Star Quest, edible",125,56
-Strawberry,"A sweet, juicy favorite with an appealing red color",fruit,120,"Spring, Maru, Demetrius, edible, fruit, Demetrius, Maru, jelly, wine, reharvest, Egg Festival",50,22
-Summer Spangle,"A tropical bloom that thrives in the humid summer air. Has a sweet, tangy aroma.",flower,90,"Summer, flower, honey",45,20
-Sunflower,A common misconception is that the flower turns so its always facing the sun,flower,80,"Summer, Fall, edible, flower, Oil, Dye Bundle, Haley, honey",45,20
+Snow Yam,This little yam was hiding beneath the snow.,forage,100,"winter, edible, forage, forageable, Winter Seeds, Winter Foraging Bundle",30,13
+Spice Berry,It fills the air with a pungent aroma.,fruit,80,"summer, fruit, jelly, wine, Summer Seeds, Summer Foraging Bundle, jelly, wine, edible",25,11
+Spring Onion,These grow wild during the spring.,forage,8,"spring, forageable, Forest, edible, brief",13,5
+Starfruit,"An extremely juicy fruit that grows in hot, humid weather. Slightly sweet with a sour undertone.",fruit,750,"summer, fruit, jelly, wine, Junimo Hut, A Soldier's Star Quest, edible",125,56
+Strawberry,"A sweet, juicy favorite with an appealing red color",fruit,120,"spring, Maru, Demetrius, edible, fruit, Demetrius, Maru, jelly, wine, reharvest, Egg Festival",50,22
+Summer Spangle,"A tropical bloom that thrives in the humid summer air. Has a sweet, tangy aroma.",flower,90,"summer, flower, honey",45,20
+Sunflower,A common misconception is that the flower turns so its always facing the sun,flower,80,"summer, fall, edible, flower, Oil, Dye Bundle, Haley, honey",45,20
 Sweet Gem Berry,Its been dormant for eons.,fruit,3000,"fruit, Old Master Canoli Quest, jelly, wine, inedible",,
-Sweet Pea,A fragrant summer flower.,flower,50,"Summer, Sandy, Summer Seeds, Summer Foraging Bundle, Sandy",0,0
-Tea Leaves,"The young leaves of the tea plant. Can be brewed into the popular, energizing beverage.",vegetable,55,"vegetable, Caroline, monthly, Green Tea, pickles, inedible, trellis",,
-Tomato,"Rich and slightly tangy, the Tomato has a wide variety of culinary uses",vegetable,60,"Summer, edible, flower, Bruschetta, Eggplant Parmesan, Fish Stew, Pizza, Spaghetti, Vegetable Medley, Summer Crops Bundle, multiharvest, pickles",20,9
-Tulip,The most popular spring flower. Has a very faint sweet smell,flower,30,"Spring, edible, flower, Evelyn, honey",45,20
-Unmilled Rice,Rice in its rawest form. Run this through a mill to increase the value,vegetable,30,"Spring, vegetable, Rice, pickles, edible",3,1
-Wheat,One of the most widely cultivated grains. Makes a great flour for breads and cakes,vegetable,25,"Summer, Fall, edible, flower, Beer, Wheat Flour, Fodder Bundle, pickles, inedible, Fodder Bundle",,
-Wild Horseradish,A spicy root found in the spring.,forage,50,"Spring, Spring Seeds, Spring Foraging Bundle, Krobus, edible",13,5
-Wild Plum,Tart and juicy with a pungent aroma.,fruit,80,"Fall, forageable, Fall Seeds, Plum Pudding, Fall Foraging Bundle, jelly, wine, edible",25,11
+Sweet Pea,A fragrant summer flower.,flower,50,"summer, Sandy, Summer Seeds, Summer Foraging Bundle, Sandy",0,0
+Tea Leaves,"The young leaves of the tea plant. Can be brewed into the popular, energizing beverage.",vegetable,55,"vegetable, Caroline, monthly, Green Tea,  inedible, trellis",,
+Tomato,"Rich and slightly tangy, the Tomato has a wide variety of culinary uses",vegetable,60,"summer, edible, flower, Bruschetta, Eggplant Parmesan, Fish Stew, Pizza, Spaghetti, Vegetable Medley, Summer Crops Bundle, multiharvest, pickles",20,9
+Tulip,The most popular spring flower. Has a very faint sweet smell,flower,30,"spring, edible, flower, Evelyn, honey",45,20
+Unmilled Rice,Rice in its rawest form. Run this through a mill to increase the value,vegetable,30,"spring, vegetable, Rice,  edible",3,1
+Wheat,One of the most widely cultivated grains. Makes a great flour for breads and cakes,vegetable,25,"summer, fall, edible, flower, Beer, Wheat Flour, Fodder Bundle,  inedible, Fodder Bundle",,
+Wild Horseradish,A spicy root found in the spring.,forage,50,"spring, Spring Seeds, Spring Foraging Bundle, Krobus, edible",13,5
+Wild Plum,Tart and juicy with a pungent aroma.,fruit,80,"fall, forageable, Fall Seeds, Plum Pudding, Fall Foraging Bundle, jelly, wine, edible",25,11
 Winter Root,A starchy tuber.,forage,70,"forageable, forage, Winter Seeds, Roots Platter, Winter Foraging Bundle, edible",25,11
-Yam,A starchy tuber with a lot of culinary versatility.,vegetable,160,"vegetable, Autumn's Bounty, Glazed Yams, Fall Crops Bundle, Linus, pickles, edible",45,20
+Yam,A starchy tuber with a lot of culinary versatility.,vegetable,160,"vegetable, Autumn's Bounty, Glazed Yams, Fall Crops Bundle, Linus,  edible",45,20

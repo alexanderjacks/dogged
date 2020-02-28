@@ -14,9 +14,9 @@ tags:
   - Crab Pot Bundle
   - Fish Stew
   - Beach
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - inedible
 ---

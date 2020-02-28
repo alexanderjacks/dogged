@@ -8,7 +8,7 @@ description: Vault
 count: 2500g
 reward: Chocolate Cake (3)
 tags:
-  - 2500g
   - bundles
   - Vault
+  - 2500g
 ---

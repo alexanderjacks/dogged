@@ -10,7 +10,7 @@ energy: 25
 health: 11
 featuredimage: /img/Blueberry.png
 tags:
-  - Spring
+  - spring
   - edible
   - fruit
   - Blueberry Tart

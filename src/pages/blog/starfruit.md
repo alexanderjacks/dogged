@@ -10,7 +10,7 @@ energy: 125
 health: 56
 featuredimage: /img/Starfruit.png
 tags:
-  - Summer
+  - summer
   - fruit
   - jelly
   - wine

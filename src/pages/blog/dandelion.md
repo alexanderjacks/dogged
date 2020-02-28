@@ -10,7 +10,7 @@ energy: 25
 health: 11
 featuredimage: /img/Dandelion.png
 tags:
-  - Spring
+  - spring
   - Salad
   - Spring Seeds
   - Spring Foraging Bundle

@@ -10,7 +10,7 @@ energy: 0
 health: 0
 featuredimage: /img/Daffodil.png
 tags:
-  - Spring
+  - spring
   - Sandy
   - Spring Seeds
   - Spring Foraging Bundle

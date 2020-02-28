@@ -14,6 +14,6 @@ tags:
   - The Mysterious Qi Quest
   - forageable
   - Beach
-  - Summer
+  - summer
   - inedible
 ---

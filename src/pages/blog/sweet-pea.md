@@ -10,7 +10,7 @@ energy: 0
 health: 0
 featuredimage: /img/Sweet_Pea.png
 tags:
-  - Summer
+  - summer
   - Sandy
   - Summer Seeds
   - Summer Foraging Bundle

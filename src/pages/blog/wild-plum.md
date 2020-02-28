@@ -10,7 +10,7 @@ energy: 25
 health: 11
 featuredimage: /img/Wild_Plum.png
 tags:
-  - Fall
+  - fall
   - forageable
   - Fall Seeds
   - Plum Pudding

@@ -10,6 +10,6 @@ energy: 75
 health: 33
 featuredimage: /img/Sashimi.png
 tags:
-  - Fish
+  - fish
   - edible
 ---

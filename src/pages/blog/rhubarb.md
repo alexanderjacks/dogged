@@ -10,7 +10,7 @@ energy:
 health: 
 featuredimage: /img/Rhubarb.png
 tags:
-  - Spring
+  - spring
   - fruit
   - Rhubarb Pie
   - jelly

@@ -10,7 +10,7 @@ energy: 75
 health: 33
 featuredimage: /img/Chanterelle.png
 tags:
-  - Fall
+  - fall
   - forageable
   - Life Elixir
 ---

@@ -13,8 +13,8 @@ tags:
   - fruit
   - The Missing Bundle
   - reharvest
-  - Spring
-  - Summer
-  - Fall
+  - spring
+  - summer
+  - fall
   - inedible
 ---

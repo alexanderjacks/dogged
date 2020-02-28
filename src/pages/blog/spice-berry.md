@@ -10,7 +10,7 @@ energy: 25
 health: 11
 featuredimage: /img/Spice_Berry.png
 tags:
-  - Summer
+  - summer
   - fruit
   - jelly
   - wine

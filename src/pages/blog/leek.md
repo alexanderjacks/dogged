@@ -10,7 +10,7 @@ energy: 40
 health: 18
 featuredimage: /img/Leek.png
 tags:
-  - Spring
+  - spring
   - Salad
   - Spring Seeds
   - Spring Foraging Bundle

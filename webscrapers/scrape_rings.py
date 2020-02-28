@@ -1,8 +1,8 @@
 # GOAL OF THIS SOFTWARE: print scraped data in Terminal
 ## please install PYTHON3, CHROMEDRIVER, SELENIUM, then proceed
 ### then enter in Terminal ```pip install -r setup.py```
-#### NOW, you can run this script in Terminal with ```python3 scrape_bundles.py```
-##### ♲ reuse & recycle & have a nice day ♲
+#### NOW, you can run this script in Terminal with ```python3 scrape_rings.py```
+##### reuse & recycle & have a nice day
 
 # headless browser
 from selenium import webdriver
@@ -33,8 +33,8 @@ browser = webdriver.Chrome(executable_path='./chromedriver', options=option)
 
 # # # # # # # # surfs to this URL # # # # # # # # # # #
 page_this_time = 'Rings'
-url_this_time = f"https://stardewvalleywiki.com/Category:{page_this_time}"
-print(f"Let's scrape this site: {url_this_time}")
+url_this_time = 'https://stardewvalleywiki.com/{}'.format(page_this_time)
+print('Let\'s scrape this site: {}'.format(url_this_time))
 browser.get(url_this_time)
 
 
@@ -57,18 +57,18 @@ except TimeoutException:
 # scraping images, they are the only element w width='48'
 results = browser.find_elements_by_xpath("//img[@width='48']")
 # parsing returned objects into desired items ('list comprehension')
-bundle_name = [x.get_attribute('alt') for x in results]
+item_name = [x.get_attribute('alt') for x in results]
 image_URL = [x.get_attribute('src') for x in results]
 
 
 ### display scraping results in Terminal
 
-print('Bundles of Pelican Town:')
+print('{} of Pelican Town:'.format(page_this_time))
 ## zip() matches the scraped elements to each other
-for bundle_name, image_URL in zip(bundle_name, image_URL):
+for item_name, image_URL in zip(item_name, image_URL):
 	png_name = image_URL.split('/')[-1]
 #	test of variables
-	print(bundle_name + ": Let's use filename " + png_name + " when we save this resource ==> " + image_URL + '\n')
+	print(item_name + ": Let's use filename " + png_name + " when we save this resource ==> " + image_URL + '\n')
 ### next step is to save each image to a local file
 #	download image
 	rawImgData = requests.get(image_URL, stream=True)

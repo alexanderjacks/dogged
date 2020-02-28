@@ -10,7 +10,7 @@ energy: 38
 health: 17
 featuredimage: /img/Peach.png
 tags:
-  - Summer
+  - summer
   - tree
   - reharvest
   - edible

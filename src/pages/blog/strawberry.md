@@ -10,7 +10,7 @@ energy: 50
 health: 22
 featuredimage: /img/Strawberry.png
 tags:
-  - Spring
+  - spring
   - Maru
   - Demetrius
   - edible

@@ -10,10 +10,10 @@ energy:
 health: 
 featuredimage: /img/Coconut.png
 tags:
-  - Spring
-  - Summer
-  - Fall
-  - Winter
+  - spring
+  - summer
+  - fall
+  - winter
   - Desert
   - Tom Kha Soup
   - jelly

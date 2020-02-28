@@ -10,7 +10,7 @@ energy: 20
 health: 9
 featuredimage: /img/Tomato.png
 tags:
-  - Summer
+  - summer
   - edible
   - flower
   - Bruschetta

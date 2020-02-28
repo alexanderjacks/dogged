@@ -10,7 +10,7 @@ energy: 50
 health: 22
 featuredimage: /img/Kale.png
 tags:
-  - Spring
+  - spring
   - edible
   - vegetable
   - Salmon Dinner

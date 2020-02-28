@@ -10,7 +10,7 @@ energy: 75
 health: 33
 featuredimage: /img/Red_Cabbage.png
 tags:
-  - Summer
+  - summer
   - edible
   - vegetable
   - Coleslaw
