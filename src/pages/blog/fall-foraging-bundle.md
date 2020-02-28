@@ -8,7 +8,8 @@ description: Craft Room
 count: 4 out of 4
 reward: Fall Seeds (30)
 tags:
-  - Common MushroomWild Plum
+  - Common Mushroom
+  - Wild Plum
   - Hazelnut
   - Blackberry
   - bundles

@@ -44,7 +44,7 @@ export const BlogPostTemplate = ({
           backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
           display: `flex`,
           flexFlow: `column nowrap`,
-          justifyContent: `left`,
+          justifyContent: `center`,
           alignItems: `center`
         }}>
         <div class="cluster-bunch">
@@ -54,7 +54,7 @@ export const BlogPostTemplate = ({
             minHeight: 48,
             backgroundRepeat: `no-repeat`,
             backgroundPosition: `center`,
-            backgroundImage: `url(/img/${snakeCase(title).replace(' ','_')}.png)`
+            backgroundImage: `url(/img/${snakeCase(title).replace(' ','_').replace(/[0-9]/g,'')}.png)`
           }}>
           </div>
           {/* good job, end of workaround */}
@@ -69,7 +69,7 @@ export const BlogPostTemplate = ({
               transform:`scaleX(-1)`,
               backgroundRepeat: `no-repeat`,
               backgroundPosition: `center`,
-              backgroundImage: `url(/img/${snakeCase(title).replace(' ','_')}.png)`
+              backgroundImage: `url(/img/${snakeCase(title).replace(' ','_').replace(/[0-9]/g,'')}.png)`
             }}>
             </div>
             {/* good job, end of workaround */}
@@ -79,12 +79,12 @@ export const BlogPostTemplate = ({
         <div
           class="columns is-mobile"
           style={{
-            margin:`0.1rem`,
+            margin:`0.0rem`,
             padding:`0.25rem`,
             borderRadius: `2rem`,
+            maxWidth:`82vw`,
             border: `chocolate 6px groove`,
             backgroundColor: `#ffffff99`,
-            width: `inherit`,
             display: `flex`,
             flexFlow: `row wrap`,
             justifyContent: `center`,
@@ -153,21 +153,26 @@ export const BlogPostTemplate = ({
             }}></div>
           </h1>
           </>}
-          {type && <><h2 class="column is-6" style={{textAlign:`right`}}>type:</h2>
-          <h2 class="is-size-6 column is-6" style={{textAlign:`left`}}>{type}</h2>
-          </>}
-          {reward && <><h2 class="column is-6" style={{textAlign:`right`}}>reward:</h2>
-          <h2 class="is-size-6 column is-6" style={{textAlign:`left`}}>{reward}</h2>
-          <div style={{
-            minWidth: 48,
-            width: `40vw`,
-            minHeight: 48,
-            backgroundRepeat: `no-repeat`,
-            backgroundPosition: `center`,
-            backgroundImage: `url(/img/${snakeCase(reward.replace(/[0-9]/,''))}.png)`
+          {type && <div style={{display:`block`, width:`82vw`}}><h2 class="column is-6" style={{textAlign:`center`}}>type:</h2>
+          <h2 class="is-size-6 column is-6" style={{textAlign:`center`}}>{type}</h2>
+          </div>}
+          {reward && <Link to={`/blog/${kebabCase(reward.replace(/[0-9]/g,''))}/`}
+          class='pinker-btn'
+          style={{
+            padding:`1.2rem`,
           }}>
-          </div>
-          </>}
+            <h2 class="column" style={{textAlign:`center`}}>reward:</h2>
+            <h2 class="is-size-6 column" style={{textAlign:`center`, margin:`0.5rem`}}>{reward}</h2>
+            <div style={{
+              minWidth: 48,
+              width: `95vw`,
+              minHeight: 48,
+              backgroundRepeat: `no-repeat`,
+              backgroundPosition: `center`,
+              backgroundImage: `url(/img/${snakeCase(reward.replace(/[0-9]/g,''))}.png)`
+            }}>
+            </div>
+          </Link>}
           {count && <><h2 class="column is-6" style={{textAlign:`right`}}>requires:</h2>
           <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>{count}</h1>
           </>}
@@ -205,9 +210,9 @@ export const BlogPostTemplate = ({
                 to={`/tags/${kebabCase(tag)}/`}
                 class="is-size-5"
                 style={{
-                  padding: `0.7rem`,
+                  padding: `0.76rem`,
                   color: `black`,
-                  backgroundImage: `url(/img/${snakeCase(tag.replace([0-9],''))}.png)`,
+                  backgroundImage: `url(/img/${snakeCase(tag.replace(/[0-9]/g,'').replace(' ','_'))}.png)`,
                   fontFamily:`Fredericka the Great`,
                   fontWeight: 600,
                   display: `flex`,
@@ -225,8 +230,10 @@ export const BlogPostTemplate = ({
             ))}
           </ul>
         ) : null}
-
       </div>
+      <h2 className="title is-size-4 is-bold-light">
+        <Link to="/tags/">All Stardew metadata tags</Link>
+      </h2>
     </section>
   )
 }
