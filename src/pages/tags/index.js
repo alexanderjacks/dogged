@@ -37,7 +37,7 @@ const TagsPage = ({
     <section className="section"
       style={{
         minHeight: `85vh`,
-        backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
+        backgroundImage: `linear-gradient(to top, #000, #54a, #83b)`,
     }}>
       <Helmet title={`Tags | ${title}`} />
       <div className=""
