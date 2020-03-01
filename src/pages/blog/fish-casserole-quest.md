@@ -8,5 +8,11 @@ title: Fish Casserole
 description: Jodi swung by the farm to ask you to dinner at 700 PM. Her only request was that you bring a Largemouth Bass for her fish casserole.
 reward: Event Scene
 tags:
-  - Event - Jodi at 4 Hearts; Exit the Farmhouse between 6am and 930am on a Monday to trigger the event Enter Jodi's house with a Largemouth Bass at 700 PM on a day of your choice (not a festival day).
+  - Event
+  - Jodi at 4 Hearts
+  - 6am - 930am
+  - Monday
+  - Jodi
+  - Largemouth Bass
+  - 700pm
 ---

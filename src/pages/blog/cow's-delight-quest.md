@@ -8,5 +8,9 @@ title: Cow's Delight
 description: Marnie wants to give her cows a special treat. She's asking for a single bunch of amaranth.
 reward: 500 & 1 Friendship heart
 tags:
-  - Mail Fall 3 Bring Marnie one bunch of Amaranth.
+  - Mail
+  - fall
+  - Fall 3
+  - Marnie
+  - Amaranth
 ---

@@ -8,5 +8,6 @@ title: Strange Note
 description: You found a note barely legible asking you to bring "may-pal serrup" to the "seecrit wuds".
 reward: Bear's Knowledge
 tags:
-  - Mail after reading Secret Note #23 Enter the Secret Woods between 6am and 7pm with Maple Syrup in inventory to trigger a cutscene.
+  - Mail
+  - after reading Secret Note #23 Enter the Secret Woods between 6am and 7pm with Maple Syrup in inventory to trigger a cutscene.
 ---
