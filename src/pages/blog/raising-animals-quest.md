@@ -1,0 +1,12 @@
+---
+templateKey: blog-post
+featuredpost: false
+date: 2020-03-01T03:43:43.711Z
+featuredimage: /img/quest_bg3.png
+imgBg: quest_bg3
+title: Raising Animals
+description: Robin the local carpenter lives north of town. In exchange for raw materials and money she'll construct new buildings on your farm. You'll need her to build a coop or barn so that you can raise animals.
+reward: 100'
+tags:
+  - Complete "Getting Started" Build a Coop.
+---
