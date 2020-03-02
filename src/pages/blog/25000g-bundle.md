@@ -8,7 +8,7 @@ description: Vault
 count: 25000g
 reward: Crystalarium (1)
 tags:
-  - bundles
+  - bundle
   - Vault
   - 25000g
 ---

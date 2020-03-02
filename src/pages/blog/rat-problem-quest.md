@@ -1,14 +1,21 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-03-01T03:43:43.711Z
-featuredimage: /img/quest_bg6.png
-imgBg: quest_bg6
-title: Rat Problem
+date: 2020-03-01T19:23:23.711Z
+featuredimage: /img/quest_bg5.png
+imgBg: quest_bg5
+title: Rat Problem Quest
 description: There's something odd going on in the Community Center... Investigate the Community Center
-reward: The following morning a letter from the Wizard arrives in the Mail, triggering the "Meet the Wizard" quest.
+reward: Meet the Wizard quest
 tags:
-  - Entering Town from Bus Stop between 800am - 100pm on sunny day
-  - Enter the Community Center and examine the Golden Scroll in the Crafts Room
   - spring
+  - sunny
+  - Bus Stop
+  - Town
+  - 8am - 1pm
+  - Community Center
+  - Golden Scroll
+  - Crafts Room
+  - event
+  - quest
 ---

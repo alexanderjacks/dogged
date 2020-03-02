@@ -12,6 +12,6 @@ tags:
   - Daffodil
   - Leek
   - Dandelion
-  - bundles
+  - bundle
   - Craft Room
 ---

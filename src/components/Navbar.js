@@ -68,8 +68,11 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/tags">
                 Metadata Tags
               </Link>
-              <Link className="navbar-item" to="/tags/bundles">
+              <Link className="navbar-item" to="/tags/bundle">
                 Bundles
+              </Link>
+              <Link className="navbar-item" to="/tags/quest">
+                Quests
               </Link>
             </div>
             <div className="navbar-end has-text-centered">

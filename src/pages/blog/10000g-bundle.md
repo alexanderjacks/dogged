@@ -8,7 +8,7 @@ description: Vault
 count: 10000g
 reward: Lightning Rod (1)
 tags:
-  - bundles
+  - bundle
   - Vault
   - 10000g
 ---

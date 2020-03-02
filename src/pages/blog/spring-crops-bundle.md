@@ -12,6 +12,6 @@ tags:
   - Green Bean
   - Cauliflower
   - Potato
-  - bundles
+  - bundle
   - Pantry
 ---

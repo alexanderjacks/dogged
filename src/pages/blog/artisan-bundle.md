@@ -20,6 +20,6 @@ tags:
   - Peach
   - Pomegranate
   - Cherry
-  - bundles
+  - bundle
   - Pantry
 ---

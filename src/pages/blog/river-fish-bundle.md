@@ -12,6 +12,6 @@ tags:
   - Catfish
   - Shad
   - Tiger Trout
-  - bundles
+  - bundle
   - Fish Tank
 ---

@@ -13,9 +13,10 @@ tags:
   - Cave Carrot
   - Red Mushroom
   - Purple Mushroom
-  - Maple SyrupOak Resin
+  - Maple Syrup
+  - Oak Resin
   - Pine Tar
   - Morel
-  - bundles
+  - bundle
   - Craft Room
 ---

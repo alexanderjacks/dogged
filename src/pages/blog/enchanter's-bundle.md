@@ -12,6 +12,6 @@ tags:
   - Wine
   - Rabbit's Foot
   - Pomegranate
-  - bundles
+  - bundle
   - Bulletin Board
 ---

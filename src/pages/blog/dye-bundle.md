@@ -14,6 +14,6 @@ tags:
   - Duck Feather
   - Aquamarine
   - Red Cabbage
-  - bundles
+  - bundle
   - Bulletin Board
 ---

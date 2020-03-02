@@ -12,6 +12,6 @@ tags:
   - Eggplant
   - Pumpkin
   - Yam
-  - bundles
+  - bundle
   - Pantry
 ---

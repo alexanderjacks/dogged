@@ -11,7 +11,6 @@ health: 0
 featuredimage: /img/Crocus.png
 tags:
   - forageable
-  - bundle
   - Sandy
   - Winter Seeds
   - Winter Foraging Bundle

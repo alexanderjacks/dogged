@@ -12,6 +12,6 @@ tags:
   - Wild Plum
   - Hazelnut
   - Blackberry
-  - bundles
+  - bundle
   - Craft Room
 ---

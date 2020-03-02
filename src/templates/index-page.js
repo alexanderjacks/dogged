@@ -96,12 +96,12 @@ export const IndexPageTemplate = ({
                 <p>{description}</p>
               </div>
 
-              <div className="column is-6 has-text-centered">
-                <Link className="btn" to="/products">
+              <div className="column is-4 has-text-centered">
+                <Link className="btn" to="/tags/quest">
                   All Quests
                 </Link>
               </div>
-              <div className="column is-6 has-text-centered">
+              <div className="column is-4 has-text-centered">
                 <Link className="btn" to="/tags/fish">
                   All Fish
                 </Link>

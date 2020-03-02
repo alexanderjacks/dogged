@@ -18,6 +18,6 @@ tags:
   - Periwinkle
   - Oyster
   - Clam
-  - bundles
+  - bundle
   - Fish Tank
 ---

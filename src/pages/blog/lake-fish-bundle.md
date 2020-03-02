@@ -12,6 +12,6 @@ tags:
   - Carp
   - Bullhead
   - Sturgeon
-  - bundles
+  - bundle
   - Fish Tank
 ---

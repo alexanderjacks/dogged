@@ -1,13 +1,15 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-03-01T03:43:43.711Z
-featuredimage: /img/quest_bg2.png
-imgBg: quest_bg2
-title: To The Bottom
+date: 2020-03-01T19:23:23.711Z
+featuredimage: /img/quest_bg5.png
+imgBg: quest_bg5
+title: To The Bottom Quest
 description: So far there's no sign of the bottom. How low does it go?
-reward: dummy
+reward: better drops in Mine
 tags:
-  - Reach level 40 in Mines
-  - Reach level 120 in Mines
+  - Mines level 40
+  - Mines level 120
+  - 6am - 2am
+  - quest
 ---

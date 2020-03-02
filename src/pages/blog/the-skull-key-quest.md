@@ -1,13 +1,14 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-03-01T03:43:43.711Z
+date: 2020-03-01T19:23:23.711Z
 featuredimage: /img/quest_bg4.png
 imgBg: quest_bg4
-title: The Skull Key
+title: The Skull Key Quest
 description: You found a strange looking key in the bottom of Mines.
-reward: Access to the Skull Cavern in the desert
+reward: Skull Cavern
 tags:
-  - Complete Mines
+  - Complete To The Bottom
   - Skull Key
+  - quest
 ---

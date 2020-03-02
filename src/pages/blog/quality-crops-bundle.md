@@ -12,6 +12,6 @@ tags:
   - Melon (5)
   - Pumpkin (5)
   - Corn (5)
-  - bundles
+  - bundle
   - Pantry
 ---

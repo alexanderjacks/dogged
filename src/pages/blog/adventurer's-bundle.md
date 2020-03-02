@@ -12,6 +12,6 @@ tags:
   - Bat Wing (10)
   - Solar Essence
   - Void Essence
-  - bundles
+  - bundle
   - Boiler Room
 ---

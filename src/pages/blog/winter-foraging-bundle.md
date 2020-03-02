@@ -11,6 +11,6 @@ tags:
   - Winter RootCrystal Fruit
   - Snow Yam
   - Crocus
-  - bundles
+  - bundle
   - Craft Room
 ---

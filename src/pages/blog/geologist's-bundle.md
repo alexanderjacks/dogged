@@ -12,6 +12,6 @@ tags:
   - Earth Crystal
   - Frozen Tear
   - Fire Quartz
-  - bundles
+  - bundle
   - Boiler Room
 ---

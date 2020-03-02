@@ -11,6 +11,6 @@ tags:
   - Grape
   - Spice Berry
   - Sweet Pea
-  - bundles
+  - bundle
   - Craft Room
 ---

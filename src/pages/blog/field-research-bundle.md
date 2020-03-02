@@ -12,6 +12,6 @@ tags:
   - Nautilus Shell
   - Chub
   - Frozen Geode
-  - bundles
+  - bundle
   - Bulletin Board
 ---

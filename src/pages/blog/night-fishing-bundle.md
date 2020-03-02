@@ -11,6 +11,6 @@ tags:
   - Walleye
   - Bream
   - Eel
-  - bundles
+  - bundle
   - Fish Tank
 ---

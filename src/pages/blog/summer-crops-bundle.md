@@ -12,6 +12,6 @@ tags:
   - Hot Pepper
   - Blueberry
   - Melon
-  - bundles
+  - bundle
   - Pantry
 ---

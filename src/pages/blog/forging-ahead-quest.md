@@ -1,14 +1,17 @@
 ---
 templateKey: blog-post
 featuredpost: false
-date: 2020-03-01T03:43:43.711Z
-featuredimage: /img/quest_bg1.png
-imgBg: quest_bg1
-title: Forging Ahead
+date: 2020-03-01T19:23:23.711Z
+featuredimage: /img/quest_bg2.png
+imgBg: quest_bg2
+title: Forging Ahead Quest
 description: If you're going to keep mining you should build a furnace.
-reward: dummy
+reward: Furnace
 tags:
   - Copper Ore
-  - Clint visits and gives you the Furnace blueprints
-  - Craft a Furnace
+  - Clint
+  - Furnace recipe
+  - crafting
+  - Furnace
+  - quest
 ---

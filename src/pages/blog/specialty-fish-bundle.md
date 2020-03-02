@@ -12,6 +12,6 @@ tags:
   - Ghostfish
   - Sandfish
   - Woodskip
-  - bundles
+  - bundle
   - Fish Tank
 ---

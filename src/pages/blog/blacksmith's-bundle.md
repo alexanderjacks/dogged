@@ -11,6 +11,6 @@ tags:
   - Copper Bar
   - Iron Bar
   - Gold Bar
-  - bundles
+  - bundle
   - Boiler Room
 ---
