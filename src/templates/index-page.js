@@ -77,9 +77,9 @@ export const IndexPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-11 is-offset-1">
+            <div className="column columns is-multiline is-11 is-offset-1">
               <div className="content">
-                <h3 className="subtitle"
+                <h3
                   style={{
                     fontFamily: 'Solway',
                     marginBottom: '3rem',
@@ -89,20 +89,32 @@ export const IndexPageTemplate = ({
                 </h3>
               </div>
 
+              <div className="column is-12">
+                <h3 className="has-text-weight-semibold is-size-2">
+                  {heading}
+                </h3>
+                <p>{description}</p>
+              </div>
 
-              {/*
-                new btn route to tags/
-                */}
+              <div className="column is-6 has-text-centered">
+                <Link className="btn" to="/products">
+                  All Quests
+                </Link>
+              </div>
+              <div className="column is-6 has-text-centered">
+                <Link className="btn" to="/tags/fish">
+                  All Fish
+                </Link>
+              </div>
 
-                <div className="column is-10 has-text-right">
-                  <h3 className="has-text-weight-semibold is-size-4">
-                    All metadata on Stardew Valley:
-                  </h3>
-                  <Link className="btn" to="/tags">
-                    Search by Metadata
-                  </Link>
-                </div>
-
+              <div className="column is-10 has-text-right">
+                <h3 className="has-text-weight-semibold is-size-4">
+                  All metadata on Stardew Valley:
+                </h3>
+                <Link className="btn" to="/tags">
+                  Search by Metadata
+                </Link>
+              </div>
 
               <div className="column is-12">
                 <h3 className="has-text-weight-semibold is-size-2">
@@ -116,29 +128,27 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
 
-              <div className="columns">
-                <div className="column is-12">
+              <div className="columns is-multiline">
+                <div className="column is-10">
                   <h3 className="has-text-weight-semibold is-size-2">
                     {heading}
                   </h3>
                   <p>{description}</p>
                 </div>
+                <div className="column is-6 has-text-centered">
+                  <Link className="btn" to="/products">
+                    All Quests
+                  </Link>
+                </div>
+                <div className="column is-6 has-text-centered">
+                  <Link className="btn" to="/tags/fish">
+                    All Fish
+                  </Link>
+                </div>
               </div>
               {/*
               <Features gridItems={intro.blurbs} />
               */}
-              <div className="columns">
-                <div className="column is-5 has-text-centered">
-                  <Link className="btn" to="/products">
-                    See all Quests
-                  </Link>
-                </div>
-                <div className="column is-5 has-text-centered">
-                  <Link className="btn" to="/tags/fish">
-                    See all Fish
-                  </Link>
-                </div>
-              </div>
 
             </div>
           </div>

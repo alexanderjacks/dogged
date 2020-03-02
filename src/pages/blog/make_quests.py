@@ -26,12 +26,12 @@ with open('quests.csv', 'rb') as csvfile:
         # creating img asset path
         featuredimage = '/img/{}.png'.format(img_file_name)
         # # creates md to write csv row data into
-        f = open('{}-quest.md'.format(md_file_name), 'w')
+        f = open('{}.md'.format(md_file_name), 'w')
         f.write('---\n') # formatting req
         # f.write('Close to generating data file for {} ...'.format(md_file_name))
         f.write('templateKey: blog-post\n')
         f.write('featuredpost: false\n')
-        f.write('date: 2020-03-01T03:43:43.711Z\n')
+        f.write('date: 2020-03-01T19:23:23.711Z\n')
         f.write('featuredimage: {}\n'.format(featuredimage))
         f.write('imgBg: {}\n'.format(img_file_name))
         f.write('title: {}\n'.format(title))
