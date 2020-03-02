@@ -5,26 +5,26 @@
 
 import csv # csv deciphering module
 # opens file to work from (only read not write (rb not wb))
-with open('bldgs.csv', 'rb') as csvfile:
+with open('fish.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
-    headers = ['title', 'description', 'type', 'footprint', 'source', 'cost', 'tags'] # manual entry for now
+    headers = ['title', 'description', 'note', 'sellPrice', 'tags', 'energy', 'health'] # manual entry for now
     # this needs to count down for the row count (while)
 
     for row in pulpy_data:
         # gotta assign fields to vars for later
-        description = row['description']
         title = row['title']
+        description = row['description']
         type = row['type']
-        cost = row['cost']
-        footprint = row['footprint']
-        source = row['source']
+        sellPrice = row['sellPrice']
         tags =  row['tags'] # could try to split these now...
-        working_file_name = row['title'] # for db schema
+        energy = row['energy']
+        health = row['health']
+
         # formatting filename, from the data object name
-        img_file_name = working_file_name.replace(' ','_') # b/c filesystem
-        md_file_name = working_file_name.lower().replace(' ','-') # b/c filesystem
+        img_file_name = title.replace(' ','_') # b/c filesystem
+        md_file_name = title.lower().replace(' ','-') # b/c filesystem
         #
         # creating img asset path
         featuredimage = '/img/{}.png'.format(img_file_name)
@@ -33,15 +33,15 @@ with open('bldgs.csv', 'rb') as csvfile:
         f.write('---\n') # formatting req
         # f.write('Close to generating data file for {} ...'.format(md_file_name))
         f.write('templateKey: blog-post\n')
-        f.write('title: {}\n'.format(title))
-        f.write('type: {}\n'.format(type))
-        f.write('description: {}\n'.format(description))
         f.write('featuredpost: false\n')
-        f.write('date: 2020-02-21T14:54:54.711Z\n')
+        f.write('date: 2020-02-27T20:52:45.711Z\n')
         f.write('featuredimage: {}\n'.format(featuredimage))
-        if cost: f.write('cost: {}\n'.format(cost))
-        if footprint: f.write('footprint: {}\n'.format(footprint))
-        if source: f.write('source: {}\n'.format(source))
+        f.write('title: {}\n'.format(title))
+        f.write('description: {}\n'.format(description))
+        f.write('type: fish\n')
+        f.write('sellPrice: {}\n'.format(sellPrice))
+        f.write('energy: {}\n'.format(energy))
+        f.write('health: {}\n'.format(health))
         f.write('tags:\n  - {}\n'.format(tags).replace(',','\n  -' ))
         f.write('---') # formatting req
         f.close() # python saves file on close()
