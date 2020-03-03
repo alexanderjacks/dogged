@@ -14,6 +14,7 @@ tags:
   - forageable
   - jelly
   - wine
+  - bundle
   - Winter Seeds
   - Winter Foraging Bundle
   - jelly

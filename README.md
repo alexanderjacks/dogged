@@ -4,6 +4,9 @@
 
 #### [J4cks.com](https://J4cks.com) 2020, MIT License ( Permissive Unlimited Reuse )
 
+## Setup after `git clone`. . . maybe
+- `source startupwi.sh`
+
 ## 💥 _Features_
 - quick and fast UI ☑️
 - easy to find = separate load like an app on phones ☑️

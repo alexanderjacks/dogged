@@ -80,7 +80,7 @@ Apricot,A tender little fruit with a rock-hard pit.,fruit,50,"spring, tree, reha
 Ancient Fruit,Its been dormant for eons.,fruit,550,"fruit, The Missing Bundle, reharvest, spring, summer, fall, inedible",,
 Artichoke,"The bud of a thistle plant. The spiny outer leaves conceal a fleshy, filling interior.",vegetable,160,"summer, fall, edible, vegetable, Artichoke Dip, Super Meal",30,13
 Beet,"A sweet and earthy root vegetable. As a bonus, the leaves make a great salad.",vegetable,100,"vegetable, Vegetable Medley, Sugar, The Mysterious Qi Quest, Evelyn, pickles",30,13
-Blackberry,An early-fall treat.,fruit,20,"fall, forageable, Fall Seeds, Blackberry Cobbler, Fall Foraging Bundle, jelly, wine, bushes",25,11
+Blackberry,An early-fall treat.,fruit,20,"fall, forageable, Fall Seeds, Blackberry Cobbler, Fall Foraging Bundle, jelly, wine, bushes, brief",25,11
 Blue Jazz,The flower grows in a sphere to invite as many butterflies as possible.,flower,50,"spring, edible, flower, Lucky Lunch, honey",45,20
 Blueberry,A popular berry reported to have many health benefits. The blue skin has the highest nutrient concentration,fruit,50,"spring, edible, fruit, Blueberry Tart, Fruit Salad, Summer Crops Bundle, multiharvest, reharvest",25,11
 Bok Choy,The leafy greens and fibrous stalks are healthy and delicious.,vegetable,80,"vegetable, Super Meal, pickles",25,11
@@ -131,13 +131,13 @@ Rainbow Shell,Its a very beautiful shell.,Forage,300,"forageable, The Mysterious
 Red Cabbage,Often used in salads and coleslaws. The color can range from purple to blue to green-yellow depending on soil conditions.,vegetable,260,"summer, edible, vegetable, Coleslaw, Fish Taco, Red Plate, Dye Bundle, pickles",75,33
 Red Mushroom,A spotted mushroom sometimes found in caves.,forage,75,"spring, summer, Mines, Farm, Secret Woods, Dye Bundle, Exotic Foraging Bundle, Life Elixir, forageable",,-50
 Rhubarb,"The stalks are extremely tart, but make a great dessert when sweetened",fruit,220,"spring, fruit, Rhubarb Pie, jelly, wine, inedible",,
-Salmonberry,A spring-time berry with the flavor of the forest.,fruit,5,"spring, Forest, Town, Mountain, forageable, jelly, wine, forageable, bushes",25,11
+Salmonberry,A spring-time berry with the flavor of the forest.,fruit,5,"spring, Forest, Town, Mountain, forageable, jelly, wine, forageable, bushes, brief",25,11
 Sap,A fluid obtained from trees.,forage,2,"spring, summer, fall, winter, Basic Fertilizer, Quality Fertilizer, Trap Bobber, Torch",-2,
 Seaweed,It can be used in cooking.,,20,"spring, summer, fall, winter, Fish Pond, forageable",,
 Sea Urchin,"A slow-moving, spiny creature that some consider a delicacy.",forage,160,"forageable, Dye Bundle, inedible",,
 Snow Yam,This little yam was hiding beneath the snow.,forage,100,"winter, edible, forage, forageable, Winter Seeds, Winter Foraging Bundle",30,13
 Spice Berry,It fills the air with a pungent aroma.,fruit,80,"summer, fruit, jelly, wine, Summer Seeds, Summer Foraging Bundle, jelly, wine, edible",25,11
-Spring Onion,These grow wild during the spring.,forage,8,"spring, forageable, Forest, edible, brief",13,5
+Spring Onion,These grow wild during the spring.,forage,8,"spring, forageable, Forest, edible, brief, near Sewer Pipe",13,5
 Starfruit,"An extremely juicy fruit that grows in hot, humid weather. Slightly sweet with a sour undertone.",fruit,750,"summer, fruit, jelly, wine, Junimo Hut, A Soldier's Star Quest, edible",125,56
 Strawberry,"A sweet, juicy favorite with an appealing red color",fruit,120,"spring, Maru, Demetrius, edible, fruit, Demetrius, Maru, jelly, wine, reharvest, Egg Festival",50,22
 Summer Spangle,"A tropical bloom that thrives in the humid summer air. Has a sweet, tangy aroma.",flower,90,"summer, flower, honey",45,20
