@@ -8,13 +8,14 @@ with open('quests.csv', 'rb') as csvfile:
     # b/c this is hecka raw data...
     pulpy_data = csv.DictReader(csvfile, delimiter=',', quotechar='\"')
     # want a way to populate this from the csv header! less errors
-    headers = ['title', 'description', 'reward', 'tags'] # manual entry for now
+    headers = ['title', 'description', 'type', 'reward', 'tags'] # manual entry for now
     # this needs to count down for the row count (while)
 
     for row in pulpy_data:
         # gotta assign fields to vars for later
         title = row['title']
         description = row['description']
+        type = row['type']
         reward = row['reward']
         tags = row['tags'] # could try to split these now...
 
@@ -31,11 +32,12 @@ with open('quests.csv', 'rb') as csvfile:
         # f.write('Close to generating data file for {} ...'.format(md_file_name))
         f.write('templateKey: blog-post\n')
         f.write('featuredpost: false\n')
-        f.write('date: 2020-03-01T19:23:23.711Z\n')
+        f.write('date: 2020-03-03T11:44:23.711Z\n')
         f.write('featuredimage: {}\n'.format(featuredimage))
         f.write('imgBg: {}\n'.format(img_file_name))
         f.write('title: {}\n'.format(title))
         f.write('description: {}\n'.format(description))
+        f.write('type: {}\n'.format(type))
         f.write('reward: {}\n'.format(reward))
         f.write('tags:\n  - {}\n'.format(tags).replace(',','\n  -' ))
         f.write('---') # formatting req

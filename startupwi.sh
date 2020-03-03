@@ -5,7 +5,7 @@ project=`pwd`
 
 echo "Cleaning and moving the data file downloads"
 cd ~/Downloads
-rename 's/to-CSV\ -\ //' *.csv && cp *.csv $project/src/pages/blog
+rename 's/dex\ -\ //' *.csv && cp *.csv $project/src/pages/blog
 
 echo "Now copying over the make tools (ﾉ>ω<)ﾉ :｡･:*:･ﾟ’★,｡･:*:♪･ﾟ’☆"
 cd $project/wonderful/backup_makescripts
