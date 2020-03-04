@@ -13,7 +13,41 @@ $black: #20252b
 .navbar .navbar-menu
   box-shadow:none !important
 
-.better-on-hover
+// begin awesome refactor
+.sdv-daytime-gradient
+  display: flex
+  flex-flow: column wrap
+  background-image: linear-gradient(#fff, #aff, #afa)
+  min-height: 85vh
+
+.basic-item-card
+  max-width: 90vw
+  padding: 1.2rem
+  margin-right: 0.6rem
+  border-radius: 2rem
+  border: chocolate 6px groove
+  background-image: radial-gradient(snow, cornsilk, wheat, tan)
+  display: flex
+  flex-flow: column wrap
+  justify-content: center
+  align-items: space-between
+
+.vertical-spacing
+  display: block
+  margin-top: 1.35rem
+  margin-bottom: 2.35rem
+
+.card-palebox-area
+  border-radius: 2rem
+  width: 100%
+  border: chocolate 6px groove
+  background-color: #ffffff77
+  display: flex
+  flex-flow: row wrap
+  justify-content: center
+  align-items: baseline
+
+.experimental-btn
   &:hover
     color: #f0f
     font-weight: 600
@@ -79,17 +113,10 @@ $black: #20252b
     color: #fff
     text-shadow: 2px 2px 4px navy,-2px -2px 4px navy,-2px 2px 4px navy,2px -2px 4px navy
     background-color: $brand-primary-invert
-.pinker-btn
-  transition: ease 0.5s
-  &:hover
-    text-shadow: 2px 2px 4px #f0f,-2px -2px 4px #f0f,-2px 2px 4px #f0f,2px -2px 4px #f0f
-
-.margin-top-0
-  margin-top: 0 !important
 
 .navbar-item
   font-size: 165%;
-  margin-left: 1.8rem;
+  margin-left: 1.6rem;
 
 .navbar-item .icon
   color: $primary
@@ -104,7 +131,7 @@ footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
 
-//Menu overrides
+// menu overrides
 $menu-item-color: $white-ter
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
@@ -112,7 +139,6 @@ $menu-item-active-color: $brand-primary-invert
 $menu-item-active-background-color:	$brand-primary-invert
 $menu-list-border-left: 1px solid $brand-primary-invert
 $menu-label-color: $white-ter
-
 
 .menu-label
   font-size: 1em !important
@@ -133,7 +159,7 @@ $menu-label-color: $white-ter
   display: inline
 
 
-// most
+// typeface sitewide
 h1, h2, h3, h4, h5, h6, button, .btn, .navbar-item
   font-family: 'Fredericka the Great', cursive;
 

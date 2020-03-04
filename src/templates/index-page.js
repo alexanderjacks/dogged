@@ -14,12 +14,9 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div
-  style={{
-    background: `radial-gradient(#0ff, navy)`,
-  }}>
+  <div className="sdv-daytime-gradient">
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -69,11 +66,7 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
-    <section className="section"
-    style={{
-      minHeight: `85vh`,
-      backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
-    }}>
+    <section className="section">
       <div className="container">
         <div className="section">
           <div className="columns">

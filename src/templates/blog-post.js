@@ -25,28 +25,15 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section"
+    <section className="section sdv-daytime-gradient"
     style={{
       display: `flex`,
-      flexFlow: `column wrap`,
-      justifyContent: `center`,
-      minHeight: `85vh`,
-      backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
+      flexFlow: `column`,
+      justifyContent: `center`
     }}>
       {helmet || ''}
 
-      <div className="basic-item-card"
-        style={{
-          margin:`0.6rem`,
-          padding:`1.2rem`,
-          borderRadius: `2rem`,
-          border: `chocolate 6px groove`,
-          backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
-          display: `flex`,
-          flexFlow: `column nowrap`,
-          justifyContent: `center`,
-          alignItems: `center`
-        }}>
+      <div className="basic-item-card">
         <div class="cluster-bunch">
         {/* workaround for Gatsby Img grief */}
           <div style={{
@@ -74,22 +61,8 @@ export const BlogPostTemplate = ({
             </div>
             {/* good job, end of workaround */}
         </div>
-        <p class="heading">{description}</p>
-
-        <div
-          class="columns is-mobile"
-          style={{
-            margin:`0.0rem`,
-            padding:`0.25rem`,
-            borderRadius: `2rem`,
-            maxWidth:`82vw`,
-            border: `chocolate 6px groove`,
-            backgroundColor: `#ffffff99`,
-            display: `flex`,
-            flexFlow: `row wrap`,
-            justifyContent: `center`,
-            alignItems: `baseline`
-          }}>
+        <p class="vertical-spacing">{description}</p>
+        <div class="columns is-mobile card-palebox-area">
 
           { cost && <><h1 class="column subtitle is-10 is-offset-1" style={{textAlign:`center`}}>
             {cost}&nbsp;<div

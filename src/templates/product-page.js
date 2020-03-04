@@ -37,11 +37,7 @@ export const ProductPageTemplate = ({
         {title}
       </h2>
     </div>
-    <section className="section section--gradient"
-    style={{
-      minHeight: `85vh`,
-      backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
-    }}>
+    <section className="section section--gradient sdv-daytime-gradient">
       <div className="container">
 
         <div className="section">

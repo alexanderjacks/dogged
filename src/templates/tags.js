@@ -10,16 +10,8 @@ class TagRoute extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
       <li key={post.node.fields.slug}
-        className='column'
+        className='column basic-item-card'
         style={{
-          display:`flex`,
-          flexDirection: `column`,
-          justifyContent:`center`,
-          alignItems:`center`,
-          borderRadius: `1.5rem`,
-          border: `chocolate 6px groove`,
-          backgroundImage: `radial-gradient(snow, cornsilk, wheat, tan)`,
-          margin:`0.23rem`,
       }}>
         <Link to={post.node.fields.slug}
         style={{
@@ -54,16 +46,12 @@ class TagRoute extends React.Component {
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
     const tagHeader = `${totalCount} ${
-      totalCount === 1 ? 'entry' : 'entries'
+      totalCount === 1 ? 'thing' : 'things'
     } tagged with “${tag}”`
 
     return (
       <Layout>
-        <section className="section"
-          style={{
-            minHeight: `75vh`,
-            backgroundImage: `linear-gradient(#fff, #aff, #afa)`,
-        }}>
+        <section className="section sdv-daytime-gradient">
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
             <div className="columns">
@@ -76,7 +64,7 @@ class TagRoute extends React.Component {
                 style={{
                   backgroundImage:`url(/img/${snakeCase(tag)}.png)`,
                 }}>
-                  <h1 className="title is-size-3 is-bold-light has-text-left"
+                  <h1 className="title is-size-3 is-bold-light"
                     style={{
                       paddingLeft: `2rem`,
                       paddingBottom: `3rem`,
