@@ -33,9 +33,8 @@ class TagRoute extends React.Component {
             fontFamily: `Fredericka the Great`,
             lineHeight: '1',
             textAlign:`center`,
-            marginLeft:`auto`,
             color:`black`,
-            padding:`1.2rem`,
+            padding:`2.2vh`,
           }}>
             {post.node.frontmatter.title}
           </div>
@@ -47,7 +46,7 @@ class TagRoute extends React.Component {
     const totalCount = this.props.data.allMarkdownRemark.totalCount
     const tagHeader = `${totalCount} ${
       totalCount === 1 ? 'thing' : 'things'
-    } tagged with “${tag}”`
+    } tagged “${tag}”`
 
     return (
       <Layout>

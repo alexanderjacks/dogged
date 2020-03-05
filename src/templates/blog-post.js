@@ -126,8 +126,8 @@ export const BlogPostTemplate = ({
             }}></div>
           </h1>
           </>}
-          {type && <div style={{display:`block`, width:`82vw`}}><h2 class="column is-6" style={{textAlign:`center`}}>type:</h2>
-          <h2 class="is-size-6 column is-6" style={{textAlign:`center`}}>{type}</h2>
+          {type && <div style={{display:`block`, width:`82vw`}}><h2 class="column is-5" style={{textAlign:`center`}}>type:</h2>
+          <h2 class="is-size-6 column is-5" style={{textAlign:`center`}}>{type}</h2>
           </div>}
           {reward && <Link to={`/blog/${kebabCase(reward.replace(/[0-9]/g,''))}/`}
           class='pinker-btn'
