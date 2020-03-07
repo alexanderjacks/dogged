@@ -29,7 +29,8 @@ export const BlogPostTemplate = ({
     style={{
       display: `flex`,
       flexFlow: `column`,
-      justifyContent: `center`
+      justifyContent: `center`,
+      alignItems: `center`
     }}>
       {helmet || ''}
 
@@ -46,24 +47,23 @@ export const BlogPostTemplate = ({
           </div>
           {/* good job, end of workaround */}
           <h1 style={{
-            fontSize: `5.2vw`,
-            margin:`1.5rem`,
+            fontSize: `4.8vw`,
+            margin:`1.3rem`,
           }}>&nbsp;{title}&nbsp;</h1>
           {/* workaround for Gatsby Img grief */}
-            <div style={{
-              minWidth: 48,
-              minHeight: 48,
-              transform:`scaleX(-1)`,
-              backgroundRepeat: `no-repeat`,
-              backgroundPosition: `center`,
-              backgroundImage: `url(/img/${snakeCase(title.split('(')[0])}.png)`
-            }}>
-            </div>
-            {/* good job, end of workaround */}
+          <div style={{
+            minWidth: 48,
+            minHeight: 48,
+            transform:`scaleX(-1)`,
+            backgroundRepeat: `no-repeat`,
+            backgroundPosition: `center`,
+            backgroundImage: `url(/img/${snakeCase(title.split('(')[0])}.png)`
+          }}>
+          </div>
+          {/* good job, end of workaround */}
         </div>
         <p class="vertical-spacing">{description}</p>
         <div class="columns is-mobile card-palebox-area">
-
           { cost && <><h1 class="column subtitle is-10 is-offset-1" style={{textAlign:`center`}}>
             {cost}&nbsp;<div
             style={{
@@ -130,7 +130,7 @@ export const BlogPostTemplate = ({
           <h2 class="is-size-6 column is-5" style={{textAlign:`center`}}>{type}</h2>
           </div>}
           {reward && <Link to={`/blog/${kebabCase(reward.replace(/[0-9]/g,''))}/`}
-          class='pinker-btn'
+          class=''
           style={{
             padding:`1.2rem`,
           }}>
@@ -204,7 +204,7 @@ export const BlogPostTemplate = ({
           </ul>
         ) : null}
       </div>
-      <h2 className="title is-size-4 is-bold-light">
+      <h2 className="title is-size-4 is-bold-light vertical-spacing">
         <Link to="/tags/">All Stardew metadata tags</Link>
       </h2>
     </section>
