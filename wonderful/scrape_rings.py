@@ -25,8 +25,8 @@ option.add_argument("--incognito")
 # launches Chrome
 browser = webdriver.Chrome(executable_path='./chromedriver', options=option)
 
-# grab text of any <li> any level inside of class="mw-category-group"
-# 'div[@class="mw-category-group"]//h3'
+# grab text of any <li> any level inside of className="mw-category-group"
+# 'div[@className="mw-category-group"]//h3'
 # // any h3 in a div with class 'mw-category-group'
 
 

@@ -54,7 +54,7 @@ const TagsPage = ({
           {group.map(tag => (
             tag.fieldValue &&
             <li key={tag.fieldValue}
-            class="column is-one-quarter is-half-mobile"
+            className="column is-one-quarter is-half-mobile"
               style={{
               }}>
               <Link
@@ -70,7 +70,7 @@ const TagsPage = ({
                   borderRadius: `1.5rem`,
               }}>
                 <span
-                  class="pinker-on-hover"
+                  className="pinker-on-hover"
                   style={{
                     letterSpacing:`0.15rem`,
                     fontSize:`1.4rem`,

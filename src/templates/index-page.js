@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
+import BlogIndex from '../components/BlogIndex'
 
 export const IndexPageTemplate = ({
   image,
@@ -105,7 +105,7 @@ export const IndexPageTemplate = ({
             <h3 className="has-text-weight-semibold is-size-2">
               Stardew item pages!
             </h3>
-            <BlogRoll />
+            <BlogIndex />
             <Link className="btn" to="/blog">
               All StardexDex items
             </Link>

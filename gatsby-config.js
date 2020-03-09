@@ -32,6 +32,40 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
+      resolve: 'gatsby-plugin-local-search',
+      options: {
+        name: 'items',
+        engine: 'flexsearch',
+        query:`
+        {
+          allMarkdownRemark {
+            edges {
+              node {
+                id
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                  type
+                }
+              }
+            }
+          }
+        }
+        `,
+        ref:'id',
+        store: ['id', 'slug', 'title', 'type'],
+        normalizer: ({ data }) =>
+          data.allMarkdownRemark.edges.map(({ node }) => ({
+            id: node.id,
+            slug: node.slug,
+            title: node.title,
+            type: node.type,
+          })),
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [

@@ -25,8 +25,8 @@ option.add_argument("--incognito")
 # launches Chrome
 browser = webdriver.Chrome(executable_path='./chromedriver', options=option)
 
-# grab text of any <li> any level inside of class="mw-category-group"
-# 'div[@class="mw-category-group"]//h3'
+# grab text of any <li> any level inside of className="mw-category-group"
+# 'div[@className="mw-category-group"]//h3'
 # // any h3 in a div with class 'mw-category-group'
 
 
@@ -58,7 +58,7 @@ except TimeoutException:
 #
 # the URL target has info we need: this XPATH selector id's only the HTML we want
 # it's always listed (are <ul><li>s) inside <div> elements w this ⬇️ class prop, and they are all ⬇️ <a> elements
-results = browser.find_elements_by_xpath("//div[@class='mw-category-group']/ul/li/a")
+results = browser.find_elements_by_xpath("//div[@className='mw-category-group']/ul/li/a")
 # now let's collect the exact prop from these HTML elements
 result_s = [x.get_attribute('title') for x in results]
 # and print them all to Terminal

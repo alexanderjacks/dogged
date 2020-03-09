@@ -35,7 +35,7 @@ export const BlogPostTemplate = ({
       {helmet || ''}
 
       <div className="basic-item-card">
-        <div class="cluster-bunch">
+        <div className="cluster-bunch">
         {/* workaround for Gatsby Img grief */}
           <div style={{
             minWidth: 48,
@@ -62,9 +62,9 @@ export const BlogPostTemplate = ({
           </div>
           {/* good job, end of workaround */}
         </div>
-        <p class="vertical-spacing">{description}</p>
-        <div class="columns is-mobile card-palebox-area">
-          { cost && <><h1 class="column subtitle is-10 is-offset-1" style={{textAlign:`center`}}>
+        <p className="vertical-spacing">{description}</p>
+        <div className="columns is-mobile card-palebox-area">
+          { cost && <><h1 className="column subtitle is-10 is-offset-1" style={{textAlign:`center`}}>
             {cost}&nbsp;<div
             style={{
               padding:`0.15rem`,
@@ -78,10 +78,10 @@ export const BlogPostTemplate = ({
           </h1>
           </>}
 
-          { sellPrice && <><h2 class="column is-6" style={{textAlign:`right`}}>
+          { sellPrice && <><h2 className="column is-6" style={{textAlign:`right`}}>
             sell price:
           </h2>
-          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+          <h1 className="is-size-4 column is-6" style={{textAlign:`left`}}>
             {sellPrice}<div
             style={{
               padding:`0.15rem`,
@@ -94,10 +94,10 @@ export const BlogPostTemplate = ({
             }}></div>
           </h1>
           </>}
-          { energy && <><h2 class="column is-6" style={{textAlign:`right`}}>
+          { energy && <><h2 className="column is-6" style={{textAlign:`right`}}>
             energy:
           </h2>
-          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+          <h1 className="is-size-4 column is-6" style={{textAlign:`left`}}>
             {energy}&nbsp;<div
             style={{
               padding:`0.15rem`,
@@ -110,10 +110,10 @@ export const BlogPostTemplate = ({
             }}></div>
           </h1>
           </>}
-          { health && <><h2 class="column is-6" style={{textAlign:`right`}}>
+          { health && <><h2 className="column is-6" style={{textAlign:`right`}}>
             health:
           </h2>
-          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+          <h1 className="is-size-4 column is-6" style={{textAlign:`left`}}>
             {health}&nbsp;<div
             style={{
               padding:`0.15rem`,
@@ -126,16 +126,16 @@ export const BlogPostTemplate = ({
             }}></div>
           </h1>
           </>}
-          {type && <div style={{display:`block`, width:`82vw`}}><h2 class="column is-5" style={{textAlign:`center`}}>type:</h2>
-          <h2 class="is-size-6 column is-5" style={{textAlign:`center`}}>{type}</h2>
+          {type && <div style={{display:`block`, width:`82vw`}}><h2 className="column is-5" style={{textAlign:`center`}}>type:</h2>
+          <h2 className="is-size-6 column is-5" style={{textAlign:`center`}}>{type}</h2>
           </div>}
           {reward && <Link to={`/blog/${kebabCase(reward.replace(/[0-9]/g,''))}/`}
-          class=''
+          className=''
           style={{
             padding:`1.2rem`,
           }}>
-            <h2 class="column" style={{textAlign:`center`}}>reward:</h2>
-            <h2 class="is-size-6 column" style={{textAlign:`center`, margin:`0.5rem`}}>{reward}</h2>
+            <h2 className="column" style={{textAlign:`center`}}>reward:</h2>
+            <h2 className="is-size-6 column" style={{textAlign:`center`, margin:`0.5rem`}}>{reward}</h2>
             <div style={{
               minWidth: 48,
               width: `95vw`,
@@ -146,14 +146,14 @@ export const BlogPostTemplate = ({
             }}>
             </div>
           </Link>}
-          {count && <><h2 class="column is-6" style={{textAlign:`right`}}>requires:</h2>
-          <h1 class="is-size-5 column is-6" style={{textAlign:`left`}}>{count}</h1>
+          {count && <><h2 className="column is-6" style={{textAlign:`right`}}>requires:</h2>
+          <h1 className="is-size-5 column is-6" style={{textAlign:`left`}}>{count}</h1>
           </>}
         </div>
         {
           tags &&
         <p
-        class="heading"
+        className="heading"
         style={{
           display: `flex`,
           flexFlow: `row wrap`,
@@ -181,7 +181,7 @@ export const BlogPostTemplate = ({
               <li key={tag + `tag`} style={{ marginBottom: `0.2rem`, marginTop: `0.2rem` }}>
                 <Link
                 to={`/tags/${kebabCase(tag)}/`}
-                class="is-size-5"
+                className="is-size-5"
                 style={{
                   padding: `0.76rem`,
                   color: `black`,
