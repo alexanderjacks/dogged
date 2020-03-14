@@ -90,7 +90,23 @@ module.exports = {
         icon: `static/img/apple-touch-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // `gatsby-plugin-offline`, // PWA flag! breaks AdSense ;_;
+    {
+      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      options: {
+        // Fields to index
+        fields: [`title`, `tags`],
+        // How to resolve each field`s value for a supported node type
+        resolvers: {
+          // For any node of type MarkdownRemark, list how to resolve the fields` values
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            tags: node => node.frontmatter.tags,
+            slug: node => node.fields.slug,
+          },
+        },
+      },
+    },
+    // `gatsby-plugin-offline`, // PWA flag! work w AdSense??
     'gatsby-plugin-netlify', // plz keep this last in the plugins array
   ],
 }
