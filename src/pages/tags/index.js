@@ -70,16 +70,16 @@ const TagsPage = ({
                   borderRadius: `1.5rem`,
               }}>
                 <span
-                  class="pinker-on-hover"
+                  class=""
                   style={{
+                    color: `black`,
                     letterSpacing:`0.15rem`,
                     fontSize:`1.4rem`,
                     fontWeight: 800,
                     textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
-                    color:`black`,
                     fontFamily:`'Fredericka the Great', cursive`
                 }}>
-                  {tag.fieldValue} ({tag.totalCount})
+                  {tag.fieldValue} <span class="counter-pill">{tag.totalCount}</span>
                 </span>
               </Link>
             </li>

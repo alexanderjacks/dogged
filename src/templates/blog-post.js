@@ -185,7 +185,7 @@ export const BlogPostTemplate = ({
                 style={{
                   padding: `0.76rem`,
                   color: `black`,
-                  backgroundImage: `url(/img/${snakeCase(tag.replace(/[0-9]/g,'').replace(' ','_'))}.png)`,
+                  backgroundImage: `url(/img/${snakeCase(tag.replace(' ','-'))}.png)`,
                   fontFamily:`Fredericka the Great`,
                   fontWeight: 600,
                   display: `flex`,
@@ -242,7 +242,7 @@ const BlogPost = ({ data }) => {
         cost={post.frontmatter.cost}
         featuredimage={post.frontmatter.featuredimage}
         helmet={
-          <Helmet titleTemplate="%s | Item Data">
+          <Helmet titleTemplate="%s Data">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"

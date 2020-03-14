@@ -59,7 +59,7 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
-            fontFamily: 'Solway',
+            fontFamily: 'Gaegu',
           }}
         >
           {subheading}
@@ -72,7 +72,7 @@ export const IndexPageTemplate = ({
           <div className="content">
             <h3
               style={{
-                fontFamily: 'Solway',
+                fontFamily: 'Gaegu',
                 marginBottom: '3rem',
               }}
             >

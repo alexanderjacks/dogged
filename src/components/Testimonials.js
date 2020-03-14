@@ -15,7 +15,7 @@ const Testimonials = ({ testimonials }) => (
           <br />
           <cite
           style={{
-            fontFamily:`Solway`,
+            fontFamily:`Gaegu`,
           }}> – {testimonial.author}</cite>
         </div>
       </article>
