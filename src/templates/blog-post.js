@@ -186,7 +186,7 @@ export const BlogPostTemplate = ({
                   padding: `0.76rem`,
                   color: `black`,
                   backgroundImage: `url(/img/${snakeCase(tag.replace(' ','-'))}.png)`,
-                  fontFamily:`Fredericka the Great`,
+                  fontFamily:`Solway`,
                   fontWeight: 600,
                   display: `flex`,
                   flexFlow: `row wrap`,

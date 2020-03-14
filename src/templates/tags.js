@@ -30,7 +30,7 @@ class TagRoute extends React.Component {
             textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
             fontSize:`5vw`,
             fontWeight: 400,
-            fontFamily: `Fredericka the Great`,
+            fontFamily: `Solway`,
             lineHeight: '1',
             textAlign:`center`,
             color:`black`,

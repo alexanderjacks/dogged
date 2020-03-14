@@ -35,7 +35,7 @@ const Pricing = ({ data }) => (
           <p className=""
           style={{
             paddingLeft: `1vw`,
-            fontFamily: `Fredericka the Great, cursive`,
+            fontFamily: `Solway, cursive`,
             fontSize: `0.99rem`
           }}>{price.description}</p>
             {price.items.map(item => (

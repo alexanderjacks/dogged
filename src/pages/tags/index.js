@@ -77,7 +77,7 @@ const TagsPage = ({
                     fontSize:`1.4rem`,
                     fontWeight: 800,
                     textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
-                    fontFamily:`'Fredericka the Great', cursive`
+                    fontFamily:`'Solway', cursive`
                 }}>
                   {tag.fieldValue} <span class="counter-pill">{tag.totalCount}</span>
                 </span>

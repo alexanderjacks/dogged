@@ -7,7 +7,7 @@ const Testimonials = ({ testimonials }) => (
     {testimonials.map(testimonial => (
       <article key={v4()}
       style={{
-        fontFamily:`Fredericka the Great`,
+        fontFamily:`Solway`,
         marginBottom:`1.2rem`,
       }}>
         <div className="subtitle">

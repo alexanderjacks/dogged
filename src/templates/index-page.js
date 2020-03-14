@@ -45,7 +45,7 @@ export const IndexPageTemplate = ({
             textAlign: 'center',
             lineHeight: '1',
             padding: '0.25em',
-            fontFamily: 'Fredericka the Great',
+            fontFamily: 'Solway',
           }}
         >
         StardewDex
