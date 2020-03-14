@@ -1,9 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { snakeCase, titleCase } from 'lodash'
+import { snakeCase } from 'lodash'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 class TagRoute extends React.Component {
   render() {
@@ -52,6 +51,10 @@ class TagRoute extends React.Component {
       <Layout>
         <section className="section sdv-daytime-gradient">
           <Helmet title={`${tag} | ${title}`} />
+          {/* super goofy workaround for Bulma navbar */}
+          <div className="all-clrfx">&nbsp;</div>
+          <div className="mobile-clrfx is-hidden-tablet">&nbsp;</div>
+
           <div className="container content">
             <div className="columns">
               <div
@@ -67,7 +70,6 @@ class TagRoute extends React.Component {
                     style={{
                       paddingLeft: `2rem`,
                       paddingBottom: `3rem`,
-                      border: `4`,
                       padding: `2rem`,
                       width:`100%`,
                       border: `#09f 6px groove`,

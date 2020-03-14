@@ -24,7 +24,12 @@ export default class SearchBox extends Component {
         />
         <div className='navbar-dropdown'>
           {this.state.results.map(page => (
-            <Link className='navbar-item' key={page.id} to={page.slug}>{page.title}</Link>
+            <Link className='menu-item' key={page.id} to={page.slug}
+            style={{
+              backgroundImage: `radial-gradient(#ffaaff, snow)`
+            }}>
+              {page.title}&nbsp;
+            </Link>
           ))}
         </div>
       </div>

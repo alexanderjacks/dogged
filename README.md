@@ -1,6 +1,6 @@
 # StardewDex 💫🍓🐮📚📱
 
-### [LIVE on Netlify](https://stardew.netlify.com/)
+### [LIVE on Netlify](https://stardewdex.netlify.com/)
 
 #### [J4cks.com](https://J4cks.com) 2020, MIT License ( Permissive Unlimited Reuse )
 

@@ -13,7 +13,7 @@ const Navbar = () => (
             }
         `}
     render={data => (
-      <nav className='navbar is-fixed-top' aria-label='main navigation'>
+      <nav className='navbar is-fixed-top is-primary' aria-label='main navigation'>
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item'>
             <img src={logo} alt="StardewDex" />

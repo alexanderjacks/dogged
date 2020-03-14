@@ -33,6 +33,9 @@ export const BlogPostTemplate = ({
       alignItems: `center`
     }}>
       {helmet || ''}
+      {/* super goofy workaround for Bulma navbar */}
+      <div className="all-clrfx">&nbsp;</div>
+      <div className="mobile-clrfx is-hidden-tablet">&nbsp;</div>
 
       <div className="basic-item-card">
         <div class="cluster-bunch">
@@ -110,25 +113,31 @@ export const BlogPostTemplate = ({
             }}></div>
           </h1>
           </>}
-          { health && <><h2 class="column is-6" style={{textAlign:`right`}}>
-            health:
-          </h2>
-          <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
-            {health}&nbsp;<div
-            style={{
-              padding:`0.15rem`,
-              display: `inline-block`,
-              minWidth: `28px`,
-              minHeight: `28px`,
-              backgroundImage: `url(/img/Health_icon.png)`,
-              backgroundPosition: `cover`,
-              backgroundRepeat: `no-repeat`,
-            }}></div>
-          </h1>
-          </>}
-          {type && <div style={{display:`block`, width:`82vw`}}><h2 class="column is-5" style={{textAlign:`center`}}>type:</h2>
-          <h2 class="is-size-6 column is-5" style={{textAlign:`center`}}>{type}</h2>
-          </div>}
+          { health && <>
+            <h2 class="column is-6"
+              style={{textAlign:`right`}}>health:
+            </h2>
+            <h1 class="is-size-4 column is-6" style={{textAlign:`left`}}>
+              {health}&nbsp;<div
+              style={{
+                padding:`0.15rem`,
+                display: `inline-block`,
+                minWidth: `28px`,
+                minHeight: `28px`,
+                backgroundImage: `url(/img/Health_icon.png)`,
+                backgroundPosition: `cover`,
+                backgroundRepeat: `no-repeat`,
+              }}></div>
+            </h1>
+          </> }
+          { type && <>
+            <h2 class="column is-6" style={{textAlign:`right`}}>
+              type:
+            </h2>
+            <h2 class="is-size-6 column is-5" style={{textAlign:`left`}}>
+              {type}
+            </h2>
+          </> }
           {reward && <Link to={`/blog/${kebabCase(reward.replace(/[0-9]/g,''))}/`}
           class=''
           style={{

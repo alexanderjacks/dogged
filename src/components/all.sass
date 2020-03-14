@@ -60,10 +60,20 @@ a, Link
   border-radius: 100%
   border: 3px snow grooved
 
-.experimental-btn
-  &:hover
-    color: #f0f
-    font-weight: 600
+.searchbar-item // another UX pill to spoon the sugar
+  border: 2px $brand-primary-offset dashed
+  color: $brand-primary-offset
+  border-radius: 25%
+  padding: 0.13rem
+  margin: 0.13rem
+
+.mobile-clrfx // b/c Bulma navbar is brokenshit,clearfix
+  height: 74px
+  width: 52px
+
+.all-clrfx // b/c Bulma navbar is brokenshit,clearfix
+  height: 24px
+  width: 52px
 
 .content .taglist
   list-style: none
@@ -129,8 +139,7 @@ a, Link
     background-color: $brand-primary-invert
 
 .navbar-item
-  font-size: 165%;
-  margin-left: 1.6rem;
+  font-size: 105%
 
 .navbar-item .icon
   color: $primary
@@ -139,8 +148,6 @@ a, Link
   width: 1.5rem
   height: 1.5rem
   fill: currentColor
-.navbar-brand .navbar-item.logo
-  padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
