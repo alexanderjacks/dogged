@@ -6,19 +6,19 @@
 
 ## 💥 _Features_
 - quick and fast UI ☑️
-- easy to find = separate load like an app on phones ☑️
 - WORKS OFFLINE b/c loads to your device like an app ☑️
-- sort stuff by name ☑️
-- sort stuff by category 🚧
-- sort stuff by etc metadata (all tags!) ☑️
+- easy to find = separate load like an app on phones ☑️
+- search stuff by name ☑️
+- search stuff by etc metadata (all tags!) ☑️
+- sort stuff by category (type) 🚧
 
 ## 📋 _Milestones_
 
 ### Engineering + Code
-- rm date in slugs ☑️
 - add type field to existing stuff 🏗
-- sort btn on landing for all stuff, category 🏗
-- build out iterator for multi Icon sets 🚧
+- sort btn on navbar, landing for types 🏗
+- rm date in slugs ☑️
+- build out iterator for multi Icon sets ❓
 
 ### Design + Biz
 - current logo + favicons ☑️
@@ -26,7 +26,6 @@
 - apply color branding thru-out ☑️
 - resubmit to Google AdSense ☑️
 - custom load screen & color branding ⛔️
-- reuse Pricing component on Card 🚧
 
 ## 🏁 _Reach Goals_
 - fb page & twitter account ☑️
@@ -36,5 +35,6 @@
 
 ## Setup after `git clone`. . . maybe, if you're into python & have it set up
 - `source startupwi.sh`
+- you can _rehydrate_ the data layer from the included markdown (.md) files if you like; just convert them to CSV, then upload those CSVs to Google Drive and make them into Sheets so you can edit them like cloud spreadsheets: the included python(2) scripts will turn CSVs into md files, so just download the CSVs when you're gtg and use those scripts
 
 #### [by J4cks.com](https://J4cks.com) 2020, MIT License ( Permissive Unlimited Reuse )

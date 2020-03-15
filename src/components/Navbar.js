@@ -22,6 +22,8 @@ const Navbar = () => (
 
         </div>
         <div id='navMenu' className='navbar-menu is-active is-primary'>
+          <div className='navbar-start'>
+          </div>
           <div className='navbar-end'>
             <SearchBox searchIndex={data.siteSearchIndex.index} />
           </div>

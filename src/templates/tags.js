@@ -53,7 +53,7 @@ class TagRoute extends React.Component {
           <Helmet title={`${tag} | ${title}`} />
           {/* super goofy workaround for Bulma navbar */}
           <div className="all-clrfx">&nbsp;</div>
-          <div className="mobile-clrfx is-hidden-tablet">&nbsp;</div>
+          <div className="mobile-clrfx is-hidden-desktop">&nbsp;</div>
 
           <div className="container content">
             <div className="columns">
@@ -75,7 +75,6 @@ class TagRoute extends React.Component {
                       border: `#09f 6px groove`,
                       backgroundImage: `linear-gradient(to right,#ffff,#fff3)`,
                       textShadow: '2px 2px 4px snow,-2px -2px 4px snow,-2px 2px 4px snow,2px -2px 4px snow',
-                      
                     }}>
                     {tagHeader}
                   </h1>

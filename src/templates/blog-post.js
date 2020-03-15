@@ -35,7 +35,7 @@ export const BlogPostTemplate = ({
       {helmet || ''}
       {/* super goofy workaround for Bulma navbar */}
       <div className="all-clrfx">&nbsp;</div>
-      <div className="mobile-clrfx is-hidden-tablet">&nbsp;</div>
+      <div className="mobile-clrfx is-hidden-desktop">&nbsp;</div>
 
       <div className="basic-item-card">
         <div class="cluster-bunch">
@@ -134,7 +134,7 @@ export const BlogPostTemplate = ({
             <h2 class="column is-6" style={{textAlign:`right`}}>
               type:
             </h2>
-            <h2 class="is-size-6 column is-5" style={{textAlign:`left`}}>
+            <h2 class="is-size-6 column is-6" style={{textAlign:`left`}}>
               {type}
             </h2>
           </> }
