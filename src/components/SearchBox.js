@@ -26,7 +26,7 @@ export default class SearchBox extends Component {
           {this.state.results.map(page => (
             <Link className='menu-item' key={page.id} to={page.slug}
             style={{
-              backgroundImage: `radial-gradient(#ffaaff, snow)`
+              backgroundImage: `radial-gradient(#aaffff, snow)`
             }}>
               {page.title}&nbsp;
             </Link>
