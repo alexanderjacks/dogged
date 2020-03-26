@@ -13,7 +13,6 @@ tags:
   - summer
   - fall
   - edible
-  - flower
   - Beer
   - Wheat Flour
   - Fodder Bundle

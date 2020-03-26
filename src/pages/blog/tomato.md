@@ -12,7 +12,6 @@ featuredimage: /img/Tomato.png
 tags:
   - summer
   - edible
-  - flower
   - Bruschetta
   - Eggplant Parmesan
   - Fish Stew
