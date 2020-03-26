@@ -10,4 +10,4 @@ tags:
   - geode
   - traveling cart
 ---
-5g
+A common ore that can be smelted into bars.
