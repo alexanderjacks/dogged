@@ -2,8 +2,16 @@
 ## w the right type of CSV, you can run this script in Terminal with ```python2 make_EDIBLES.py``` and score markdown files per row!
 ### reuse & recycle & have a nice day
 
+
 ## from ~/Downloads
+# # clean CSVs for python2
 ### rename 's/dex - //' *.csv && cp *.csv ~/dogged/src/pages/blog && rm *.csv
+
+
+## from ~/dogged/src/pages/blog
+# # batch rename CMS posts
+### rename 's/(\d\d\d\d\-\d\d\-\d\d\-)//' *.md
+
 
 import csv # csv deciphering module
 # opens file to work from (only read not write (rb not wb))
