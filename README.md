@@ -16,6 +16,7 @@
 
 ### Engineering + Code
 - add type field to existing stuff 🏗
+- populate all categories (types) 🚧
 - sort btn on navbar, landing for types 🏗
 - rm date in slugs ☑️
 - build out iterator for multi Icon sets ❓

@@ -3,6 +3,11 @@
 ### reuse & recycle & have a nice day
 
 
+# here's for getting all the villagers' faves, from the wiki
+# want the td  right after (sibling) to this
+# //td[contains(., 'Chapter')]
+
+
 ## from ~/Downloads
 # # clean CSVs for python2
 ### rename 's/dex - //' *.csv && cp *.csv ~/dogged/src/pages/blog && rm *.csv
