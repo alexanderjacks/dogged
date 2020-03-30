@@ -12,6 +12,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/Maru.png
 tags:
+  - Summer 10
   - Battery Pack
   - Cauliflower
   - Cheese Cauliflower

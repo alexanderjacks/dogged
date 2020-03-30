@@ -13,6 +13,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/Sebastian.png
 tags:
+  - Winter 10
   - Frozen Tear
   - Obsidian
   - Pumpkin Soup

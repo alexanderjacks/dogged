@@ -12,6 +12,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/Penny.png
 tags:
+  - Fall 02
   - Diamond
   - Emerald
   - Melon

@@ -8,16 +8,6 @@
 # # <td id="infoboxsection">Best Gifts:</td>
 # //td[normalize-space()='Best Gifts:']/following-sibling::td
 
-## from ~/Downloads
-# # clean CSVs for python2
-### rename 's/dex - //' *.csv && cp *.csv ~/dogged/src/pages/blog && rm *.csv
-
-
-## from ~/dogged/src/pages/blog
-# # batch rename CMS posts
-### rename 's/(\d\d\d\d\-\d\d\-\d\d\-)//' *.md
-
-
 import csv # csv deciphering module
 # opens file to work from (only read not write (rb not wb))
 with open('EDIBLES.csv', 'rb') as csvfile:

@@ -11,6 +11,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/Haley.png
 tags:
+  - Spring 14
   - Coconut
   - Fruit Salad
   - Pink Cake
