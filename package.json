@@ -5,7 +5,9 @@
   "author": "Alexander Jacks",
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.3.0",
+    "axios": "^0.19.2",
     "bulma": "^0.8.0",
+    "cheerio": "^1.0.0-rc.3",
     "elasticlunr": "^0.9.5",
     "gatsby": "^2.20.6",
     "gatsby-image": "^2.0.23",
@@ -31,6 +33,7 @@
     "netlify-cms-media-library-uploadcare": "^0.5.2",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.0",
+    "puppeteer": "^2.1.1",
     "random-int": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
