@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'StardewDex',
+    title: 'Ivalicedex',
     description:
-      'Stardew Valley bundling, questing, gifting, farming, foraging, fishing, etc guide.',
+      'Guide to the weapons of Ivalice.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -81,11 +81,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: { // PWA specs
-        name: `StardewDex`,
-        short_name: `StardewDex`,
+        name: `Ivalicedex`,
+        short_name: `Ivalicedex`,
         start_url: `/`,
-        background_color: `#0000ff`,
-        theme_color: `#ff00ff`,//possible entirely too loud but a nice branding attempt for now
+        background_color: `#ff6666`,
+        theme_color: `#3333ff`,//possible entirely too loud but a nice branding attempt for now
         display: `standalone`,
         icon: `static/img/apple-touch-icon.png`, // This path is relative to the root of the site.
       },
