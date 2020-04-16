@@ -15,6 +15,7 @@
 ## 📋 _Milestones_
 
 ### Engineering + Code
+- populate missing items 🚧
 - add type field to existing stuff 🏗
 - populate all categories (types) 🚧
 - sort btn on navbar, landing for types 🏗
