@@ -1,16 +1,14 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-02-27T20:52:45.711Z
-featuredimage: /img/Bullhead.png
 title: Bullhead
-description: A relative of the catfish that eats a variety of foods off the Mountain bottom.
-type: fish
-sellPrice: 75
-energy: 
-health: 
+date: 2020-02-27T20:52:45.711Z
+description: >-
+  A relative of the catfish that eats a variety of foods off the Mountain
+  bottom.
+featuredpost: false
+featuredimage: /img/Bullhead.png
 tags:
-  - fish
+  - Fish
   - Mountain
   - 6am - 2am
   - spring
@@ -20,3 +18,4 @@ tags:
   - AnyWeather
   - Lake Fish Bundle
 ---
+Bullhead

@@ -1,15 +1,14 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-02-23T00:22:22.711Z
 title: Carp Surprise
-description: It's bland and oily. 
-type: cooking
-sellPrice: 150
-energy: 90
-health: 40
+date: 2020-02-23T00:22:22.711Z
+description: It's bland and oily.
+featuredpost: false
 featuredimage: /img/Carp_Surprise.png
 tags:
+  - Fish
   - Carp
   - edible
+  - Jodi
 ---
+only Carp

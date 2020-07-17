@@ -1,16 +1,12 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-02-27T20:52:45.711Z
-featuredimage: /img/Carp.png
 title: Carp
+date: 2020-02-27T20:52:45.711Z
 description: A common pond fish.
-type: fish
-sellPrice: 30
-energy: 
-health: 
+featuredpost: false
+featuredimage: /img/Carp.png
 tags:
-  - fish
+  - Fish
   - Mountain
   - Secret Woods
   - Sewers
@@ -23,3 +19,4 @@ tags:
   - Lake Fish Bundle
   - Carp Surprise
 ---
+4 = Carp Surprise

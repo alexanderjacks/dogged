@@ -1,16 +1,12 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-02-27T20:52:45.711Z
-featuredimage: /img/Eel.png
 title: Eel
-description: A long, slippery little fish.
-type: fish
-sellPrice: 85
-energy: 
-health: 
+date: 2020-02-27T20:52:45.711Z
+description: 'A long, slippery little fish.'
+featuredpost: false
+featuredimage: /img/Eel.png
 tags:
-  - fish
+  - Fish
   - Beach
   - 4pm – 2am
   - spring
@@ -20,3 +16,4 @@ tags:
   - Fried Eel
   - Spicy Eel
 ---
+Eel

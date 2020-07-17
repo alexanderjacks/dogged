@@ -1,12 +1,10 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-03-01T19:23:23.711Z
-featuredimage: /img/quest_bg2.png
-imgBg: quest_bg2
 title: Catch a Lingcod Quest
+date: 2020-03-01T19:23:23.711Z
 description: Willy is challenging you to catch a Lingcod.
-reward: 550 & 1 Heart Willy
+featuredpost: false
+featuredimage: /img/quest_bg2.png
 tags:
   - Mail
   - winter
@@ -14,4 +12,6 @@ tags:
   - Willy
   - Lingcod
   - quest
+  - Fish
 ---
+Winter only
