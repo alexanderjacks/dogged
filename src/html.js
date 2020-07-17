@@ -13,6 +13,8 @@ export default function HTML(props) {
         />
         {/* AdSense */}
         <script data-ad-client="ca-pub-1699472970547311" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        {/* HotJar */}
+        {/* plz look into this */}
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

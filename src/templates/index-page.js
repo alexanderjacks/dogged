@@ -96,6 +96,9 @@ export const IndexPageTemplate = ({
             <Link className="btn" to="/tags/quest">
               All Quests
             </Link>
+            <Link className="btn" to="/tags/edible">
+              All Food
+            </Link>
             <Link className="btn" to="/tags">
               Search by Metadata
             </Link>
