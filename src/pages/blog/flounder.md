@@ -1,16 +1,12 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-02-27T20:52:45.711Z
-featuredimage: /img/Flounder.png
 title: Flounder
-description: It lives on the bottom, so both eyes are on top of its head.
-type: fish
-sellPrice: 100
-energy: 
-health: 
+date: 2020-02-27T20:52:45.711Z
+description: 'It lives on the bottom, so both eyes are on top of its head.'
+featuredpost: false
+featuredimage: /img/Flounder.png
 tags:
-  - fish
+  - Fish
   - Beach
   - 6am – 8pm
   - spring
@@ -18,3 +14,4 @@ tags:
   - AnyWeather
   - Seafoam Pudding
 ---
+Flounder
