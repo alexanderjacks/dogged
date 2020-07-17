@@ -1,13 +1,9 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-02-23T00:22:22.711Z
 title: Fish Taco
-description: It smells delicious. 
-type: cooking
-sellPrice: 500
-energy: 165
-health: 74
+date: 2020-02-23T00:22:22.711Z
+description: It smells delicious.
+featuredpost: false
 featuredimage: /img/Fish_Taco.png
 tags:
   - Tuna
@@ -15,4 +11,6 @@ tags:
   - Red Cabbage
   - Mayonnaise
   - edible
+  - Fish
 ---
+Fish Taco
