@@ -1,16 +1,12 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-02-27T20:52:45.711Z
-featuredimage: /img/Albacore.png
 title: Albacore
+date: 2020-02-27T20:52:45.711Z
 description: Prefers temperature edges where cool and warm water meet.
-type: fish
-sellPrice: 75
-energy: 
-health: 
+featuredpost: false
+featuredimage: /img/Albacore.png
 tags:
-  - fish
+  - Fish
   - Beach
   - 6am – 11am
   - 6pm – 2am
@@ -19,3 +15,4 @@ tags:
   - AnyWeather
   - Fish Stew Quest
 ---
+Albacore
