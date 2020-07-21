@@ -1,19 +1,15 @@
 ---
 templateKey: blog-post
-featuredpost: false
-date: 2020-02-23T00:22:22.711Z
 title: Rainbow Shell
+date: 2020-02-23T00:22:22.711Z
 description: Its a very beautiful shell.
-type: Forage
-sellPrice: 300
-energy: 
-health: 
+featuredpost: false
 featuredimage: /img/Rainbow_Shell.png
 tags:
   - forageable
   - The Mysterious Qi Quest
-  - forageable
   - Beach
   - summer
   - inedible
 ---
+Rainbow Shell
