@@ -69,6 +69,7 @@ export const IndexPageTemplate = ({
     <section className="section">
       <div className="container">
         <div className="section">
+        
           <div className="content">
             <h3
               style={{
@@ -102,33 +103,11 @@ export const IndexPageTemplate = ({
             <Link className="btn" to="/tags">
               Search by Metadata
             </Link>
-          </div>
 
-          <div className="has-text-centered">
-            <h3 className="has-text-weight-semibold is-size-2">
-              Stardew item pages!
-            </h3>
-            <BlogRoll />
             <Link className="btn" to="/blog">
               All StardexDex items
             </Link>
           </div>
-
-          <div className="has-text-centered">
-            <Link className="btn" to="/tags/bundle">
-              All Bundles
-            </Link>
-            <Link className="btn" to="/tags/fish">
-              All Fish
-            </Link>
-            <Link className="btn" to="/tags/quest">
-              All Quests
-            </Link>
-            <Link className="btn" to="/tags">
-              Search by Metadata
-            </Link>
-          </div>
-
 
         </div>
       </div>
